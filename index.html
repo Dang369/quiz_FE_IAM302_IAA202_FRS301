@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#181513">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>CyberQuiz Hub • Ôn Tập IAM302, FRS301, IAA202</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            warm: {
+              950: '#13100e',
+              900: '#181513',
+              850: '#211c19',
+              800: '#28221e',
+              750: '#332b26',
+              700: '#453b34',
+              600: '#786c63',
+              400: '#a89a8e',
+              300: '#d6cbbd',
+              100: '#faf4eb',
+              amber: '#d97706',
+              amberLight: '#f59e0b',
+            },
+            sepia: {
+              bg: '#f3ead7',
+              card: '#fbf6eb',
+              cardAlt: '#efe4cc',
+              border: '#dfd1b4',
+              ink: '#362a20',
+              muted: '#6e5c4c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --bg-main: #181513;
+      --bg-card: #28221e;
+      --bg-card-alt: #332b26;
+      --border-color: #453b34;
+      --text-primary: #faf4eb;
+      --text-secondary: #d6cbbd;
+      --text-muted: #9a8c7e;
+      --accent: #f59e0b;
+      --accent-dark: #d97706;
+    }
+
+    html.light-sepia {
+      --bg-main: #f3ead7;
+      --bg-card: #fbf6eb;
+      --bg-card-alt: #efe4cc;
+      --border-color: #d8c7a8;
+      --text-primary: #32251a;
+      --text-secondary: #5e4b3c;
+      --text-muted: #8a7563;
+      --accent: #b45309;
+      --accent-dark: #92400e;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    .card-surface {
+      background-color: var(--bg-card);
+      border-color: var(--border-color);
+    }
+
+    .card-alt {
+      background-color: var(--bg-card-alt);
+      border-color: var(--border-color);
+    }
+
+    .text-main { color: var(--text-primary); }
+    .text-sec { color: var(--text-secondary); }
+    .text-mut { color: var(--text-muted); }
+
+    .fade-in {
+      animation: fadeIn 0.2s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Hide scrollbar for horizontal question pill bar */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* Safe area for mobile sticky bar */
+    .pb-safe {
+      padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center">
+
+  <!-- TOP HEADER -->
+  <header class="w-full border-b card-surface sticky top-0 z-30 backdrop-blur-md bg-opacity-95">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-2.5 cursor-pointer select-none" onclick="app.goHome()">
+        <span class="text-2xl">☕</span>
+        <div>
+          <h1 class="text-base sm:text-lg font-bold tracking-wide text-amber-500">CyberQuiz Hub</h1>
+          <p class="text-[11px] text-sec hidden sm:block">Ôn tập thực chiến • Tone ấm dịu mắt</p>
+        </div>
+      </div>
+
+      <div class="flex items-center space-x-2">
+        <!-- Theme Switcher: Warm Dark vs Warm Sepia Paper -->
+        <button onclick="app.toggleTheme()" id="theme-btn"
+          class="px-3 py-1.5 rounded-xl text-xs font-medium card-alt border flex items-center gap-1.5 hover:border-amber-500 transition">
+          <span id="theme-icon">📜</span>
+          <span id="theme-label" class="hidden sm:inline">Nền giấy ấm</span>
+        </button>
+
+        <!-- Total Counter Badge -->
+        <div class="text-xs px-3 py-1.5 rounded-xl card-alt border flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-lime-500"></span>
+          <span class="text-sec font-medium" id="total-badge">Đang tải...</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================================================= -->
+  <!-- MÀN HÌNH 1: TRANG CHỦ CHỌN MÔN (3 MÔN HỌC)        -->
+  <!-- ================================================= -->
+  <main id="screen-home" class="w-full max-w-4xl px-4 py-6 sm:py-8 fade-in flex-1">
+    <div class="mb-6">
+      <h2 class="text-xl sm:text-2xl font-bold text-main">📚 Chọn môn học để ôn tập</h2>
+      <p class="text-xs sm:text-sm text-sec mt-1">
+        Dữ liệu câu hỏi và giải thích tiếng Việt được trích xuất từ bộ slide gốc, chia đúng theo từng phần phân loại.
+      </p>
+    </div>
+
+    <div id="courses-grid" class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+      <!-- Dynamic Course Cards -->
+    </div>
+
+    <!-- Quick Tip Box -->
+    <div class="mt-8 p-4 rounded-2xl card-surface border text-xs text-sec flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+      <div class="flex items-start sm:items-center gap-2.5">
+        <span class="text-lg">💡</span>
+        <span>Tiến độ học và danh sách câu làm sai được tự động lưu trên thiết bị này. Trên PC có thể dùng phím <kbd class="px-1.5 py-0.5 rounded card-alt border font-mono">1-4</kbd> và <kbd class="px-1.5 py-0.5 rounded card-alt border font-mono">←</kbd> <kbd class="px-1.5 py-0.5 rounded card-alt border font-mono">→</kbd> để làm siêu nhanh!</span>
+      </div>
+      <button onclick="app.resetAllProgress()" class="text-[11px] text-rose-400 hover:underline shrink-0 self-end sm:self-center">
+        Xóa tiến độ lưu tạm
+      </button>
+    </div>
+  </main>
+
+  <!-- ================================================= -->
+  <!-- MÀN HÌNH 2: DANH SÁCH BỘ CÂU HỎI TRONG 1 MÔN       -->
+  <!-- ================================================= -->
+  <main id="screen-course" class="w-full max-w-4xl px-4 py-5 sm:py-8 hidden fade-in flex-1">
+    <!-- Top Back Bar -->
+    <div class="flex items-center justify-between mb-5">
+      <button onclick="app.goHome()" class="px-3 py-1.5 rounded-xl card-surface border text-xs font-medium text-sec hover:text-amber-500 hover:border-amber-500 transition flex items-center gap-1.5">
+        <span>←</span>
+        <span>Đổi môn khác</span>
+      </button>
+      <span class="text-xs font-bold px-3 py-1 rounded-lg bg-amber-500/15 text-amber-500 border border-amber-500/30" id="course-badge">
+        IAM302
+      </span>
+    </div>
+
+    <!-- Course Overview Card -->
+    <div class="card-surface border rounded-2xl p-5 sm:p-6 mb-6 shadow-sm">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold text-main" id="course-title">IAM302</h2>
+          <p class="text-xs sm:text-sm text-sec mt-1" id="course-subtitle">Quản lý An toàn thông tin</p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <!-- Mistake Practice Button -->
+          <button onclick="app.startMistakesQuiz()" id="btn-mistakes"
+            class="px-4 py-2.5 rounded-xl bg-rose-500/15 hover:bg-rose-500/25 border border-rose-500/40 text-rose-400 text-xs font-bold flex items-center gap-2 transition">
+            <span>⚠️ Ôn câu làm sai (<span id="course-mistake-count">0</span>)</span>
+          </button>
+
+          <!-- Shuffle All Button -->
+          <button onclick="app.startAllShuffled()"
+            class="px-4 py-2.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-500 text-xs font-bold flex items-center gap-2 transition">
+            <span>🔀 Xáo trộn tất cả</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sections Grid -->
+    <div class="flex items-center justify-between mb-3">
+      <h3 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-sec">
+        Khoanh vùng bộ câu hỏi theo Slide
+      </h3>
+      <span class="text-xs text-mut" id="course-total-sections"></span>
+    </div>
+
+    <div id="sections-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4 pb-10">
+      <!-- Dynamic Section Cards -->
+    </div>
+  </main>
+
+  <!-- ================================================= -->
+  <!-- MÀN HÌNH 3: GIAO DIỆN LÀM CÂU HỎI TỪNG CÂU        -->
+  <!-- ================================================= -->
+  <main id="screen-quiz" class="w-full max-w-3xl px-3 sm:px-4 py-4 sm:py-6 hidden fade-in flex-1 flex flex-col">
+    <!-- Quiz Top Controls -->
+    <div class="flex items-center justify-between gap-2 mb-3 sm:mb-4">
+      <button onclick="app.backToCourse()" class="px-3 py-1.5 rounded-xl card-surface border text-xs font-medium text-sec hover:text-amber-500 transition flex items-center gap-1">
+        <span>←</span>
+        <span>Bộ câu hỏi</span>
+      </button>
+
+      <div class="flex items-center gap-2">
+        <span class="text-[11px] sm:text-xs font-semibold px-2.5 py-1 rounded-lg bg-amber-500/15 text-amber-500 truncate max-w-[160px] sm:max-w-xs" id="quiz-section-badge">
+          Phần 1
+        </span>
+        <button onclick="app.openPillDrawer()" class="px-2.5 py-1 rounded-lg card-surface border text-xs text-sec hover:border-amber-500 transition" title="Chọn nhanh câu hỏi">
+          🔢 <span id="quiz-counter-top">1/50</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="w-full h-1.5 rounded-full card-alt overflow-hidden mb-4">
+      <div id="quiz-progress-bar" class="h-full bg-amber-500 transition-all duration-300" style="width: 0%"></div>
+    </div>
+
+    <!-- Main Question Card -->
+    <div class="card-surface border rounded-2xl p-4 sm:p-6 shadow-lg mb-4 sm:mb-6 flex-1">
+      <!-- Status Header -->
+      <div class="flex items-center justify-between pb-3 mb-4 border-b border-opacity-50" style="border-color: var(--border-color)">
+        <div class="flex items-center gap-2 text-xs">
+          <span class="font-bold text-amber-500" id="q-number-label">Câu 1</span>
+          <span id="q-multi-badge" class="hidden px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 text-[11px] font-bold">
+            Chọn nhiều đáp án
+          </span>
+          <span class="text-mut text-[11px]" id="q-slide-ref">slide_001</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button onclick="app.toggleBookmark()" id="btn-bookmark" class="px-2.5 py-1 rounded-lg card-alt border text-xs hover:border-amber-500 transition" title="Đánh dấu câu này">
+            ☆
+          </button>
+          <button onclick="app.openSlideModal()" class="px-2.5 py-1 rounded-lg card-alt border text-xs text-sec hover:text-amber-500 hover:border-amber-500 transition flex items-center gap-1">
+            <span>🖼️</span>
+            <span class="hidden sm:inline">Xem Slide gốc</span>
+            <span class="sm:hidden">Slide</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Inline Slide Preview (Auto shown for visual/picture/code questions!) -->
+      <div id="inline-slide-box" class="hidden mb-4 rounded-xl overflow-hidden border bg-black/20" style="border-color: var(--border-color)">
+        <img id="inline-slide-img" src="" alt="Hình minh họa trong slide" class="w-full max-h-72 object-contain mx-auto cursor-zoom-in" onclick="app.openSlideModal()">
+      </div>
+
+      <!-- Question Text -->
+      <div class="mb-5">
+        <h3 id="question-text" class="text-base sm:text-lg font-semibold text-main leading-relaxed whitespace-pre-line">
+          Đang tải câu hỏi...
+        </h3>
+      </div>
+
+      <!-- Options List -->
+      <div id="options-list" class="space-y-2.5 sm:space-y-3 mb-5">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Multi-select Submit Button (only shown when question has >1 correct answer) -->
+      <div id="multi-submit-wrap" class="hidden mb-5">
+        <button onclick="app.submitMultiChoice()" class="w-full py-3 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-sm transition shadow">
+          ✓ Kiểm tra các đáp án đã chọn
+        </button>
+      </div>
+
+      <!-- Vietnamese Translation & Explanation (Shown after answering or clicking hint) -->
+      <div id="explanation-box" class="hidden rounded-xl p-4 border text-xs sm:text-sm space-y-2 mb-4">
+        <div id="explanation-status" class="font-bold text-sm"></div>
+        <div id="explanation-vi-q" class="text-sec italic"></div>
+        <div id="explanation-vi-detail" class="text-main leading-relaxed pt-1 border-t border-white/10"></div>
+      </div>
+
+      <!-- Quick Reveal Answer Button (Before answering, in case user wants to peek) -->
+      <div id="peek-wrap" class="flex items-center justify-between pt-2">
+        <button onclick="app.revealAnswer()" class="text-xs text-mut hover:text-amber-500 transition">
+          💡 Xem đáp án & giải thích tiếng Việt
+        </button>
+        <button onclick="app.resetCurrentSection()" class="text-xs text-mut hover:text-rose-400 transition">
+          🔄 Làm lại bộ này
+        </button>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="w-full pt-2 pb-6">
+      <div class="max-w-3xl mx-auto flex items-center justify-between gap-3">
+        <button onclick="app.prevQuestion()" id="btn-prev"
+          class="flex-1 sm:flex-initial px-4 py-3 sm:py-2.5 rounded-xl card-alt border text-xs sm:text-sm font-semibold text-sec hover:text-main disabled:opacity-35 transition">
+          ← Câu trước
+        </button>
+
+        <div class="hidden sm:flex items-center gap-1.5 overflow-x-auto no-scrollbar max-w-xs px-1" id="desktop-pills">
+          <!-- Pills -->
+        </div>
+
+        <button onclick="app.nextQuestion()" id="btn-next"
+          class="flex-1 sm:flex-initial px-5 py-3 sm:py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white text-xs sm:text-sm font-bold shadow transition disabled:opacity-40">
+          Câu tiếp theo →
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================================================= -->
+  <!-- MODAL 1: XEM ẢNH SLIDE GỐC (ZOOMABLE)             -->
+  <!-- ================================================= -->
+  <div id="slide-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 hidden flex items-center justify-center p-3 sm:p-6" onclick="if(event.target===this) app.closeSlideModal()">
+    <div class="card-surface border rounded-2xl max-w-4xl w-full p-4 sm:p-5 shadow-2xl flex flex-col max-h-[92vh]">
+      <div class="flex items-center justify-between pb-3 border-b mb-3" style="border-color: var(--border-color)">
+        <div>
+          <h4 class="font-bold text-sm text-main">🖼️ Ảnh Slide Gốc (<span id="modal-slide-label">slide_001</span>)</h4>
+          <p class="text-[11px] text-mut">Bao gồm cả câu hỏi trên slide và đáp án/giải thích ở phần ghi chú</p>
+        </div>
+        <button onclick="app.closeSlideModal()" class="w-8 h-8 rounded-lg card-alt border flex items-center justify-center text-sec hover:text-main">✕</button>
+      </div>
+      <div class="overflow-auto flex-1 flex items-center justify-center bg-black/30 rounded-xl p-2">
+        <img id="modal-slide-img" src="" alt="Slide gốc" class="max-w-full max-h-[75vh] object-contain rounded">
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================= -->
+  <!-- MODAL 2: BẢNG CHỌN NHANH CÂU HỎI (MOBILE/PC)      -->
+  <!-- ================================================= -->
+  <div id="pill-drawer" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-end sm:items-center justify-center p-0 sm:p-4" onclick="if(event.target===this) app.closePillDrawer()">
+    <div class="card-surface border rounded-t-2xl sm:rounded-2xl max-w-lg w-full p-5 shadow-2xl max-h-[80vh] flex flex-col">
+      <div class="flex items-center justify-between pb-3 border-b mb-4" style="border-color: var(--border-color)">
+        <h4 class="font-bold text-sm text-main">🔢 Chọn nhanh câu hỏi</h4>
+        <button onclick="app.closePillDrawer()" class="w-8 h-8 rounded-lg card-alt border flex items-center justify-center text-sec">✕</button>
+      </div>
+      <div id="drawer-pills-grid" class="grid grid-cols-6 sm:grid-cols-8 gap-2 overflow-y-auto p-1">
+        <!-- Populated dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script src="data/iam302.js"></script>
+  <script src="data/frs301.js"></script>
+  <script src="data/iaa202.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
