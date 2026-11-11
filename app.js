@@ -27,7 +27,7 @@ const app = {
     answers: {}, // { qId: { selected: ['A'], isCorrect: true } }
     mistakes: { IAM302: [], FRS301: [], IAA202: [] },
     bookmarks: {}, // { qId: true }
-    theme: 'dark', // 'dark' | 'sepia'
+    theme: 'blue-light', // 'blue-light' | 'blue-navy'
   },
 
   currentCourseCode: null,
@@ -52,7 +52,7 @@ const app = {
           answers: parsed.answers || {},
           mistakes: parsed.mistakes || { IAM302: [], FRS301: [], IAA202: [] },
           bookmarks: parsed.bookmarks || {},
-          theme: parsed.theme || 'dark',
+          theme: parsed.theme === 'blue-navy' ? 'blue-navy' : 'blue-light',
         };
       }
     } catch (e) {
@@ -69,7 +69,7 @@ const app = {
   },
 
   toggleTheme() {
-    this.state.theme = this.state.theme === 'dark' ? 'sepia' : 'dark';
+    this.state.theme = this.state.theme === 'blue-light' ? 'blue-navy' : 'blue-light';
     this.saveState();
     this.applyTheme();
   },
@@ -80,18 +80,16 @@ const app = {
     const label = document.getElementById('theme-label');
     const metaTheme = document.querySelector('meta[name="theme-color"]');
 
-    if (this.state.theme === 'sepia') {
-      html.classList.add('light-sepia');
-      html.classList.remove('dark');
-      icon.textContent = '☕';
-      label.textContent = 'Nền cà phê tối';
-      if (metaTheme) metaTheme.setAttribute('content', '#f3ead7');
-    } else {
-      html.classList.remove('light-sepia');
+    if (this.state.theme === 'blue-navy') {
       html.classList.add('dark');
-      icon.textContent = '📜';
-      label.textContent = 'Nền giấy ấm';
-      if (metaTheme) metaTheme.setAttribute('content', '#181513');
+      icon.textContent = '☀️';
+      label.textContent = 'Trắng Xanh';
+      if (metaTheme) metaTheme.setAttribute('content', '#0b1220');
+    } else {
+      html.classList.remove('dark');
+      icon.textContent = '🌙';
+      label.textContent = 'Xanh Đêm';
+      if (metaTheme) metaTheme.setAttribute('content', '#f4f7fb');
     }
   },
 
@@ -160,22 +158,22 @@ const app = {
 
       const card = document.createElement('div');
       card.className =
-        'card-surface border rounded-2xl p-5 sm:p-6 hover:border-amber-500 transition duration-200 shadow-lg cursor-pointer group flex flex-col justify-between';
+        'card-surface border rounded-2xl p-5 sm:p-6 hover:border-blue-500 dark:hover:border-sky-400 transition duration-200 cursor-pointer group flex flex-col justify-between';
       card.onclick = () => this.openCourse(code);
 
       card.innerHTML = `
         <div>
           <div class="flex items-start justify-between mb-4">
-            <div class="w-12 h-12 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-2xl group-hover:scale-105 transition">
+            <div class="w-12 h-12 rounded-xl accent-pill border flex items-center justify-center text-2xl group-hover:scale-105 transition">
               ${meta.icon}
             </div>
             ${
               mistakeCount > 0
-                ? `<span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-rose-500/15 text-rose-400 border border-rose-500/30">⚠️ ${mistakeCount} câu sai</span>`
-                : ''
+                ? `<span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-rose-50 dark:bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-500/30">⚠️ ${mistakeCount} câu sai</span>`
+                : `<span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold accent-pill border">${numSections} bộ</span>`
             }
           </div>
-          <h3 class="text-xl font-bold text-main group-hover:text-amber-500 transition">${meta.name}</h3>
+          <h3 class="text-xl font-bold text-main group-hover:text-blue-600 dark:group-hover:text-sky-400 transition">${meta.name}</h3>
           <p class="text-xs text-sec mt-1 mb-4">${meta.subtitle}</p>
 
           <div class="space-y-2 text-xs text-sec mb-5 p-3.5 rounded-xl card-alt border">
@@ -185,15 +183,15 @@ const app = {
             </div>
             <div class="flex justify-between">
               <span>Đã ôn:</span>
-              <span class="font-bold text-amber-500">${done} / ${total} (${pct}%)</span>
+              <span class="font-bold text-blue-600 dark:text-sky-400">${done} / ${total} (${pct}%)</span>
             </div>
-            <div class="w-full h-1.5 rounded-full bg-black/20 overflow-hidden mt-1">
-              <div class="h-full bg-amber-500 rounded-full transition-all duration-300" style="width: ${pct}%"></div>
+            <div class="w-full h-2 rounded-full progress-track overflow-hidden mt-1">
+              <div class="h-full bg-blue-600 dark:bg-sky-400 rounded-full transition-all duration-300" style="width: ${pct}%"></div>
             </div>
           </div>
         </div>
 
-        <button class="w-full py-2.5 rounded-xl card-alt border group-hover:bg-amber-600 group-hover:text-white group-hover:border-amber-500 font-semibold text-sm transition flex items-center justify-center gap-1.5">
+        <button class="w-full py-2.5 rounded-xl card-alt border text-main group-hover:bg-blue-600 dark:group-hover:bg-sky-500 group-hover:text-white dark:group-hover:text-slate-950 group-hover:border-blue-600 dark:group-hover:border-sky-500 font-semibold text-sm transition flex items-center justify-center gap-1.5">
           <span>Vào học môn này</span>
           <span>➔</span>
         </button>
@@ -253,7 +251,7 @@ const app = {
 
       const card = document.createElement('div');
       card.className =
-        'card-surface border rounded-2xl p-4 sm:p-5 flex flex-col justify-between hover:border-amber-500 transition shadow-sm cursor-pointer group';
+        'card-surface border rounded-2xl p-4 sm:p-5 flex flex-col justify-between hover:border-blue-500 dark:hover:border-sky-400 transition cursor-pointer group';
       card.onclick = () => this.startSection(sec.id);
 
       card.innerHTML = `
@@ -264,17 +262,17 @@ const app = {
             </span>
             <span class="text-[11px] text-mut">${sec.slide_range || ''}</span>
           </div>
-          <h4 class="font-bold text-sm sm:text-base text-main group-hover:text-amber-500 transition">${sec.title}</h4>
+          <h4 class="font-bold text-sm sm:text-base text-main group-hover:text-blue-600 dark:group-hover:text-sky-400 transition">${sec.title}</h4>
           <p class="text-xs text-sec mt-1">${total} câu hỏi trắc nghiệm</p>
         </div>
 
-        <div class="mt-4 pt-3 border-t border-opacity-40" style="border-color: var(--border-color)">
+        <div class="mt-4 pt-3 border-t border-opacity-60" style="border-color: var(--border-color)">
           <div class="flex items-center justify-between text-xs mb-1.5">
             <span class="text-sec">Đã làm: <strong class="text-main">${done}/${total}</strong> (${pct}%)</span>
-            <span class="text-amber-500 font-semibold group-hover:translate-x-0.5 transition">Học ngay ➔</span>
+            <span class="text-blue-600 dark:text-sky-400 font-semibold group-hover:translate-x-0.5 transition">Học ngay ➔</span>
           </div>
-          <div class="w-full h-1.5 rounded-full card-alt overflow-hidden">
-            <div class="h-full bg-amber-500 rounded-full transition-all duration-300" style="width: ${pct}%"></div>
+          <div class="w-full h-1.5 rounded-full progress-track overflow-hidden">
+            <div class="h-full bg-blue-600 dark:bg-sky-400 rounded-full transition-all duration-300" style="width: ${pct}%"></div>
           </div>
         </div>
       `;
@@ -287,17 +285,17 @@ const app = {
     if (bookmarkedQs.length > 0) {
       const bCard = document.createElement('div');
       bCard.className =
-        'card-surface border border-amber-500/40 rounded-2xl p-4 sm:p-5 flex flex-col justify-between hover:border-amber-500 transition shadow-sm cursor-pointer group';
+        'card-surface border border-blue-300 dark:border-sky-500/40 rounded-2xl p-4 sm:p-5 flex flex-col justify-between hover:border-blue-500 dark:hover:border-sky-400 transition cursor-pointer group';
       bCard.onclick = () => this.startCustomList('⭐ Câu đã đánh dấu (Bookmark)', bookmarkedQs);
       bCard.innerHTML = `
         <div>
           <div class="flex items-center justify-between mb-2">
-            <span class="px-2.5 py-0.5 rounded-md text-[11px] font-bold bg-amber-500/20 text-amber-400 border border-amber-500/40">⭐ Bookmark</span>
+            <span class="px-2.5 py-0.5 rounded-md text-[11px] font-bold accent-pill border">⭐ Bookmark</span>
           </div>
-          <h4 class="font-bold text-sm sm:text-base text-main group-hover:text-amber-500 transition">Các câu đã đánh dấu</h4>
+          <h4 class="font-bold text-sm sm:text-base text-main group-hover:text-blue-600 dark:group-hover:text-sky-400 transition">Các câu đã đánh dấu</h4>
           <p class="text-xs text-sec mt-1">${bookmarkedQs.length} câu hỏi cần lưu ý</p>
         </div>
-        <div class="mt-4 pt-3 border-t border-opacity-40 text-right text-xs text-amber-500 font-semibold" style="border-color: var(--border-color)">
+        <div class="mt-4 pt-3 border-t border-opacity-60 text-right text-xs text-blue-600 dark:text-sky-400 font-semibold" style="border-color: var(--border-color)">
           Ôn tập ngay ➔
         </div>
       `;
@@ -307,13 +305,13 @@ const app = {
 
   getSectionColorClass(tag) {
     const t = (tag || '').toLowerCase();
-    if (t.includes('ngắn')) return 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30';
-    if (t.includes('trung bình')) return 'bg-amber-500/15 text-amber-400 border-amber-500/30';
-    if (t.includes('dài')) return 'bg-rose-500/15 text-rose-400 border-rose-500/30';
-    if (t.includes('nhiều')) return 'bg-purple-500/15 text-purple-400 border-purple-500/30';
-    if (t.includes('not')) return 'bg-orange-500/15 text-orange-400 border-orange-500/30';
-    if (t.includes('dấu') || t.includes('điền')) return 'bg-sky-500/15 text-sky-400 border-sky-500/30';
-    return 'bg-amber-500/15 text-amber-400 border-amber-500/30';
+    if (t.includes('ngắn')) return 'bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-500/30';
+    if (t.includes('trung bình')) return 'bg-blue-50 dark:bg-blue-500/15 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-500/30';
+    if (t.includes('dài')) return 'bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-500/30';
+    if (t.includes('nhiều')) return 'bg-sky-50 dark:bg-sky-500/15 text-sky-700 dark:text-sky-300 border-sky-200 dark:border-sky-500/30';
+    if (t.includes('not')) return 'bg-rose-50 dark:bg-rose-500/15 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-500/30';
+    if (t.includes('dấu') || t.includes('điền')) return 'bg-cyan-50 dark:bg-cyan-500/15 text-cyan-700 dark:text-cyan-300 border-cyan-200 dark:border-cyan-500/30';
+    return 'bg-blue-50 dark:bg-blue-500/15 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-500/30';
   },
 
   startSection(sectionId) {
@@ -404,10 +402,10 @@ const app = {
     const bmBtn = document.getElementById('btn-bookmark');
     if (this.state.bookmarks[q.id]) {
       bmBtn.textContent = '★';
-      bmBtn.classList.add('text-amber-400', 'border-amber-500/50');
+      bmBtn.classList.add('accent-pill', 'text-blue-600', 'dark:text-sky-400', 'border-blue-400', 'dark:border-sky-400/50');
     } else {
       bmBtn.textContent = '☆';
-      bmBtn.classList.remove('text-amber-400', 'border-amber-500/50');
+      bmBtn.classList.remove('accent-pill', 'text-blue-600', 'dark:text-sky-400', 'border-blue-400', 'dark:border-sky-400/50');
     }
 
     // Inline image if question involves diagram/screenshot (uses canvas-only inline_webp before answering so answer isn't spoiled)
@@ -443,7 +441,7 @@ const app = {
         'w-full text-left p-3.5 sm:p-4 rounded-xl border transition flex items-start space-x-3 text-sm sm:text-base ';
 
       if (!savedAns) {
-        baseClass += 'card-alt hover:border-amber-500/60 text-main cursor-pointer active:scale-[0.99]';
+        baseClass += 'card-alt hover:border-blue-500 dark:hover:border-sky-400 text-main cursor-pointer active:scale-[0.99]';
         btn.onclick = () => this.onOptionClick(key, isMulti, btn);
       } else {
         btn.disabled = true;
@@ -451,24 +449,24 @@ const app = {
         const wasSelected = savedAns.selected.includes(key);
 
         if (isCorrectKey && wasSelected) {
-          baseClass += 'border-2 border-lime-500 bg-lime-600/20 text-main font-medium';
+          baseClass += 'border-2 border-emerald-500 bg-emerald-50 dark:bg-emerald-500/15 text-main font-medium';
         } else if (isCorrectKey) {
-          baseClass += 'border-2 border-lime-500/80 bg-lime-600/15 text-main font-medium';
+          baseClass += 'border-2 border-emerald-500/80 bg-emerald-50/80 dark:bg-emerald-500/15 text-main font-medium';
         } else if (wasSelected) {
-          baseClass += 'border-2 border-rose-500 bg-rose-600/20 text-rose-800 dark:text-rose-200';
+          baseClass += 'border-2 border-rose-500 bg-rose-50 dark:bg-rose-500/15 text-rose-800 dark:text-rose-200';
         } else {
-          baseClass += 'card-alt opacity-55 text-sec';
+          baseClass += 'card-alt opacity-60 text-sec';
         }
       }
 
       btn.className = baseClass;
 
-      let badgeClass = 'bg-black/20 text-sec';
+      let badgeClass = 'card-surface border text-sec';
       let badgeContent = key;
 
       if (savedAns) {
         if (q.correct.includes(key)) {
-          badgeClass = 'bg-lime-600 text-white font-bold';
+          badgeClass = 'bg-emerald-600 text-white font-bold';
           badgeContent = '✓';
         } else if (savedAns.selected.includes(key)) {
           badgeClass = 'bg-rose-600 text-white font-bold';
@@ -504,12 +502,12 @@ const app = {
 
       const statusEl = document.getElementById('explanation-status');
       if (savedAns.isCorrect) {
-        expBox.className = 'rounded-xl p-4 border border-lime-600/50 bg-lime-600/15 text-xs sm:text-sm space-y-2 mb-4';
-        statusEl.className = 'font-bold text-sm text-lime-700 dark:text-lime-400';
+        expBox.className = 'rounded-xl p-4 border border-emerald-400/60 bg-emerald-50 dark:bg-emerald-500/15 text-xs sm:text-sm space-y-2 mb-4';
+        statusEl.className = 'font-bold text-sm text-emerald-700 dark:text-emerald-300';
         statusEl.textContent = `✓ Chính xác! Đáp án: ${q.correct.join(', ')}`;
       } else {
-        expBox.className = 'rounded-xl p-4 border border-rose-600/50 bg-rose-600/15 text-xs sm:text-sm space-y-2 mb-4';
-        statusEl.className = 'font-bold text-sm text-rose-700 dark:text-rose-400';
+        expBox.className = 'rounded-xl p-4 border border-rose-400/60 bg-rose-50 dark:bg-rose-500/15 text-xs sm:text-sm space-y-2 mb-4';
+        statusEl.className = 'font-bold text-sm text-rose-700 dark:text-rose-300';
         statusEl.textContent = `✕ Chưa đúng! Đáp án chuẩn là: ${q.correct.join(', ')}`;
       }
 
@@ -538,12 +536,12 @@ const app = {
     const badge = btnEl.querySelector('.opt-badge');
     if (this.tempMultiSelected.has(key)) {
       this.tempMultiSelected.delete(key);
-      btnEl.classList.remove('border-amber-500', 'bg-amber-500/15');
-      badge.classList.remove('bg-amber-500', 'text-black');
+      btnEl.classList.remove('border-blue-600', 'bg-blue-50', 'dark:border-sky-400', 'dark:bg-sky-500/15');
+      badge.classList.remove('bg-blue-600', 'dark:bg-sky-500', 'text-white');
     } else {
       this.tempMultiSelected.add(key);
-      btnEl.classList.add('border-amber-500', 'bg-amber-500/15');
-      badge.classList.add('bg-amber-500', 'text-black');
+      btnEl.classList.add('border-blue-600', 'bg-blue-50', 'dark:border-sky-400', 'dark:bg-sky-500/15');
+      badge.classList.add('bg-blue-600', 'dark:bg-sky-500', 'text-white');
     }
   },
 
@@ -661,11 +659,11 @@ const app = {
 
       let cls = 'w-7 h-7 rounded-lg text-xs font-bold shrink-0 transition ';
       if (i === this.currentIndex) {
-        cls += 'bg-amber-500 text-black ring-2 ring-amber-300';
+        cls += 'bg-blue-600 dark:bg-sky-500 text-white dark:text-slate-950 ring-2 ring-blue-300 dark:ring-sky-400/50';
       } else if (ans) {
-        cls += ans.isCorrect ? 'bg-lime-600/30 text-lime-400' : 'bg-rose-600/30 text-rose-400';
+        cls += ans.isCorrect ? 'bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-500/40' : 'bg-rose-100 dark:bg-rose-500/20 text-rose-700 dark:text-rose-300 border border-rose-300 dark:border-rose-500/40';
       } else {
-        cls += 'card-alt text-sec hover:border-amber-500 border';
+        cls += 'card-alt text-sec hover:border-blue-500 dark:hover:border-sky-400 border';
       }
 
       pill.className = cls;
@@ -688,13 +686,13 @@ const app = {
 
       let cls = 'py-2 rounded-xl text-xs font-bold border transition ';
       if (i === this.currentIndex) {
-        cls += 'bg-amber-500 text-black border-amber-300';
+        cls += 'bg-blue-600 dark:bg-sky-500 text-white dark:text-slate-950 border-blue-600 dark:border-sky-400';
       } else if (ans) {
         cls += ans.isCorrect
-          ? 'bg-lime-600/25 text-lime-400 border-lime-600/40'
-          : 'bg-rose-600/25 text-rose-400 border-rose-600/40';
+          ? 'bg-emerald-50 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border-emerald-300 dark:border-emerald-500/40'
+          : 'bg-rose-50 dark:bg-rose-500/20 text-rose-700 dark:text-rose-300 border-rose-300 dark:border-rose-500/40';
       } else {
-        cls += 'card-alt text-sec';
+        cls += 'card-alt text-sec hover:border-blue-500 dark:hover:border-sky-400';
       }
 
       btn.className = cls;
