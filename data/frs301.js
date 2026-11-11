@@ -24,7 +24,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "",
-          "vi_explanation": "A.MRU\nGiải thích: :\nHình hiên thị danh sách Recent Documents trong Windows. Đây là chức năng MRU (Most Recently Used), lưu lại các tệp được mở gan đây nhat dé người dùng truy cập nhanh.",
+          "vi_explanation": "A. MRU\nGiải thích:\nHình hiển thị danh sách Recent Documents trong Windows. Đây là chức năng MRU (Most Recently Used), lưu lại các tệp được mở gần đây nhất để người dùng truy cập nhanh.",
           "has_visual": true
         },
         {
@@ -43,7 +43,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Thời gian file được chỉnh sửa (Modified Time) là khi nào?",
-          "vi_explanation": "A. Wednesday, April 20, 2011, 7:15:52 PM - i\nModified Time là thời diém nội dung của tệp được thay đôi lân cuôi. Đáp án đúng là 7:15:52 PM.",
+          "vi_explanation": "A. Wednesday, April 20, 2011, 7:15:52 PM\nModified Time là thời điểm nội dung của tệp được thay đổi lần cuối. Đáp án đúng là 7:15:52 PM.",
           "has_visual": false
         },
         {
@@ -62,7 +62,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "",
-          "vi_explanation": "A. Wednesday, April 20, 2011, 7:15:52\nGiai thich:\nDòng Accessed trong Properties ghi:\nWednesday, April 20, 2011, 7:15:52",
+          "vi_explanation": "A. Wednesday, April 20, 2011, 7:15:52 PM\nGiải thích:\nDòng Accessed trong Properties ghi:\nWednesday, April 20, 2011, 7:15:52 PM",
           "has_visual": false
         }
       ]
@@ -89,8 +89,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều gì là nguyên nhân phd biến khiến bằng chứng bi mất hoặc bi hỏng?",
-          "vi_explanation": "C. Có phạm vi bảo vệ hiện trường không được xác định rõ. mm\nNêu khu vực hiện trường không được kiêm soát rõ ràng, bang chứng rat dé bị thay đôi, hư hỏng hoặc mat.",
+          "vi_question": "Điều gì là nguyên nhân phổ biến khiến bằng chứng bị mất hoặc bị hỏng?",
+          "vi_explanation": "C. Có phạm vi bảo vệ hiện trường không được xác định rõ.\nNếu khu vực hiện trường không được kiểm soát rõ ràng, bằng chứng rất dễ bị thay đổi, hư hỏng hoặc mất.",
           "has_visual": false
         },
         {
@@ -108,8 +108,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Pé đóng một kết nối TCP, cờ (flag) nào được sử dung?",
-          "vi_explanation": "A.FIN\nCờ FIN (Finish) được dùng dé báo hiệu một bên muốn kết thúc kết nối TCP một cách bình thường.",
+          "vi_question": "Để đóng một kết nối TCP, cờ (flag) nào được sử dụng?",
+          "vi_explanation": "A. FIN\nCờ FIN (Finish) được dùng để báo hiệu một bên muốn kết thúc kết nối TCP một cách bình thường.",
           "has_visual": false
         },
         {
@@ -128,8 +128,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Bạn có thé sử dung công cụ nào dé tim kiếm từ khóa mạnh mẽ trong Linux và phan mềm EnCase?",
-          "vi_explanation": "A. grep Ñ Ñ Co\ngrep là công cụ tìm kiêm chuôi va từ khóa rat phô biên trên Linux, dong thời được sử dụng trong nhiêu quy trình điêu tra sô (digital forensics).",
+          "vi_question": "Bạn có thể sử dụng công cụ nào để tìm kiếm từ khóa mạnh mẽ trong Linux và phần mềm EnCase?",
+          "vi_explanation": "A. grep\ngrep là công cụ tìm kiếm chuỗi và từ khóa rất phổ biến trên Linux, đồng thời được sử dụng trong nhiều quy trình điều tra số (digital forensics).",
           "has_visual": false
         }
       ]
@@ -155,8 +155,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Linh vực nào sau đây KHÔNG phải là trong tâm chính của Khoa học Pháp y (Forensic Science)?",
-          "vi_explanation": "C. Khí tượng hoc (Meteorology). 3 : :\nKhoa học pháp y tập trung vào DNA, dâu vân tay, đạn đạo và các băng chứng phục vụ điêu tra, không bao gôm khí tượng học.",
+          "vi_question": "Lĩnh vực nào sau đây KHÔNG phải là trọng tâm chính của Khoa học Pháp y (Forensic Science)?",
+          "vi_explanation": "C. Khí tượng học (Meteorology).\nKhoa học pháp y tập trung vào DNA, dấu vân tay, đạn đạo và các bằng chứng phục vụ điều tra, không bao gồm khí tượng học.",
           "has_visual": false
         },
         {
@@ -175,7 +175,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Điều nào sau đây KHÔNG phải là nguồn bằng chứng tiềm năng thường có trên điện thoại thông minh hiện đại?",
-          "vi_explanation": "C. Sô An sinh Xã hội (Social Security number).\nĐiện thoại thường chứa lịch sử cuộc gọi, vị trí, lịch sử trình duyệt... nhưng không mặc định lưu sô An sinh Xã hội của người dùng.",
+          "vi_explanation": "C. Số An sinh Xã hội (Social Security number).\nĐiện thoại thường chứa lịch sử cuộc gọi, vị trí, lịch sử trình duyệt... nhưng không mặc định lưu số An sinh Xã hội của người dùng.",
           "has_visual": false
         },
         {
@@ -194,8 +194,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục nào sau đây không phải là bằng chứng dễ mắt (volatile evidence)?",
-          "vi_explanation": "C. Log files. | Ñ mm\nLog files được lưu trên thiét bị lưu trữ nên không mat khi tắt máy, trong khi RAM, bảng định tuyên và dữ liệu cache đêu là dữ liệu dé mat.",
+          "vi_question": "Mục nào sau đây không phải là bằng chứng dễ mất (volatile evidence)?",
+          "vi_explanation": "C. Log files.\nLog files được lưu trên thiết bị lưu trữ nên không mất khi tắt máy, trong khi RAM, bảng định tuyến và dữ liệu cache đều là dữ liệu dễ mất.",
           "has_visual": false
         },
         {
@@ -213,8 +213,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều nào sau đây KHÔNG phải là một nhiệm vu phỗ biến của Điều tra số (Digital Forensics)?",
-          "vi_explanation": "C. Nghiên cứu các bản thảo cô. .\nDigital Forensics bao gôm khôi phục dữ liệu, phân tích lưu lượng mạng va siêu dữ liệu, không liên quan dén nghiên cứu tai liệu cô.",
+          "vi_question": "Điều nào sau đây KHÔNG phải là một nhiệm vụ phổ biến của Điều tra số (Digital Forensics)?",
+          "vi_explanation": "C. Nghiên cứu các bản thảo cổ.\nDigital Forensics bao gồm khôi phục dữ liệu, phân tích lưu lượng mạng và siêu dữ liệu, không liên quan đến nghiên cứu tài liệu cổ.",
           "has_visual": false
         },
         {
@@ -232,8 +232,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Phát biểu nào sau đây về Snort là đúng? Ì \\ i",
-          "vi_explanation": "B. Snort là hệ thông phát hiện xâm nhập mạng (NIDS) mã nguôn mở, giám sát lưu lượng mạng theo thời gian thực và đưa ra cảnh báo về các môi đe dọa tiêm ân.\nSnort là một Network Intrusion Detection System (NIDS) mã nguôn mở được sử dụng rộng rãi đê phát hiện các cuộc tan công mang.",
+          "vi_question": "Phát biểu nào sau đây về Snort là đúng?",
+          "vi_explanation": "B. Snort là hệ thống phát hiện xâm nhập mạng (NIDS) mã nguồn mở, giám sát lưu lượng mạng theo thời gian thực và đưa ra cảnh báo về các mối đe dọa tiềm ẩn.\nSnort là một Network Intrusion Detection System (NIDS) mã nguồn mở được sử dụng rộng rãi để phát hiện các cuộc tấn công mạng.",
           "has_visual": false
         },
         {
@@ -252,7 +252,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Phát biểu nào sau đây về nhân chứng chuyên gia (expert witness) là đúng?",
-          "vi_explanation": "D. Họ được phép diễn giải và giải thích các bang chứng kỹ thuật trước toa. \\\nKhác với nhân chứng thông thường, nhân chứng chuyên gia có thê đưa ra ý kiên chuyên môn đê giải thích các băng chứng kỹ thuật cho tòa án.",
+          "vi_explanation": "D. Họ được phép diễn giải và giải thích các bằng chứng kỹ thuật trước tòa.\nKhác với nhân chứng thông thường, nhân chứng chuyên gia có thể đưa ra ý kiến chuyên môn để giải thích các bằng chứng kỹ thuật cho tòa án.",
           "has_visual": false
         },
         {
@@ -298,7 +298,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Khoa học Pháp y (Forensic Science) chủ yếu tập trung vào điều gì?",
-          "vi_explanation": "B. Điêu tra tội phạm và phân tích chứng cứ.\nForensic Science sử dụng các phương pháp khoa học dé thu thập, phân tích và trình bay chứng cứ phục vụ điêu tra.",
+          "vi_explanation": "B. Điều tra tội phạm và phân tích chứng cứ.\nForensic Science sử dụng các phương pháp khoa học để thu thập, phân tích và trình bày chứng cứ phục vụ điều tra.",
           "has_visual": false
         },
         {
@@ -316,8 +316,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Không gian trên ỗ đĩa sau khi một tệp bị xóa được gọi là gì?",
-          "vi_explanation": "D. Unallocated space (Không gian chưa được cap phat).\nKhi tệp bị xóa, dữ liệu thường vân còn trong Unallocated Space cho đên khi bị ghi đè.",
+          "vi_question": "Không gian trên ổ đĩa sau khi một tệp bị xóa được gọi là gì?",
+          "vi_explanation": "D. Unallocated space (Không gian chưa được cấp phát).\nKhi tệp bị xóa, dữ liệu thường vẫn còn trong Unallocated Space cho đến khi bị ghi đè.",
           "has_visual": false
         },
         {
@@ -354,8 +354,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich chính của việc tao bản sao pháp y (forensic clone) là gì?",
-          "vi_explanation": "C. Bảo tôn chứng cứ gôc.\nĐiêu tra viên luôn làm việc trên bản sao dé tránh làm thay đôi dữ liệu gôc.",
+          "vi_question": "Mục đích chính của việc tạo bản sao pháp y (forensic clone) là gì?",
+          "vi_explanation": "C. Bảo tồn chứng cứ gốc.\nĐiều tra viên luôn làm việc trên bản sao để tránh làm thay đổi dữ liệu gốc.",
           "has_visual": false
         },
         {
@@ -374,7 +374,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Mục đích của các tệp Prefetch trên hệ điều hành Windows là gì?",
-          "vi_explanation": "D. Cải thiện toc độ khởi chạy ứng dụng. : i\nPrefetch lưu thông tin về các tệp được truy cập khi chạy chương trình nhằm tăng toc việc mở ứng dung.",
+          "vi_explanation": "D. Cải thiện tốc độ khởi chạy ứng dụng.\nPrefetch lưu thông tin về các tệp được truy cập khi chạy chương trình nhằm tăng tốc việc mở ứng dụng.",
           "has_visual": false
         },
         {
@@ -392,8 +392,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Công cụ nào khai thác điểm yếu của mật khấu dé đặt lại mật khẩu?",
-          "vi_explanation": "D. Ophcrack.\nOphcrack là công cụ khôi phục mật khâu Windows bang cách sử dụng Rainbow Tables.",
+          "vi_question": "Công cụ nào khai thác điểm yếu của mật khẩu để đặt lại mật khẩu?",
+          "vi_explanation": "D. Ophcrack.\nOphcrack là công cụ khôi phục mật khẩu Windows bằng cách sử dụng Rainbow Tables.",
           "has_visual": false
         },
         {
@@ -411,8 +411,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Thước đo mức độ dễ mắt của dữ liệu điện tử được gọi là gì?",
-          "vi_explanation": "A. Volatility.\nVolatility biêu thị mức độ dữ liệu có thé bị mat hoặc thay đôi nhanh chóng, chăng hạn như dữ liệu trong RAM.",
+          "vi_question": "Thước đo mức độ dễ mất của dữ liệu điện tử được gọi là gì?",
+          "vi_explanation": "A. Volatility.\nVolatility biểu thị mức độ dữ liệu có thể bị mất hoặc thay đổi nhanh chóng, chẳng hạn như dữ liệu trong RAM.",
           "has_visual": false
         },
         {
@@ -430,8 +430,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Định dạng phần mở rộng phd biến của ảnh pháp y (forensic image) là gì?",
-          "vi_explanation": "B.E01.\nE01 (EnCase Image) là định dạng ảnh pháp y được sử dụng rộng rãi trong điều tra số.",
+          "vi_question": "Định dạng phần mở rộng phổ biến của ảnh pháp y (forensic image) là gì?",
+          "vi_explanation": "B. E01.\nE01 (EnCase Image) là định dạng ảnh pháp y được sử dụng rộng rãi trong điều tra số.",
           "has_visual": false
         },
         {
@@ -449,8 +449,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Mục đích của Link files (.Ink) trên Windows là gì?",
-          "vi_explanation": "B. Tạo lôi tặt (shortcut) đên tệp hoặc thư mục. Ñ Lo\nFile .Ink lưu thông tin về shortcut va thường được dùng trong điêu tra sô đê xác định các tệp đã được truy cap.",
+          "vi_question": "Mục đích của Link files (.lnk) trên Windows là gì?",
+          "vi_explanation": "B. Tạo lối tắt (shortcut) đến tệp hoặc thư mục.\nFile .lnk lưu thông tin về shortcut và thường được dùng trong điều tra số để xác định các tệp đã được truy cập.",
           "has_visual": false
         },
         {
@@ -469,7 +469,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Security Onion là gì?",
-          "vi_explanation": "D. Network Security Monitoring. _\nSecurity Onion là nên tảng mã nguôn mở dùng dé giám sát an ninh mang va phat hiện xâm nhập.",
+          "vi_explanation": "D. Network Security Monitoring.\nSecurity Onion là nền tảng mã nguồn mở dùng để giám sát an ninh mạng và phát hiện xâm nhập.",
           "has_visual": false
         },
         {
@@ -488,7 +488,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "",
-          "vi_explanation": "b\nMục đích của Link files (.Ink) trên Windows là gì?\nB. Tạo lôi tat (shortcut) đên tệp hoặc thư mục.\nCác file .Ink giúp xác định lịch sử truy cập tệp và thư mục của người dùng.",
+          "vi_explanation": "b\nMục đích của Link files (.lnk) trên Windows là gì?\nB. Tạo lối tắt (shortcut) đến tệp hoặc thư mục.\nCác file .lnk giúp xác định lịch sử truy cập tệp và thư mục của người dùng.",
           "has_visual": false
         },
         {
@@ -507,7 +507,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Mục đích của các tệp Prefetch trên Windows là gì?",
-          "vi_explanation": "D. Cải thiện toc độ khởi chạy ứng dụng. Co\nPrefetch ghi lại thông tin thực thi chương trình đê tôi ưu thời gian mở ứng dung.",
+          "vi_explanation": "D. Cải thiện tốc độ khởi chạy ứng dụng.\nPrefetch ghi lại thông tin thực thi chương trình để tối ưu thời gian mở ứng dụng.",
           "has_visual": false
         },
         {
@@ -525,8 +525,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Trong kỹ thuật giấu tin (Steganography), hai tệp được tao ra là gì?",
-          "vi_explanation": "A. Carrier file va payload.\nCarrier (cover file) là tệp chứa dữ liệu, con payload là dữ liệu bí mật được nhúng vào.",
+          "vi_question": "Trong kỹ thuật giấu tin (Steganography), hai tệp được tạo ra là gì?",
+          "vi_explanation": "A. Carrier file và payload.\nCarrier (cover file) là tệp chứa dữ liệu, còn payload là dữ liệu bí mật được nhúng vào.",
           "has_visual": false
         },
         {
@@ -544,8 +544,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Wireshark có thé phân tích thông tin nào trong lưu lượng đã mã hóa?",
-          "vi_explanation": "Khi traffic được mã hoa:\nKhông đọc được nội dung Data.\nVan nhìn thay địa chỉ IP nguôn và đích.\nCó thê thay một phân metadata của gói tin.\nĐáp án chắc chắn nhất là IP address.",
+          "vi_question": "Wireshark có thể phân tích thông tin nào trong lưu lượng đã mã hóa?",
+          "vi_explanation": "Khi traffic được mã hóa:\nKhông đọc được nội dung Data.\nVẫn nhìn thấy địa chỉ IP nguồn và đích.\nCó thể thấy một phần metadata của gói tin.\nĐáp án chắc chắn nhất là IP address.",
           "has_visual": false
         },
         {
@@ -564,8 +564,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "E"
           ],
-          "vi_question": "Những yếu tổ phi kỹ thuật trong điều tra số là gì?",
-          "vi_explanation": "E. Tât cả các đáp án trên. 3 mm\nĐiều tra sô còn bao gôm phỏng vân nạn nhân, nhân chứng, tìm hiêu vụ án và các yêu tô xã hội.",
+          "vi_question": "Những yếu tố phi kỹ thuật trong điều tra số là gì?",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nĐiều tra số còn bao gồm phỏng vấn nạn nhân, nhân chứng, tìm hiểu vụ án và các yếu tố xã hội.",
           "has_visual": false
         },
         {
@@ -584,7 +584,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Điều gì không xảy ra với chứng cứ khi rút nguồn điện (pull the plug)?",
-          "vi_explanation": "D. Evidence Image files.\nRút nguôn có thê làm mat dữ liệu RAM, khiên dữ liệu mã hóa không thé truy cập và có nguy cơ làm hỏng dữ liệu đang ghi, nhưng không ảnh hưởng đên các file forensic image đã được tao.",
+          "vi_explanation": "D. Evidence Image files.\nRút nguồn có thể làm mất dữ liệu RAM, khiến dữ liệu mã hóa không thể truy cập và có nguy cơ làm hỏng dữ liệu đang ghi, nhưng không ảnh hưởng đến các file forensic image đã được tạo.",
           "has_visual": false
         },
         {
@@ -602,8 +602,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Điện thoại di động có thé tiết lộ những thông tin gì?",
-          "vi_explanation": "D. Tat cả các đáp án trên.\nĐiện thoại có thê chứa nhật ký cuộc gọi, tin nhắn, hình ảnh và nhiêu loại dữ liệu khác phục vụ điều tra.",
+          "vi_question": "Điện thoại di động có thể tiết lộ những thông tin gì?",
+          "vi_explanation": "D. Tất cả các đáp án trên.\nĐiện thoại có thể chứa nhật ký cuộc gọi, tin nhắn, hình ảnh và nhiều loại dữ liệu khác phục vụ điều tra.",
           "has_visual": false
         },
         {
@@ -622,7 +622,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "TrueCrypt sử dụng dạng mã hóa nào?",
-          "vi_explanation": "D. AES-256 bit : mm\nTrueCrypt ho trợ nhiêu thuật toán mã hóa, trong đó AES-256 là thuật toán phô biên.",
+          "vi_explanation": "D. AES-256 bit.\nTrueCrypt hỗ trợ nhiều thuật toán mã hóa, trong đó AES-256 là thuật toán phổ biến.",
           "has_visual": false
         },
         {
@@ -642,7 +642,7 @@ window.QUIZ_COURSES.FRS301 = {
             "E"
           ],
           "vi_question": "Đĩa mềm mà Dennis Rader gửi cho cảnh sát chứa những thông tin gì?",
-          "vi_explanation": "E. Tat cả các đáp án trên.\nĐĩa chứa metadata như Last Saved By: Dennis, thông tin nhà thờ, ngày tháng và các dữ liệu khác giúp xác định danh tính của ông ta.",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nĐĩa chứa metadata như Last Saved By: Dennis, thông tin nhà thờ, ngày tháng và các dữ liệu khác giúp xác định danh tính của ông ta.",
           "has_visual": false
         },
         {
@@ -661,8 +661,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "E"
           ],
-          "vi_question": "Những thông tin nào trên mạng xã hội có thé được sử dụng làm chứng cứ?",
-          "vi_explanation": "E. Tat cả các đáp án trên. i Ñ :\nTên người dùng, ảnh đại diện, tin nhắn và danh sách bạn bè đêu có giá trị điều tra.",
+          "vi_question": "Những thông tin nào trên mạng xã hội có thể được sử dụng làm chứng cứ?",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nTên người dùng, ảnh đại diện, tin nhắn và danh sách bạn bè đều có giá trị điều tra.",
           "has_visual": false
         },
         {
@@ -681,7 +681,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Loại dữ liệu GPS nào tự động ghi lại lịch sử các vị trí mà thiết bị đã đi qua?",
-          "vi_explanation": "D. Track logs.\nTrack logs được tạo tự động đê lưu lại toàn bộ hành trình của thiết bi GPS.",
+          "vi_explanation": "D. Track logs.\nTrack logs được tạo tự động để lưu lại toàn bộ hành trình của thiết bị GPS.",
           "has_visual": false
         },
         {
@@ -700,7 +700,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Print spool file chứa thông tin gì?",
-          "vi_explanation": "D. Tên máy in, tên máy tính và tên tai khoản người dùng.\nPrint spool lưu nhiêu thông tin liên quan đên quá trình in và có gia trị trong điêu tra sô.",
+          "vi_explanation": "D. Tên máy in, tên máy tính và tên tài khoản người dùng.\nPrint spool lưu nhiều thông tin liên quan đến quá trình in và có giá trị trong điều tra số.",
           "has_visual": false
         },
         {
@@ -718,8 +718,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Kỹ thuật dùng đề che giấu dữ liệu trong điều tra số là gì?",
-          "vi_explanation": "D. Steganography. ĩ ẵ ,\nSteganography là kỹ thuật giâu dữ liệu bên trong ảnh, âm thanh hoặc các tệp sô khác đê khó bị phát hiện.",
+          "vi_question": "Kỹ thuật dùng để che giấu dữ liệu trong điều tra số là gì?",
+          "vi_explanation": "D. Steganography.\nSteganography là kỹ thuật giấu dữ liệu bên trong ảnh, âm thanh hoặc các tệp số khác để khó bị phát hiện.",
           "has_visual": false
         },
         {
@@ -737,8 +737,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Hệ điều hành nào được sử dụng nhiều trong doanh nghiệp va cơ quan chính phủ, đặc biệt dé xử lý email và lịch?",
-          "vi_explanation": "B. Blackberry\nBlackberry OS nôi tiêng với khả năng bảo mật cao và các tính năng email, lịch, nên được nhiêu doanh nghiệp và cơ quan chính phủ sử dụng",
+          "vi_question": "Hệ điều hành nào được sử dụng nhiều trong doanh nghiệp và cơ quan chính phủ, đặc biệt để xử lý email và lịch?",
+          "vi_explanation": "B. Blackberry OS\nBlackberry OS nổi tiếng với khả năng bảo mật cao và các tính năng email, lịch, nên được nhiều doanh nghiệp và cơ quan chính phủ sử dụng",
           "has_visual": false
         },
         {
@@ -756,8 +756,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Nên sử dụng công cu nào dé xem file header?",
-          "vi_explanation": "C. Hex Editor\nHex Editor cho phép xem dữ liệu ở dạng hexadecimal, bao gôm phân header của tệp.",
+          "vi_question": "Nên sử dụng công cụ nào để xem file header?",
+          "vi_explanation": "C. Hex Editor\nHex Editor cho phép xem dữ liệu ở dạng hexadecimal, bao gồm phần header của tệp.",
           "has_visual": false
         },
         {
@@ -775,7 +775,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Công cụ nào được thiết kế riêng cho điện thoại CDMA và có thé khôi phục danh bạ, lịch, hình nền và nhạc chuông?",
+          "vi_question": "Công cụ nào được thiết kế riêng cho điện thoại CDMA và có thể khôi phục danh bạ, lịch, hình nền và nhạc chuông?",
           "vi_explanation": "B. BitPim\nBitPim là công cụ chuyên dùng cho nhiều điện thoại CDMA, hỗ trợ trích xuất nhiều loại dữ liệu.",
           "has_visual": false
         },
@@ -795,7 +795,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Công cụ nào không dùng để thu thập và phân tích lưu lượng mạng trong Network Forensics?",
-          "vi_explanation": "B. Adobe Photoshop _\nPhotoshop là phân mêm chỉnh sửa ảnh, không có chức năng phân tích lưu lượng mạng.",
+          "vi_explanation": "B. Adobe Photoshop\nPhotoshop là phần mềm chỉnh sửa ảnh, không có chức năng phân tích lưu lượng mạng.",
           "has_visual": false
         },
         {
@@ -813,8 +813,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Phương pháp nào được dùng dé khôi phục dữ liệu đã bị xóa vĩnh viễn?",
-          "vi_explanation": "B. File carving\nFile carving phục hôi dữ liệu dựa trên câu trúc tệp mà không cân thông tin hệ thông tệp.",
+          "vi_question": "Phương pháp nào được dùng để khôi phục dữ liệu đã bị xóa vĩnh viễn?",
+          "vi_explanation": "B. File carving\nFile carving phục hồi dữ liệu dựa trên cấu trúc tệp mà không cần thông tin hệ thống tệp.",
           "has_visual": false
         },
         {
@@ -833,8 +833,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "High-Tech Crime Investigation Association đóng vai trò gì trong điều tra tội phạm máy tinh?",
-          "vi_explanation": "HTCIA (High Technology Crime Investigation Association) hỗ trợ:\nĐiêu tra viên,Công tô viên Chuyên gia điêu tra tội phạm công nghệ cao",
+          "vi_question": "High-Tech Crime Investigation Association đóng vai trò gì trong điều tra tội phạm máy tính?",
+          "vi_explanation": "HTCIA (High Technology Crime Investigation Association) hỗ trợ:\nĐiều tra viên, Công tố viên, Chuyên gia điều tra tội phạm công nghệ cao",
           "has_visual": false
         },
         {
@@ -853,7 +853,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Ứng dụng nào sau đây là phần mềm Steganography?",
-          "vi_explanation": "C. OpenStego Ñ mm\nOpenStego là công cụ mã nguôn mở dùng đê giâu dữ liệu trong ảnh và các tệp sô.",
+          "vi_explanation": "C. OpenStego\nOpenStego là công cụ mã nguồn mở dùng để giấu dữ liệu trong ảnh và các tệp số.",
           "has_visual": false
         },
         {
@@ -871,8 +871,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Có thé xác định điều gì từ các Windows Registry artifacts?",
-          "vi_explanation": "A. Các chương trình vừa cài đặt và các tệp đã được mở gân đây.\nRegistry lưu nhiêu thông tin về hoạt động của hệ thông và người dùng, rất hữu ích trong điêu tra sô.",
+          "vi_question": "Có thể xác định điều gì từ các Windows Registry artifacts?",
+          "vi_explanation": "A. Các chương trình vừa cài đặt và các tệp đã được mở gần đây.\nRegistry lưu nhiều thông tin về hoạt động của hệ thống và người dùng, rất hữu ích trong điều tra số.",
           "has_visual": false
         },
         {
@@ -891,7 +891,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Điều nào sau đây không thuộc đặc tả kỹ thuật của hệ thống chụp ảnh trong phòng thí nghiệm?",
-          "vi_explanation": "D. Tốc độ chụp ảnh rat thập (Very low image capture rate). ĩ i\nHệ thông forensic imaging yêu cau hiệu năng cao, không phải toc độ chụp thap.",
+          "vi_explanation": "D. Tốc độ chụp ảnh rất thấp (Very low image capture rate).\nHệ thống forensic imaging yêu cầu hiệu năng cao, không phải tốc độ chụp thấp.",
           "has_visual": false
         },
         {
@@ -909,8 +909,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Hệ thống tệp nào được Windows sử dụng phd biến?",
-          "vi_explanation": "B.NTFS\nNTFS là hệ thông tệp mặc định của các phiên ban Windows hiện dai.",
+          "vi_question": "Hệ thống tệp nào được Windows sử dụng phổ biến?",
+          "vi_explanation": "B. NTFS\nNTFS là hệ thống tệp mặc định của các phiên bản Windows hiện đại.",
           "has_visual": false
         },
         {
@@ -928,8 +928,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Thiết bị lưu trữ chính dùng dé lưu dữ liệu lâu dài trên máy tính hiện đại là gì?",
-          "vi_explanation": "B.SSD\nSSD là thiết bị lưu trữ không mắt dữ liệu khi mắt điện và được sử dụng rộng rãi hiện nay.",
+          "vi_question": "Thiết bị lưu trữ chính dùng để lưu dữ liệu lâu dài trên máy tính hiện đại là gì?",
+          "vi_explanation": "B. SSD\nSSD là thiết bị lưu trữ không mất dữ liệu khi mất điện và được sử dụng rộng rãi hiện nay.",
           "has_visual": false
         },
         {
@@ -948,7 +948,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Ứng dụng nào sau đây là phần mềm Steganography?",
-          "vi_explanation": "C. OpenStego ĩ | ẵ\nOpenStego hô trợ giâu và trích xuất dữ liệu khỏi các tệp sô.",
+          "vi_explanation": "C. OpenStego\nOpenStego hỗ trợ giấu và trích xuất dữ liệu khỏi các tệp số.",
           "has_visual": false
         },
         {
@@ -966,8 +966,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Registry hive nào chứa dữ liệu cầu hình riêng của người dùng trong Windows?",
-          "vi_explanation": "B. HKEY_CURRENT_USER\nHKCU lưu các thiết lập và câu hình của người dùng hiện đang đăng nhập.",
+          "vi_question": "Registry hive nào chứa dữ liệu cấu hình riêng của người dùng trong Windows?",
+          "vi_explanation": "B. HKEY_CURRENT_USER\nHKCU lưu các thiết lập và cấu hình của người dùng hiện đang đăng nhập.",
           "has_visual": false
         },
         {
@@ -986,7 +986,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Kỹ thuật tìm kiếm nào là phù hợp?",
-          "vi_explanation": "D. Tat cả các đáp án trên. Ñ Ñ : i\nManual Browsing, Keyword Search va Regular Expression Search déu là các kỹ thuật tìm kiêm hợp lệ trong điêu tra sô.",
+          "vi_explanation": "D. Tất cả các đáp án trên.\nManual Browsing, Keyword Search và Regular Expression Search đều là các kỹ thuật tìm kiếm hợp lệ trong điều tra số.",
           "has_visual": false
         },
         {
@@ -1004,8 +1004,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Thiết bị cơ bản nào được dùng dé bảo vệ mạng?",
-          "vi_explanation": "A. Firewall -\nFirewall là thiết bị bảo vệ mạng cơ bản bang cách kiêm soát lưu lượng ra vào.",
+          "vi_question": "Thiết bị cơ bản nào được dùng để bảo vệ mạng?",
+          "vi_explanation": "A. Firewall\nFirewall là thiết bị bảo vệ mạng cơ bản bằng cách kiểm soát lưu lượng ra vào.",
           "has_visual": false
         },
         {
@@ -1024,7 +1024,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "",
-          "vi_explanation": "D. Connected units\nGiải thích:\nConnected GPS Units kêt nôi với điện thoại qua Bluetooth, cho phép:\nHands-free calling\nĐông bộ danh bạ\nNhật ký cuộc gọi\nSMS messages\nĐây là nguồn dữ liệu quan trọng trong Mobile Forensics.",
+          "vi_explanation": "D. Connected units\nGiải thích:\nConnected GPS Units kết nối với điện thoại qua Bluetooth, cho phép:\nHands-free calling\nĐồng bộ danh bạ\nNhật ký cuộc gọi\nSMS messages\nĐây là nguồn dữ liệu quan trọng trong Mobile Forensics.",
           "has_visual": false
         },
         {
@@ -1042,8 +1042,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Hệ điều hành nào được sử dụng nhiều trong doanh nghiệp va cơ quan chính phủ, đặc biệt dé xử lý email và lịch?",
-          "vi_explanation": "B. Blackberry\nBlackberry OS nôi tiêng với khả năng bảo mật và các dich vụ email doanh nghiệp.",
+          "vi_question": "Hệ điều hành nào được sử dụng nhiều trong doanh nghiệp và cơ quan chính phủ, đặc biệt để xử lý email và lịch?",
+          "vi_explanation": "B. Blackberry OS\nBlackberry OS nổi tiếng với khả năng bảo mật và các dịch vụ email doanh nghiệp.",
           "has_visual": false
         },
         {
@@ -1063,7 +1063,7 @@ window.QUIZ_COURSES.FRS301 = {
             "E"
           ],
           "vi_question": "Công cụ hoặc kỹ thuật nào sau đây không phải là công cụ mã hóa?",
-          "vi_explanation": "E. WinRAR\nWINRAR là công cụ nén tệp, mặc dù có thê đặt mật khâu nhưng không phải là công cu mã hóa chuyên dung như BitLocker hay TrueCrypt.",
+          "vi_explanation": "E. WinRAR\nWinRAR là công cụ nén tệp, mặc dù có thể đặt mật khẩu nhưng không phải là công cụ mã hóa chuyên dụng như BitLocker hay TrueCrypt.",
           "has_visual": false
         },
         {
@@ -1082,7 +1082,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Công cụ pháp y nào có thể giải mã và phân tích tệp INDEX.DAT?",
-          "vi_explanation": "B.FTKvàEnCase\nFTK và EnCase déu ho trợ phân tích các tệp INDEX DAT của Windows.",
+          "vi_explanation": "B. FTK và EnCase\nFTK và EnCase đều hỗ trợ phân tích các tệp INDEX.DAT của Windows.",
           "has_visual": false
         },
         {
@@ -1101,7 +1101,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Công cụ nào hỗ trợ hơn 2.500 mẫu điện thoại, cho phép trích xuất dữ liệu tại hiện trường và có đầu đọc/nhân bản SIM?",
-          "vi_explanation": "B. Cellebrite UFED \\ i :\nCellebrite UFED là công cụ điêu tra thiết bị di động rất phô biên trong pháp y sô.",
+          "vi_explanation": "B. Cellebrite UFED\nCellebrite UFED là công cụ điều tra thiết bị di động rất phổ biến trong pháp y số.",
           "has_visual": false
         },
         {
@@ -1120,7 +1120,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Công cụ nào thu thập dữ liệu từ Blackberry, bản sao lưu iTunes và thẻ SD, đồng thời dễ dàng nhập vào EnCase Forensic?",
-          "vi_explanation": "B. AccessData's MPE+\nMPE+ hô trợ thu thập dữ liệu từ nhiêu thiêt bị và tích hợp với EnCase.",
+          "vi_explanation": "B. AccessData's MPE+\nMPE+ hỗ trợ thu thập dữ liệu từ nhiều thiết bị và tích hợp với EnCase.",
           "has_visual": false
         },
         {
@@ -1139,7 +1139,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Công cụ nào hỗ trợ hơn 2.500 mẫu điện thoại, cho phép trích xuất dữ liệu tại hiện trường và có đầu đọc/nhân bản SIM?",
-          "vi_explanation": "B. Cellebrite UFED : i\nĐây là một trong những công cụ điêu tra điện thoại được sử dụng rộng rãi nhất.",
+          "vi_explanation": "B. Cellebrite UFED\nĐây là một trong những công cụ điều tra điện thoại được sử dụng rộng rãi nhất.",
           "has_visual": false
         },
         {
@@ -1157,8 +1157,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Công cu nào được dùng đề ngăn thiết bị di động nhận tin hiệu trong quá trình thu thập chứng cứ?",
-          "vi_explanation": "C. Faraday bag\nFaraday bag chặn sóng vô tuyên, ngăn thiết bị nhận cuộc gọi, tin nhăn hoặc bi xóa dữ liệu từ xa.",
+          "vi_question": "Công cụ nào được dùng để ngăn thiết bị di động nhận tín hiệu trong quá trình thu thập chứng cứ?",
+          "vi_explanation": "C. Faraday bag\nFaraday bag chặn sóng vô tuyến, ngăn thiết bị nhận cuộc gọi, tin nhắn hoặc bị xóa dữ liệu từ xa.",
           "has_visual": false
         },
         {
@@ -1177,7 +1177,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Hệ điều hành nào được phát triển ban đầu bởi sự hợp tác giữa Nokia, Ericsson, Motorola và Psion?",
-          "vi_explanation": "D. Symbian Ñ mm mm\nSymbian là hệ điều hành di động nôi tiêng trước khi Android và iOS trở nên phô biên.",
+          "vi_explanation": "D. Symbian\nSymbian là hệ điều hành di động nổi tiếng trước khi Android và iOS trở nên phổ biến.",
           "has_visual": false
         },
         {
@@ -1196,7 +1196,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Công cụ nào hỗ trợ hơn 2.500 mẫu điện thoại, cho phép trích xuất dữ liệu tại hiện trường và có đầu đọc/nhân bản SIM?",
-          "vi_explanation": "B. Cellebrite\nCellebrite UFED ho trợ rat nhiêu mẫu điện thoại va được các cơ quan điều tra sử dụng rộng rãi.",
+          "vi_explanation": "B. Cellebrite UFED\nCellebrite UFED hỗ trợ rất nhiều mẫu điện thoại và được các cơ quan điều tra sử dụng rộng rãi.",
           "has_visual": false
         },
         {
@@ -1214,8 +1214,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Thuật toán băm nao được xem là đã bi phá vỡ va không còn nên sử dụng cho mục đích bảo mật?",
-          "vi_explanation": "C. MD5\nMD5 đã ton tai nhiều lỗ hông va cham (collision) nên không còn được khuyến nghị sử dụng cho các mục dich bảo mật hiện dai.",
+          "vi_question": "Thuật toán băm nào được xem là đã bị phá vỡ và không còn nên sử dụng cho mục đích bảo mật?",
+          "vi_explanation": "C. MD5\nMD5 đã tồn tại nhiều lỗ hổng va chạm (collision) nên không còn được khuyến nghị sử dụng cho các mục đích bảo mật hiện đại.",
           "has_visual": false
         },
         {
@@ -1233,8 +1233,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Tường lửa truyền thống (Traditional Firewall) có thé kiểm soát những tang nào của mô hình OSI?",
-          "vi_explanation": "B.Layer3,4 _ Ñ ẵ\nTường lửa truyền thông chủ yêu hoạt động ở Layer 3 (Network) và Layer 4 (Transport) đê lọc địa chỉ IP, giao thức và công.",
+          "vi_question": "Tường lửa truyền thống (Traditional Firewall) có thể kiểm soát những tầng nào của mô hình OSI?",
+          "vi_explanation": "B. Layer 3, 4\nTường lửa truyền thống chủ yếu hoạt động ở Layer 3 (Network) và Layer 4 (Transport) để lọc địa chỉ IP, giao thức và cổng.",
           "has_visual": false
         },
         {
@@ -1252,8 +1252,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trinh duyệt web nào lưu URL trong Windows Registry?",
-          "vi_explanation": "C. Internet Explorer\nInternet Explorer lưu nhiêu thông tin như URL đã truy cập trong Windows Registry, trong khi Chrome và Firefox chủ yêu lưu trong cơ sở dữ liệu riêng.",
+          "vi_question": "Trình duyệt web nào lưu URL trong Windows Registry?",
+          "vi_explanation": "C. Internet Explorer\nInternet Explorer lưu nhiều thông tin như URL đã truy cập trong Windows Registry, trong khi Chrome và Firefox chủ yếu lưu trong cơ sở dữ liệu riêng.",
           "has_visual": false
         },
         {
@@ -1271,8 +1271,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Phương pháp nào xác định tệp đáng tin cậy hon phần mở rộng (extension)?",
-          "vi_explanation": "C. File header\nFile header chứa magic number giúp xác định đúng loại tệp, ngay cả khi phân mở rộng bị thay đôi.",
+          "vi_question": "Phương pháp nào xác định tệp đáng tin cậy hơn phần mở rộng (extension)?",
+          "vi_explanation": "C. File header\nFile header chứa magic number giúp xác định đúng loại tệp, ngay cả khi phần mở rộng bị thay đổi.",
           "has_visual": false
         },
         {
@@ -1291,8 +1291,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "E"
           ],
-          "vi_question": "Những thông tin nào của email có thé được sử dụng làm chứng cứ?",
-          "vi_explanation": "E. Tat cả các đáp án trên. ĩ :\nEmail có thê cung cap địa chỉ email, địa chỉ IP, thời gian gửi/nhận và tệp đính kèm đê phục vụ điêu tra.",
+          "vi_question": "Những thông tin nào của email có thể được sử dụng làm chứng cứ?",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nEmail có thể cung cấp địa chỉ email, địa chỉ IP, thời gian gửi/nhận và tệp đính kèm để phục vụ điều tra.",
           "has_visual": false
         },
         {
@@ -1310,8 +1310,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Hệ thống tệp nào được Windows sử dụng phd biến dé quản lý tệp trên thiết bị lưu trữ?",
-          "vi_explanation": "C.\nNTFS là hệ thống tệp mặc định của các phiên bản Windows hiện dai.",
+          "vi_question": "Hệ thống tệp nào được Windows sử dụng phổ biến để quản lý tệp trên thiết bị lưu trữ?",
+          "vi_explanation": "C. NTFS\nNTFS là hệ thống tệp mặc định của các phiên bản Windows hiện đại.",
           "has_visual": false
         },
         {
@@ -1330,7 +1330,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Loại thiết bị GPS nào cho phép truy xuất thông tin theo thời gian thực như Google Search và cập nhật giao thông?",
-          "vi_explanation": "D.Connectedunits -\nConnected GPS kêt nôi Internet dé cung cap dữ liệu thời gian thực.",
+          "vi_explanation": "D. Connected units\nConnected GPS kết nối Internet để cung cấp dữ liệu thời gian thực.",
           "has_visual": false
         },
         {
@@ -1348,8 +1348,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Điện thoại GSM sử dụng công nghệ nao đề truyền dữ liệu?",
-          "vi_explanation": "B. Time Division Multiple Access (TDMA)\nGSM sử dụng kỹ thuật TDMA đê chia sẻ kênh truyền giữa nhiêu người dùng.",
+          "vi_question": "Điện thoại GSM sử dụng công nghệ nào để truyền dữ liệu?",
+          "vi_explanation": "B. Time Division Multiple Access (TDMA)\nGSM sử dụng kỹ thuật TDMA để chia sẻ kênh truyền giữa nhiều người dùng.",
           "has_visual": false
         },
         {
@@ -1367,8 +1367,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Kỹ thuật cơ ban nhất mà hệ thống phat hiện xâm nhập (IDS) dựa vào là gì?",
-          "vi_explanation": "A. Signature-Based Detection mm\nSignature-based Detection so khớp lưu lượng với các mẫu tân công đã biêt.",
+          "vi_question": "Kỹ thuật cơ bản nhất mà hệ thống phát hiện xâm nhập (IDS) dựa vào là gì?",
+          "vi_explanation": "A. Signature-Based Detection\nSignature-based Detection so khớp lưu lượng với các mẫu tấn công đã biết.",
           "has_visual": false
         },
         {
@@ -1386,8 +1386,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Điện thoại GSM sử dụng công nghệ nao đề truyền dữ liệu?",
-          "vi_explanation": "B. Time Division Multiple Access (TDMA).\nĐây là công nghệ truyén dữ liệu tiêu chuan của mang GSM.",
+          "vi_question": "Điện thoại GSM sử dụng công nghệ nào để truyền dữ liệu?",
+          "vi_explanation": "B. Time Division Multiple Access (TDMA).\nĐây là công nghệ truyền dữ liệu tiêu chuẩn của mạng GSM.",
           "has_visual": false
         },
         {
@@ -1406,8 +1406,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "E"
           ],
-          "vi_question": "Công cụ nào là công cụ bẻ khóa mật khấu?",
-          "vi_explanation": "E. Tat cả các đáp án trên. mm\nPassword Recovery Toolkit, John the Ripper, Cain và Ophcrack déu ho trợ khôi phục hoặc bẻ khóa mật khâu.",
+          "vi_question": "Công cụ nào là công cụ bẻ khóa mật khẩu?",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nPassword Recovery Toolkit, John the Ripper, Cain và Ophcrack đều hỗ trợ khôi phục hoặc bẻ khóa mật khẩu.",
           "has_visual": false
         },
         {
@@ -1426,8 +1426,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "E"
           ],
-          "vi_question": "Chứng cứ có thé được tìm thay ở đâu?",
-          "vi_explanation": "E. Tât cả các đáp án trên.\nChứng cứ sô có thê tôn tại trên máy chủ, router, firewall và máy tính.",
+          "vi_question": "Chứng cứ có thể được tìm thấy ở đâu?",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nChứng cứ số có thể tồn tại trên máy chủ, router, firewall và máy tính.",
           "has_visual": false
         },
         {
@@ -1447,7 +1447,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Rủi ro lớn nhất khi thu thập chứng cứ là gì?",
-          "vi_explanation": "A. Ghi dữ liệu lên ô đĩa chứa chứng cứ.\nViệc ghi lên ô chứa chứng cứ có thê làm thay đôi hoặc phá hủy dữ liệu gôc.",
+          "vi_explanation": "A. Ghi dữ liệu lên ổ đĩa chứa chứng cứ.\nViệc ghi lên ổ chứa chứng cứ có thể làm thay đổi hoặc phá hủy dữ liệu gốc.",
           "has_visual": false
         },
         {
@@ -1466,7 +1466,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Snort lưu các file log ở đâu?",
-          "vi_explanation": "D. war/log/snort\nTheo câu hình mặc định trên nhiêu hệ Linux, log của Snort được lưu trong /var/log/snort.",
+          "vi_explanation": "D. /var/log/snort\nTheo cấu hình mặc định trên nhiều hệ Linux, log của Snort được lưu trong /var/log/snort.",
           "has_visual": false
         },
         {
@@ -1485,7 +1485,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Khi điều tra các hoạt động của máy tính, Registry hive nào thường được sử dụng?",
-          "vi_explanation": "B. HKEY_CURRENT_USER\nHKCU lưu các hoạt động và thiết lập của người dùng hiện tai.",
+          "vi_explanation": "B. HKEY_CURRENT_USER\nHKCU lưu các hoạt động và thiết lập của người dùng hiện tại.",
           "has_visual": false
         },
         {
@@ -1523,8 +1523,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Khi tạo bản sao pháp y (forensic copy), nội dung 6 cứng được lưu dưới dang gi?",
-          "vi_explanation": "A. Dưới dạng anh (image) đã được nén.\nCác công cụ pháp y thường lưu dữ liệu dưới dạng image như E01 đê bảo toàn tính toàn vẹn của chứng cứ.",
+          "vi_question": "Khi tạo bản sao pháp y (forensic copy), nội dung ổ cứng được lưu dưới dạng gì?",
+          "vi_explanation": "A. Dưới dạng ảnh (image) đã được nén.\nCác công cụ pháp y thường lưu dữ liệu dưới dạng image như E01 để bảo toàn tính toàn vẹn của chứng cứ.",
           "has_visual": false
         },
         {
@@ -1543,7 +1543,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Trong điều tra số, phần mở rộng tệp bất thường thường gợi ý điều gì?",
-          "vi_explanation": "C. Tệp có thê độc hại hoặc đáng ngờ.\nMalware thường sử dụng phân mở rộng lạ hoặc giả mạo đê đánh lừa người dùng.",
+          "vi_explanation": "C. Tệp có thể độc hại hoặc đáng ngờ.\nMalware thường sử dụng phần mở rộng lạ hoặc giả mạo để đánh lừa người dùng.",
           "has_visual": false
         },
         {
@@ -1561,8 +1561,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Khi sử dụng phần mềm pháp y mới, ban nên làm gi?",
-          "vi_explanation": "C. Kiém tra và xác thực phan mem.\nCông cụ pháp y cần được kiêm chứng dé đảm bảo két quả đáng tin cậy trước khi sử dụng.",
+          "vi_question": "Khi sử dụng phần mềm pháp y mới, bạn nên làm gì?",
+          "vi_explanation": "C. Kiểm tra và xác thực phần mềm.\nCông cụ pháp y cần được kiểm chứng để đảm bảo kết quả đáng tin cậy trước khi sử dụng.",
           "has_visual": false
         },
         {
@@ -1581,7 +1581,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Khi tắt máy tính, thông tin nào thường bị mất?",
-          "vi_explanation": "D. Tat cả các đáp án trên. i Co 3\nKhi mat nguôn, dữ liệu trong RAM, tiên trình đang chạy va các kêt nôi mạng hiện tai đều bi mat.",
+          "vi_explanation": "D. Tất cả các đáp án trên.\nKhi mất nguồn, dữ liệu trong RAM, tiến trình đang chạy và các kết nối mạng hiện tại đều bị mất.",
           "has_visual": false
         },
         {
@@ -1600,8 +1600,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Khi hai ỗ cứng dùng chung một cáp dữ liệu IDE, chúng phải được cầu hình như thé nào?",
-          "vi_explanation": "C. Master va Slave\nTrên giao tiếp IDE/PATA, hai 6 phải được dat jumper thành Master va Slave.",
+          "vi_question": "Khi hai ổ cứng dùng chung một cáp dữ liệu IDE, chúng phải được cấu hình như thế nào?",
+          "vi_explanation": "C. Master và Slave\nTrên giao tiếp IDE/PATA, hai ổ phải được đặt jumper thành Master và Slave.",
           "has_visual": false
         },
         {
@@ -1620,7 +1620,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Tại sao phải xác thực (validate) các công cụ pháp y?",
-          "vi_explanation": "D. Đê đảm bảo tính chính xác của chứng cứ.\nCông cụ phải cho két quả chính xác và đáng tin cậy dé chứng cứ được chap nhận.",
+          "vi_explanation": "D. Để đảm bảo tính chính xác của chứng cứ.\nCông cụ phải cho kết quả chính xác và đáng tin cậy để chứng cứ được chấp nhận.",
           "has_visual": false
         },
         {
@@ -1639,7 +1639,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Theo nguyên tắc thu thập dữ liệu trực tiếp (live collection), trong các vụ liên quan đến malware, thành phần nào quan trọng nhất?",
-          "vi_explanation": "A.\nRAM chứa tiến trình đang chạy, khóa mã hóa và nhiều dữ liệu dễ mat nên can được thu thập trước.",
+          "vi_explanation": "A. RAM\nRAM chứa tiến trình đang chạy, khóa mã hóa và nhiều dữ liệu dễ mất nên cần được thu thập trước.",
           "has_visual": false
         },
         {
@@ -1656,7 +1656,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "FTK Imager có phải là công cụ chống pháp y (antiforensics) không?",
-          "vi_explanation": "B.No\nFTK Imager là công cụ tạo ảnh pháp y và thu thập chứng cứ, không phải công cụ chống pháp y.",
+          "vi_explanation": "B. No\nFTK Imager là công cụ tạo ảnh pháp y và thu thập chứng cứ, không phải công cụ chống pháp y.",
           "has_visual": false
         },
         {
@@ -1675,7 +1675,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Digital Forensics được sử dụng trong trường hợp nào?",
-          "vi_explanation": "B. Điêu tra tội phạm mạng và các vụ rò rỉ dữ liệu.\nĐiêu tra số được áp dụng đê thu thập và phân tích chứng cứ trong các sự cô an ninh mạng.",
+          "vi_explanation": "B. Điều tra tội phạm mạng và các vụ rò rỉ dữ liệu.\nĐiều tra số được áp dụng để thu thập và phân tích chứng cứ trong các sự cố an ninh mạng.",
           "has_visual": false
         },
         {
@@ -1693,7 +1693,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Trong điều tra số, mồi quan hệ giữa byte va bit là gì?",
+          "vi_question": "Trong điều tra số, mối quan hệ giữa byte và bit là gì?",
           "vi_explanation": "A. Một byte gồm 8 bit.\nĐây là đơn vị đo dữ liệu cơ bản trong máy tính.",
           "has_visual": false
         },
@@ -1712,8 +1712,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Khi lựa chon giải pháp lưu trữ chứng cứ số, yếu tố quan trong nhất là gì?",
-          "vi_explanation": "C. Tinh bảo mật và tính toàn vẹn.\nChứng cứ phải được lưu trữ sao cho không bị sửa đôi và luôn đảm bảo tính toàn vẹn.",
+          "vi_question": "Khi lựa chọn giải pháp lưu trữ chứng cứ số, yếu tố quan trọng nhất là gì?",
+          "vi_explanation": "C. Tính bảo mật và tính toàn vẹn.\nChứng cứ phải được lưu trữ sao cho không bị sửa đổi và luôn đảm bảo tính toàn vẹn.",
           "has_visual": false
         },
         {
@@ -1732,8 +1732,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tôi phạm truyền thống nào sau đây không trở nên dé thực hiện hoặc phd biến hơn nhờ mạng viễn thông và máy tinh?",
-          "vi_explanation": "C. DoS attacks Ñ Ñ Ñ s\nDoS (Denial of Service) là tội phạm mạng thuan túy, không phải tội phạm truyền thông được hô trợ bởi công nghệ.",
+          "vi_question": "Tội phạm truyền thống nào sau đây không trở nên dễ thực hiện hoặc phổ biến hơn nhờ mạng viễn thông và máy tính?",
+          "vi_explanation": "C. DoS attacks\nDoS (Denial of Service) là tội phạm mạng thuần túy, không phải tội phạm truyền thống được hỗ trợ bởi công nghệ.",
           "has_visual": false
         },
         {
@@ -1751,8 +1751,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tai sao điện thoại can được cách ly khỏi mạng trong quá trình thu thập chứng cứ?",
-          "vi_explanation": "C. Đễ ngăn chặn việc dữ liệu bị xóa từ xa (To prevent remote deletion of data).\nViệc cách ly điện thoại khỏi mạng (ví dụ: bật chế độ máy bay hoặc sử dụng túi Faraday) giúp ngăn chặn các lệnh xóa dữ liệu hoặc thay đối dữ liệu từ xa.",
+          "vi_question": "Tại sao điện thoại cần được cách ly khỏi mạng trong quá trình thu thập chứng cứ?",
+          "vi_explanation": "C. Để ngăn chặn việc dữ liệu bị xóa từ xa (To prevent remote deletion of data).\nViệc cách ly điện thoại khỏi mạng (ví dụ: bật chế độ máy bay hoặc sử dụng túi Faraday) giúp ngăn chặn các lệnh xóa dữ liệu hoặc thay đổi dữ liệu từ xa.",
           "has_visual": false
         },
         {
@@ -1770,8 +1770,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Loại thiết bi lưu trữ nào sử dung từ tinh dé lưu dữ liệu?",
-          "vi_explanation": "C. Ô cứng (Hard disks).\nÔ cứng HDD lưu trữ dữ liệu bằng các đĩa từ quay. Trong khi đó SSD, USB va DVD sử dụng các công nghệ lưu trữ khác.",
+          "vi_question": "Loại thiết bị lưu trữ nào sử dụng từ tính để lưu dữ liệu?",
+          "vi_explanation": "C. Ổ cứng (Hard disks).\nỔ cứng HDD lưu trữ dữ liệu bằng các đĩa từ quay. Trong khi đó SSD, USB và DVD sử dụng các công nghệ lưu trữ khác.",
           "has_visual": false
         },
         {
@@ -1789,8 +1789,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Loại tệp nào có thé chứa siêu dữ liệu (metadata) hữu ich trong điều tra số?",
-          "vi_explanation": "D. Tất cả các đáp án trên (All of the above).\nCác tệp văn bản, hình ảnh và PDF đều có thé chứa metadata như tác giả, thời gian tao, thời gian chỉnh sửa, vị tri GPS hoặc thông tin thiết bị.",
+          "vi_question": "Loại tệp nào có thể chứa siêu dữ liệu (metadata) hữu ích trong điều tra số?",
+          "vi_explanation": "D. Tất cả các đáp án trên (All of the above).\nCác tệp văn bản, hình ảnh và PDF đều có thể chứa metadata như tác giả, thời gian tạo, thời gian chỉnh sửa, vị trí GPS hoặc thông tin thiết bị.",
           "has_visual": false
         },
         {
@@ -1808,7 +1808,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Loại thiết bi GPS nào cung cấp khả năng kết nối Bluetooth với điện thoại, cho phép thu hồi nhật ký cuộc gọi, danh bạ và tin nhắn SMS?",
+          "vi_question": "Loại thiết bị GPS nào cung cấp khả năng kết nối Bluetooth với điện thoại, cho phép thu hồi nhật ký cuộc gọi, danh bạ và tin nhắn SMS?",
           "vi_explanation": "B. Smart units.\nSmart GPS units có khả năng kết nối với điện thoại qua Bluetooth và lưu trữ nhiều dữ liệu hữu ích phục vụ điều tra số.",
           "has_visual": false
         },
@@ -1827,8 +1827,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Bước dau tiên khi xử lý một thiết bi di động làm chứng cứ là gì?",
-          "vi_explanation": "C. Cách ly thiết bị khỏi mạng (Isolating it from the network).\nĐây là bước đầu tiên đề bảo vệ tính toàn vẹn của chứng cứ và ngăn dữ liệu bị thay đôi hoặc xóa từ xa.",
+          "vi_question": "Bước đầu tiên khi xử lý một thiết bị di động làm chứng cứ là gì?",
+          "vi_explanation": "C. Cách ly thiết bị khỏi mạng (Isolating it from the network).\nĐây là bước đầu tiên để bảo vệ tính toàn vẹn của chứng cứ và ngăn dữ liệu bị thay đổi hoặc xóa từ xa.",
           "has_visual": false
         },
         {
@@ -1846,8 +1846,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich của Thumbnail trong Windows là gì?",
-          "vi_explanation": "C. Cung cấp bản xem trước nhanh của các tệp hình ảnh (To provide quick previews of image files).\nThumbnail giúp người dùng xem nhanh nội dung của ảnh và đồng thời có thé là nguồn chứng cứ trong điều tra số.",
+          "vi_question": "Mục đích của Thumbnail trong Windows là gì?",
+          "vi_explanation": "C. Cung cấp bản xem trước nhanh của các tệp hình ảnh (To provide quick previews of image files).\nThumbnail giúp người dùng xem nhanh nội dung của ảnh và đồng thời có thể là nguồn chứng cứ trong điều tra số.",
           "has_visual": false
         },
         {
@@ -1866,7 +1866,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Mã Caesar (Caesar Cipher) là ví dụ của loại mã hóa nào?",
-          "vi_explanation": "D. Mật mã thay thé cô dién (Classical substitution cipher).\nCaesar Cipher là phương pháp mã hóa thay thé đơn giản, trong đó mối ký tự được dịch chuyên một số vị trí cố định trong bảng chữ cái.",
+          "vi_explanation": "D. Mật mã thay thế cổ điển (Classical substitution cipher).\nCaesar Cipher là phương pháp mã hóa thay thế đơn giản, trong đó mỗi ký tự được dịch chuyển một số vị trí cố định trong bảng chữ cái.",
           "has_visual": false
         },
         {
@@ -1884,8 +1884,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Loại dữ liệu nào có thé được truy cập dễ dàng và đang được người dùng máy tính sử dụng?",
-          "vi_explanation": "A. Dữ liệu đang hoạt động (Active data).\nActive data là dữ liệu hiện đang tồn tại và có thé truy cập trực tiếp bởi người dùng hoặc hệ điều hành.",
+          "vi_question": "Loại dữ liệu nào có thể được truy cập dễ dàng và đang được người dùng máy tính sử dụng?",
+          "vi_explanation": "A. Dữ liệu đang hoạt động (Active data).\nActive data là dữ liệu hiện đang tồn tại và có thể truy cập trực tiếp bởi người dùng hoặc hệ điều hành.",
           "has_visual": false
         },
         {
@@ -1903,8 +1903,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Công cu nào sau day thường được sử dụng dé khôi phục dữ liệu đã xóa trong điều tra số?",
-          "vi_explanation": "C. EnCase Forensic.\nEnCase Forensic là một trong những công cụ điều tra số phd biến dùng dé thu thập, phân tích và khôi phục dữ liệu.",
+          "vi_question": "Công cụ nào sau đây thường được sử dụng để khôi phục dữ liệu đã xóa trong điều tra số?",
+          "vi_explanation": "C. EnCase Forensic.\nEnCase Forensic là một trong những công cụ điều tra số phổ biến dùng để thu thập, phân tích và khôi phục dữ liệu.",
           "has_visual": false
         },
         {
@@ -1922,7 +1922,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Loại chứng cứ nào có thé được tim thay trong Windows Registry?",
+          "vi_question": "Loại chứng cứ nào có thể được tìm thấy trong Windows Registry?",
           "vi_explanation": "B. Dấu thời gian và hoạt động của người dùng (Timestamps and user activity).\nRegistry lưu nhiều thông tin như thời gian sử dụng, chương trình đã chạy, thiết bị USB đã kết nối và các hoạt động của người dùng.",
           "has_visual": false
         },
@@ -1960,8 +1960,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Dầu vết GPS nào cho biết một thiết bị đã từng di qua những dau?",
-          "vi_explanation": "C. Trackpoint\n— Điêm theo dối hành trình.\nTrackpoint là các điểm được GPS tự động ghi lại trong quá trình thiết bị di chuyễn, từ đó có thể xác định lịch sử tuyến đường của thiết bị.",
+          "vi_question": "Dấu vết GPS nào cho biết một thiết bị đã từng đi qua những đâu?",
+          "vi_explanation": "C. Trackpoint\n→ Điểm theo dõi hành trình.\nTrackpoint là các điểm được GPS tự động ghi lại trong quá trình thiết bị di chuyển, từ đó có thể xác định lịch sử tuyến đường của thiết bị.",
           "has_visual": false
         },
         {
@@ -1979,8 +1979,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Tu chính án nào của Hiến pháp Hoa Ky bảo vệ công dân khỏi việc khám xét và thu giữ bất hợp lý?",
-          "vi_explanation": "B. Fourth Amendment\n— Tu chính án thứ Tư.\nFourth Amendment bảo vệ cá nhân khỏi các cuộc khám xét và thu giữ không hợp lý của chính phủ và đặt ra yêu cầu pháp lý đối với việc cấp lệnh khám xét.",
+          "vi_question": "Tu chính án nào của Hiến pháp Hoa Kỳ bảo vệ công dân khỏi việc khám xét và thu giữ bất hợp lý?",
+          "vi_explanation": "B. Fourth Amendment\n→ Tu chính án thứ Tư.\nFourth Amendment bảo vệ cá nhân khỏi các cuộc khám xét và thu giữ không hợp lý của chính phủ và đặt ra yêu cầu pháp lý đối với việc cấp lệnh khám xét.",
           "has_visual": false
         },
         {
@@ -1998,8 +1998,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "MD5 checksum được sử dụng dé xác minh điều gì?",
-          "vi_explanation": "B. The integrity of the evidence\n— Tính toàn vẹn của băng chứng.\nGiá tri hash MD5 có thé được dùng trong quy trình pháp chứng đề kiêm tra dữ liệu có bị thay đôi sau khi thu thập hay không.",
+          "vi_question": "MD5 checksum được sử dụng để xác minh điều gì?",
+          "vi_explanation": "B. The integrity of the evidence\n→ Tính toàn vẹn của bằng chứng.\nGiá trị hash MD5 có thể được dùng trong quy trình pháp chứng để kiểm tra dữ liệu có bị thay đổi sau khi thu thập hay không.",
           "has_visual": false
         },
         {
@@ -2017,8 +2017,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Sau khi bảo vệ hiện trường vụ án, câu hỏi đầu tiên mà điều tra viên nên đặt ra dé định hướng quá trình digital forensics là gi?",
-          "vi_explanation": "A. Are the devices currently running?\n— Các thiết bị hiện có đang hoạt động hay không?\nTrạng thái bat/tat của thiết bị rất quan trọng vì thiết bị đang chạy có thé chứa dữ liệu dễ mất như nội dung RAM, tiền trình và kết nối mạng hiện tại.",
+          "vi_question": "Sau khi bảo vệ hiện trường vụ án, câu hỏi đầu tiên mà điều tra viên nên đặt ra để định hướng quá trình digital forensics là gì?",
+          "vi_explanation": "A. Are the devices currently running?\n→ Các thiết bị hiện có đang hoạt động hay không?\nTrạng thái bật/tắt của thiết bị rất quan trọng vì thiết bị đang chạy có thể chứa dữ liệu dễ mất như nội dung RAM, tiến trình và kết nối mạng hiện tại.",
           "has_visual": false
         },
         {
@@ -2036,8 +2036,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Theo order of volatility, loại dữ liệu nào được xem là dễ mắt nhất?",
-          "vi_explanation": "B. System memory (RAM)\n— Bộ nhớ hệ thống (RAM).\nRAM là bộ nhớ volatile, dữ liệu có thé biến mắt khi thiết bị bị tắt hoặc mat nguồn, vì vậy thường cần được ưu tiên thu thập.",
+          "vi_question": "Theo order of volatility, loại dữ liệu nào được xem là dễ mất nhất?",
+          "vi_explanation": "B. System memory (RAM)\n→ Bộ nhớ hệ thống (RAM).\nRAM là bộ nhớ volatile, dữ liệu có thể biến mất khi thiết bị bị tắt hoặc mất nguồn, vì vậy thường cần được ưu tiên thu thập.",
           "has_visual": false
         },
         {
@@ -2055,8 +2055,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Loại dữ liệu nào không hiến thị đối với hệ điều hành và thường yêu cầu bitstream image hoặc forensic image đề thu thập?",
-          "vi_explanation": "G.Latentdata  _\n— Dữ liệu ân/tiêm ân.\nLatent data có thé tồn tại trong vùng chưa cấp phat, slack space hoặc dưới dạng dữ liệu đã xóa và thường không thé truy cập bằng các thao tác thông thường của hệ điều hành.",
+          "vi_question": "Loại dữ liệu nào không hiển thị đối với hệ điều hành và thường yêu cầu bitstream image hoặc forensic image để thu thập?",
+          "vi_explanation": "C. Latent data\n→ Dữ liệu ẩn/tiềm ẩn.\nLatent data có thể tồn tại trong vùng chưa cấp phát, slack space hoặc dưới dạng dữ liệu đã xóa và thường không thể truy cập bằng các thao tác thông thường của hệ điều hành.",
           "has_visual": false
         },
         {
@@ -2075,7 +2075,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Cơ quan tư pháp nào chịu trách nhiệm đảm bảo khả năng chấp nhận và độ tin cậy của bằng chứng số trong quá trình xét xử, đặc biệt trong các vụ án liên quan đến tội phạm mạng hoặc rò rỉ dữ liệu?",
-          "vi_explanation": "D. Trial Courts\n— Tòa an xét xử sơ thâm.\nTrial Courts xem xét và quyết định bằng chứng có đáp ứng các quy tắc về tính liên quan, xác thực và độ tin cậy đề được đưa ra trong phiên tòa hay không.",
+          "vi_explanation": "D. Trial Courts\n→ Tòa án xét xử sơ thẩm.\nTrial Courts xem xét và quyết định bằng chứng có đáp ứng các quy tắc về tính liên quan, xác thực và độ tin cậy để được đưa ra trong phiên tòa hay không.",
           "has_visual": false
         },
         {
@@ -2094,7 +2094,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Trong tố tụng dân sự, quá trình thu thập bằng chứng kỹ thuật số được gọi là gì?",
-          "vi_explanation": "C. eDiscovery\n— Khám pha điện tử (Electronic Discovery).\neDiscovery là quá trình xác định, thu thập, xử lý và cung cấp thông tin được lưu trữ điện tử đề sử dụng trong các vụ kiện dân sự.",
+          "vi_explanation": "C. eDiscovery\n→ Khám phá điện tử (Electronic Discovery).\neDiscovery là quá trình xác định, thu thập, xử lý và cung cấp thông tin được lưu trữ điện tử để sử dụng trong các vụ kiện dân sự.",
           "has_visual": false
         },
         {
@@ -2112,8 +2112,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Quá trình toán học nào được GPS receiver sử dung đề tính toán vị trí?",
-          "vi_explanation": "C. Trilateration\n— Phép do khoảng cách ba chiéu/dinh vị bang khoảng cach.\nGPS xác định vị trí dựa trên khoảng cách từ receiver đến nhiều vệ tinh. Đây là trilateration, không phải triangulation dựa chủ yếu vào góc.",
+          "vi_question": "Quá trình toán học nào được GPS receiver sử dụng để tính toán vị trí?",
+          "vi_explanation": "C. Trilateration\n→ Phép đo khoảng cách ba chiều/định vị bằng khoảng cách.\nGPS xác định vị trí dựa trên khoảng cách từ receiver đến nhiều vệ tinh. Đây là trilateration, không phải triangulation dựa chủ yếu vào góc.",
           "has_visual": false
         },
         {
@@ -2131,8 +2131,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trong phân tích pháp chứng kỹ thuật số, kỹ thuật nào thường được sử dung dé khôi phục các file đã xóa từ thiết bị lưu trữ?",
-          "vi_explanation": "C. File carving :\n— Kỹ thuật khôi phục file dựa trên câu trúc/chữ ky của file.\nFile carving tim và khôi phục dữ liệu dựa trên các đặc điểm như header, footer và cầu trúc file, ngay cả khi metadata hoặc thông tin hệ thống file đã bị mắt.",
+          "vi_question": "Trong phân tích pháp chứng kỹ thuật số, kỹ thuật nào thường được sử dụng để khôi phục các file đã xóa từ thiết bị lưu trữ?",
+          "vi_explanation": "C. File carving\n→ Kỹ thuật khôi phục file dựa trên cấu trúc/chữ ký của file.\nFile carving tìm và khôi phục dữ liệu dựa trên các đặc điểm như header, footer và cấu trúc file, ngay cả khi metadata hoặc thông tin hệ thống file đã bị mất.",
           "has_visual": false
         }
       ]
@@ -2159,7 +2159,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Mục đích chính của Task Manager trong hệ điều hành Windows là gì?",
-          "vi_explanation": "B. Theo dõi và quản lý các tiền trình đang chạy cũng như hiệu năng của hệ thống.\nTask Manager giúp xem các tiền trình, mức sử dụng CPU, RAM, Disk, Network và kết thúc các tiền trình khi cần.",
+          "vi_explanation": "B. Theo dõi và quản lý các tiến trình đang chạy cũng như hiệu năng của hệ thống.\nTask Manager giúp xem các tiến trình, mức sử dụng CPU, RAM, Disk, Network và kết thúc các tiến trình khi cần.",
           "has_visual": false
         },
         {
@@ -2177,8 +2177,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Mục đích của túi Faraday (Faraday bag) hoặc hộp chồng nhiễu (arson can) khi xử lý chứng cứ là điện thoại di động là gì?",
-          "vi_explanation": "B. Chăn các tín hiệu vô tuyến và cô lập điện thoại khỏi mạng.\nThiết bị này ngăn điện thoại nhận hoặc gửi tín hiệu dé tránh làm thay đôi hoặc mắt chứng cứ.",
+          "vi_question": "Mục đích của túi Faraday (Faraday bag) hoặc hộp chống nhiễu (arson can) khi xử lý chứng cứ là điện thoại di động là gì?",
+          "vi_explanation": "B. Chặn các tín hiệu vô tuyến và cô lập điện thoại khỏi mạng.\nThiết bị này ngăn điện thoại nhận hoặc gửi tín hiệu để tránh làm thay đổi hoặc mất chứng cứ.",
           "has_visual": false
         },
         {
@@ -2196,8 +2196,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Vai trò của bồi thẳm đoàn (jury) trong hệ thống tư pháp là gì?",
-          "vi_explanation": "C. Quyét định bi cáo có tội hay vô tội dựa trên các chứng cứ được trình bay tại tòa.\nBồi thẳm đoàn đánh giá chứng cứ và đưa ra phán quyết dựa trên chứng cứ.",
+          "vi_question": "Vai trò của bồi thẩm đoàn (jury) trong hệ thống tư pháp là gì?",
+          "vi_explanation": "C. Quyết định bị cáo có tội hay vô tội dựa trên các chứng cứ được trình bày tại tòa.\nBồi thẩm đoàn đánh giá chứng cứ và đưa ra phán quyết dựa trên chứng cứ.",
           "has_visual": false
         },
         {
@@ -2215,7 +2215,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich chính của tinh năng System Restore trong điều tra số là gì?",
+          "vi_question": "Mục đích chính của tính năng System Restore trong điều tra số là gì?",
           "vi_explanation": "C. Khôi phục hệ thống về trạng thái trước đó.\nSystem Restore đưa hệ thống quay lại một điểm khôi phục đã được tạo trước đó.",
           "has_visual": false
         },
@@ -2235,7 +2235,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Chức năng của MRU trong hệ điều hành Windows là gì?",
-          "vi_explanation": "D. Theo dõi và lưu danh sách các tệp hoặc ứng dụng được sử dụng gần đây.\nMRU (Most Recently Used) lưu lich sử các tệp và chương trình đã mở, hỗ trợ điều tra.",
+          "vi_explanation": "D. Theo dõi và lưu danh sách các tệp hoặc ứng dụng được sử dụng gần đây.\nMRU (Most Recently Used) lưu lịch sử các tệp và chương trình đã mở, hỗ trợ điều tra.",
           "has_visual": false
         },
         {
@@ -2254,7 +2254,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Vai trò của Chuyên gia pháp y (Forensic Examiner) trong hệ thống tư pháp là gì?",
-          "vi_explanation": "A. Phải là nhân chứng chuyên môn và làm việc khách quan, không thiên vị.\nChuyên gia pháp y phải đưa ra ý kiến chuyên môn dựa trên chứng cứ và không được thiên vị bat kỳ bên nào.",
+          "vi_explanation": "A. Phải là nhân chứng chuyên môn và làm việc khách quan, không thiên vị.\nChuyên gia pháp y phải đưa ra ý kiến chuyên môn dựa trên chứng cứ và không được thiên vị bất kỳ bên nào.",
           "has_visual": false
         },
         {
@@ -2273,7 +2273,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Một trong những ứng dụng chính của Điều tra số (Digital Forensics) là gì?",
-          "vi_explanation": "B. Phân tích chứng cứ số trong các cuộc điều tra pháp lý.\nĐiều tra số được sử dụng dé thu thập, bảo quản và phân tích chứng cứ điện tử phục vụ điều tra.",
+          "vi_explanation": "B. Phân tích chứng cứ số trong các cuộc điều tra pháp lý.\nĐiều tra số được sử dụng để thu thập, bảo quản và phân tích chứng cứ điện tử phục vụ điều tra.",
           "has_visual": false
         },
         {
@@ -2292,7 +2292,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Vai trò của thuật toán băm (hashing algorithm) trong việc lưu trữ chứng cứ số là gì?",
-          "vi_explanation": "B. Tạo ra mã định danh duy nhất đễ xác minh tính toàn vẹn của chứng cứ.\nGiá trị băm giúp xác minh chứng cứ không bị thay đổi trong quá trình thu thập và lưu trữ.",
+          "vi_explanation": "B. Tạo ra mã định danh duy nhất để xác minh tính toàn vẹn của chứng cứ.\nGiá trị băm giúp xác minh chứng cứ không bị thay đổi trong quá trình thu thập và lưu trữ.",
           "has_visual": false
         },
         {
@@ -2331,7 +2331,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Ý nghĩa pháp lý của \"kỳ vọng hợp lý về quyền riêng tư\" của người dùng là gì?",
-          "vi_explanation": "B. Nó có thé ảnh hưởng đến việc có cần lệnh khám xét hay không.\nNếu người dùng có kỳ vọng hợp lý về quyền riêng tư thì việc thu thập dữ liệu thường cần có lệnh khám xét.",
+          "vi_explanation": "B. Nó có thể ảnh hưởng đến việc có cần lệnh khám xét hay không.\nNếu người dùng có kỳ vọng hợp lý về quyền riêng tư thì việc thu thập dữ liệu thường cần có lệnh khám xét.",
           "has_visual": false
         },
         {
@@ -2350,7 +2350,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Ý nghĩa pháp lý của \"kỳ vọng hợp lý về quyền riêng tư\" của người dùng là gì?",
-          "vi_explanation": "B. Nó có thé ảnh hưởng đến việc có cần lệnh khám xét hay không.\nNếu người dùng có kỳ vọng hợp lý về quyền riêng tư thì việc thu thập dữ liệu thường cần có lệnh khám xét.",
+          "vi_explanation": "B. Nó có thể ảnh hưởng đến việc có cần lệnh khám xét hay không.\nNếu người dùng có kỳ vọng hợp lý về quyền riêng tư thì việc thu thập dữ liệu thường cần có lệnh khám xét.",
           "has_visual": false
         },
         {
@@ -2368,7 +2368,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Sự khác biệt giữa thu thập dữ liệu logic (logical acquisition) và thu thập dữ liệu vật ly (physical acquisition) của điện thoại là gì?",
+          "vi_question": "Sự khác biệt giữa thu thập dữ liệu logic (logical acquisition) và thu thập dữ liệu vật lý (physical acquisition) của điện thoại là gì?",
           "vi_explanation": "B. Thu thập vật lý tạo ra bản sao từng bit của toàn bộ dữ liệu.\nPhysical acquisition sao chép toàn bộ bộ nhớ, bao gồm cả dữ liệu đã xóa; logical acquisition chỉ thu thập dữ liệu logic.",
           "has_visual": false
         },
@@ -2406,7 +2406,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich chính của tinh năng System Restore trong điều tra số là gì?",
+          "vi_question": "Mục đích chính của tính năng System Restore trong điều tra số là gì?",
           "vi_explanation": "C. Khôi phục hệ thống về trạng thái trước đó.\nSystem Restore đưa hệ thống trở về một điểm khôi phục đã được tạo trước đó.",
           "has_visual": false
         },
@@ -2426,8 +2426,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Sự khác biệt chính giữa accreditation va certification trong điều tra số là gì?",
-          "vi_explanation": "C. Accreditation áp dụng cho phòng thí nghiệm; certification áp dụng cho cá nhân.\nAccreditation đánh giá năng lực của tô chức, con certification đánh giá năng lực của cá nhân.",
+          "vi_question": "Sự khác biệt chính giữa accreditation và certification trong điều tra số là gì?",
+          "vi_explanation": "C. Accreditation áp dụng cho phòng thí nghiệm; certification áp dụng cho cá nhân.\nAccreditation đánh giá năng lực của tổ chức, còn certification đánh giá năng lực của cá nhân.",
           "has_visual": false
         },
         {
@@ -2465,7 +2465,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Chức năng chính của hệ thống tệp (file system) là gì?",
-          "vi_explanation": "A. Quản lý và tỗ chức các tệp trên thiết bị lưu trữ.\nFile system quản lý cách lưu trữ, truy cập và sắp xếp các tệp trên 6 đĩa.",
+          "vi_explanation": "A. Quản lý và tổ chức các tệp trên thiết bị lưu trữ.\nFile system quản lý cách lưu trữ, truy cập và sắp xếp các tệp trên ổ đĩa.",
           "has_visual": false
         },
         {
@@ -2484,7 +2484,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Latent data là gì?",
-          "vi_explanation": "B. Dữ liệu bi an hoặc không hién thị ngay nhưng có thé được khôi phục.\nLatent data là dữ liệu không nhìn thấy trực tiếp nhưng vẫn có thé được khôi phục bằng các công cụ pháp y.",
+          "vi_explanation": "B. Dữ liệu bị ẩn hoặc không hiển thị ngay nhưng có thể được khôi phục.\nLatent data là dữ liệu không nhìn thấy trực tiếp nhưng vẫn có thể được khôi phục bằng các công cụ pháp y.",
           "has_visual": false
         },
         {
@@ -2503,7 +2503,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Phương pháp chính để phát hiện latent data trong điều tra số là gì?",
-          "vi_explanation": "B. Sử dụng các công cụ pháp y chuyên dụng dé phân tích ảnh dia (disk image).\nCác công cụ pháp y có thé khôi phục và phân tích dữ liệu ân hoặc đã xóa.",
+          "vi_explanation": "B. Sử dụng các công cụ pháp y chuyên dụng để phân tích ảnh đĩa (disk image).\nCác công cụ pháp y có thể khôi phục và phân tích dữ liệu ẩn hoặc đã xóa.",
           "has_visual": false
         },
         {
@@ -2522,7 +2522,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Steganography là gì?",
-          "vi_explanation": "B. Kỹ thuật giấu dữ liệu bên trong dữ liệu khác.\nSteganography giấu thông tin trong ảnh, âm thanh hoặc video dé khó bi phát hiện.",
+          "vi_explanation": "B. Kỹ thuật giấu dữ liệu bên trong dữ liệu khác.\nSteganography giấu thông tin trong ảnh, âm thanh hoặc video để khó bị phát hiện.",
           "has_visual": false
         },
         {
@@ -2559,8 +2559,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Đặc điểm của Restore Point trong hệ điều hành Windows là gi?",
-          "vi_explanation": "C. Khôi phục các thiết lập hệ thống và tệp về trạng thái trước đó.\nRestore Point cho phép khôi phục hệ thống khi xảy ra lỗi hoặc sự cd.",
+          "vi_question": "Đặc điểm của Restore Point trong hệ điều hành Windows là gì?",
+          "vi_explanation": "C. Khôi phục các thiết lập hệ thống và tệp về trạng thái trước đó.\nRestore Point cho phép khôi phục hệ thống khi xảy ra lỗi hoặc sự cố.",
           "has_visual": false
         },
         {
@@ -2598,7 +2598,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Mục tiêu chính của việc bảo vệ hiện trường trong điều tra số là gì?",
-          "vi_explanation": "D. Giảm thiéu sự xáo trộn và bảo đảm tính toàn vẹn của các chứng cứ tiềm năng.\nViệc bảo vệ hiện trường giúp ngăn chứng cứ bị thay đổi, hư hỏng hoặc mất mát trước khi được thu thập.",
+          "vi_explanation": "D. Giảm thiểu sự xáo trộn và bảo đảm tính toàn vẹn của các chứng cứ tiềm năng.\nViệc bảo vệ hiện trường giúp ngăn chứng cứ bị thay đổi, hư hỏng hoặc mất mát trước khi được thu thập.",
           "has_visual": false
         },
         {
@@ -2616,8 +2616,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Phương pháp chính đề phát hiện dữ liệu an (latent data) trong điều tra số là gì?",
-          "vi_explanation": "B. Sử dụng các công cụ pháp y chuyên dụng dé phân tích ảnh dia (disk image).\nCác công cụ pháp y giúp khôi phục và phân tích dữ liệu ân hoặc đã xóa khỏi thiết bị lưu trữ.",
+          "vi_question": "Phương pháp chính để phát hiện dữ liệu ẩn (latent data) trong điều tra số là gì?",
+          "vi_explanation": "B. Sử dụng các công cụ pháp y chuyên dụng để phân tích ảnh đĩa (disk image).\nCác công cụ pháp y giúp khôi phục và phân tích dữ liệu ẩn hoặc đã xóa khỏi thiết bị lưu trữ.",
           "has_visual": false
         },
         {
@@ -2636,7 +2636,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Mục tiêu chính của việc quy trách nhiệm (attribution) trong điều tra số là gì?",
-          "vi_explanation": "C. Xác định trách nhiệm đối với một tội phạm sé.\nAttribution nhằm xác định cá nhân hoặc tổ chức đứng sau một cuộc tần công hoặc hành vi phạm tội.",
+          "vi_explanation": "C. Xác định trách nhiệm đối với một tội phạm số.\nAttribution nhằm xác định cá nhân hoặc tổ chức đứng sau một cuộc tấn công hoặc hành vi phạm tội.",
           "has_visual": false
         },
         {
@@ -2655,7 +2655,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Theo NIST, một khía cạnh quan trọng của giai đoạn sau sự cố (post-incident activity) trong vòng đời ứng phó sự cố là gì?",
-          "vi_explanation": "C. Tiền hành đánh giá toàn diện sau sự cố dé xác định những điểm cần cải thiện.\nViệc đánh giá sau sự cố giúp rút kinh nghiệm và nâng cao hiệu quả ứng phó trong tương lai.",
+          "vi_explanation": "C. Tiến hành đánh giá toàn diện sau sự cố để xác định những điểm cần cải thiện.\nViệc đánh giá sau sự cố giúp rút kinh nghiệm và nâng cao hiệu quả ứng phó trong tương lai.",
           "has_visual": false
         },
         {
@@ -2674,7 +2674,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Mục đích chính của Task Manager trong hệ điều hành Windows là gì?",
-          "vi_explanation": "B. Theo dõi và quản lý các tiền trình đang chạy cũng như hiệu năng của hệ thống.\nTask Manager giúp giám sát tiền trình, CPU, RAM và quản lý các ứng dụng đang hoạt động.",
+          "vi_explanation": "B. Theo dõi và quản lý các tiến trình đang chạy cũng như hiệu năng của hệ thống.\nTask Manager giúp giám sát tiến trình, CPU, RAM và quản lý các ứng dụng đang hoạt động.",
           "has_visual": false
         },
         {
@@ -2692,7 +2692,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich chính của tinh năng System Restore trong điều tra số là gì?",
+          "vi_question": "Mục đích chính của tính năng System Restore trong điều tra số là gì?",
           "vi_explanation": "C. Khôi phục hệ thống về trạng thái trước đó.\nSystem Restore cho phép đưa hệ thống trở về một điểm khôi phục đã được tạo trước đó.",
           "has_visual": false
         },
@@ -2712,7 +2712,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Chức năng của MRU trong hệ điều hành Windows là gì?",
-          "vi_explanation": "D. Theo dõi và lưu danh sách các tệp hoặc ứng dụng được sử dụng gần đây.\nMRU (Most Recently Used) lưu lich sử các tệp và chương trình được mở gần đây.",
+          "vi_explanation": "D. Theo dõi và lưu danh sách các tệp hoặc ứng dụng được sử dụng gần đây.\nMRU (Most Recently Used) lưu lịch sử các tệp và chương trình được mở gần đây.",
           "has_visual": false
         },
         {
@@ -2730,8 +2730,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Mục đích của túi Faraday (Faraday bag) hoặc hộp chồng nhiễu (arson can) khi xử lý chứng cứ là điện thoại di động là gì?",
-          "vi_explanation": "B. Chăn các tín hiệu vô tuyến và cô lập điện thoại khỏi mạng.\nĐiều này giúp ngăn thiết bị nhận hoặc gửi dữ liệu, tránh làm thay di chứng cứ.",
+          "vi_question": "Mục đích của túi Faraday (Faraday bag) hoặc hộp chống nhiễu (arson can) khi xử lý chứng cứ là điện thoại di động là gì?",
+          "vi_explanation": "B. Chặn các tín hiệu vô tuyến và cô lập điện thoại khỏi mạng.\nĐiều này giúp ngăn thiết bị nhận hoặc gửi dữ liệu, tránh làm thay đổi chứng cứ.",
           "has_visual": false
         },
         {
@@ -2749,7 +2749,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Một thách thức phd biến khi phân tích điện thoại di động trong điều tra số là gì?",
+          "vi_question": "Một thách thức phổ biến khi phân tích điện thoại di động trong điều tra số là gì?",
           "vi_explanation": "B. Việc trích xuất dữ liệu từ các thiết bị bị khóa hoặc được mã hóa có thể rất khó khăn.\nCác cơ chế khóa màn hình và mã hóa dữ liệu khiến việc thu thập chứng cứ trở nên phức tạp.",
           "has_visual": false
         },
@@ -2769,7 +2769,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Mục đích chính của Task Manager trong hệ điều hành Windows là gì?",
-          "vi_explanation": "B. Theo dõi và quản lý các tiền trình đang chạy cũng như hiệu năng của hệ thống.\nTask Manager cho phép theo dõi hiệu suất hệ thống và kết thúc các tiền trình khi cần.",
+          "vi_explanation": "B. Theo dõi và quản lý các tiến trình đang chạy cũng như hiệu năng của hệ thống.\nTask Manager cho phép theo dõi hiệu suất hệ thống và kết thúc các tiến trình khi cần.",
           "has_visual": false
         },
         {
@@ -2825,7 +2825,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich của Tu chính an thứ Tư (Fourth Amendment) là gì?",
+          "vi_question": "Mục đích của Tu chính án thứ Tư (Fourth Amendment) là gì?",
           "vi_explanation": "C. Bảo vệ công dân khỏi việc khám xét và thu giữ tài sản một cách vô lý.\nTu chính án này yêu cầu cơ quan thực thi pháp luật phải có căn cứ hoặc lệnh khám xét hợp pháp trong nhiều trường hợp.",
           "has_visual": false
         },
@@ -2844,8 +2844,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Những thách thức nào có thé phát sinh khi thu thập chứng cứ từ các nguồn lưu trữ đám may trong điều tra số?",
-          "vi_explanation": "C. Truy cập và bảo quản dữ liệu được lưu trữ ở nhiều khu vực pháp lý khác nhau.\nDữ liệu có thé nằm trên nhiều quốc gia với các quy định pháp lý khác nhau.",
+          "vi_question": "Những thách thức nào có thể phát sinh khi thu thập chứng cứ từ các nguồn lưu trữ đám mây trong điều tra số?",
+          "vi_explanation": "C. Truy cập và bảo quản dữ liệu được lưu trữ ở nhiều khu vực pháp lý khác nhau.\nDữ liệu có thể nằm trên nhiều quốc gia với các quy định pháp lý khác nhau.",
           "has_visual": false
         },
         {
@@ -2863,8 +2863,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Nhà điều tra có thễ gặp khó khăn gì khi khôi phục dữ liệu đã xóa trong điều tra số?",
-          "vi_explanation": "B. Dữ liệu đã xóa không thé khôi phục được nếu đã bị ghi đè.\nKhi dữ liệu bị ghi đè, thông tin gốc thường không còn khả năng phục hỏi.",
+          "vi_question": "Nhà điều tra có thể gặp khó khăn gì khi khôi phục dữ liệu đã xóa trong điều tra số?",
+          "vi_explanation": "B. Dữ liệu đã xóa không thể khôi phục được nếu đã bị ghi đè.\nKhi dữ liệu bị ghi đè, thông tin gốc thường không còn khả năng phục hồi.",
           "has_visual": false
         },
         {
@@ -2882,8 +2882,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Các chuyên gia pháp y có thé gặp khó khăn gi khi xác định cá nhân hoặc nhóm đứng sau một cuộc tắn công mạng?",
-          "vi_explanation": "C. Kẻ tắn công thường sử dụng các kỹ thuật che giấu danh tính rất tinh vi.\nViệc sử dụng VPN, proxy, botnet và nhiều kỹ thuật khác khiến attribution trở nên khó khăn.",
+          "vi_question": "Các chuyên gia pháp y có thể gặp khó khăn gì khi xác định cá nhân hoặc nhóm đứng sau một cuộc tấn công mạng?",
+          "vi_explanation": "C. Kẻ tấn công thường sử dụng các kỹ thuật che giấu danh tính rất tinh vi.\nViệc sử dụng VPN, proxy, botnet và nhiều kỹ thuật khác khiến attribution trở nên khó khăn.",
           "has_visual": false
         },
         {
@@ -2902,7 +2902,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Metadata của hệ thống tệp (file system metadata) bao gồm những gì?",
-          "vi_explanation": "A. Ngày và giờ tạo, truy cập hoặc chỉnh sửa tệp hay thư mục.\nCác móc thời gian này rất quan trong trong quá trình điều tra số.",
+          "vi_explanation": "A. Ngày và giờ tạo, truy cập hoặc chỉnh sửa tệp hay thư mục.\nCác mốc thời gian này rất quan trọng trong quá trình điều tra số.",
           "has_visual": false
         },
         {
@@ -2920,8 +2920,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "\"Free space\" trên 6 cứng là gì?",
-          "vi_explanation": "C. Phần dung lượng hiện đang sẵn sàng dé lưu các tệp mới.\nĐây là vùng chưa được sử dụng và có thé van chứa dau vết của dữ liệu đã xóa.",
+          "vi_question": "\"Free space\" trên ổ cứng là gì?",
+          "vi_explanation": "C. Phần dung lượng hiện đang sẵn sàng để lưu các tệp mới.\nĐây là vùng chưa được sử dụng và có thể vẫn chứa dấu vết của dữ liệu đã xóa.",
           "has_visual": false
         },
         {
@@ -2958,8 +2958,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tiện ich Drive Wiping có chức nang gì?",
-          "vi_explanation": "C. Xóa dữ liệu trên 6 đĩa một cach vĩnh viễn.\nDrive wiping ghi đè dữ liệu đề ngăn việc khôi phục bằng các công cụ pháp y.",
+          "vi_question": "Tiện ích Drive Wiping có chức năng gì?",
+          "vi_explanation": "C. Xóa dữ liệu trên ổ đĩa một cách vĩnh viễn.\nDrive wiping ghi đè dữ liệu để ngăn việc khôi phục bằng các công cụ pháp y.",
           "has_visual": false
         },
         {
@@ -2977,8 +2977,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều gì xảy ra nếu phần mở rộng của tệp (file extension) bi thay đôi nhưng phần đầu tệp (file header) van giữ nguyên?",
-          "vi_explanation": "C. Tệp sẽ không mở được bằng chương trình mong muốn.\nFile header van xác định loại tệp thật, nên việc chỉ đôi phần mở rộng có thé khiến hệ điều hành chọn sai chương trình để mở.",
+          "vi_question": "Điều gì xảy ra nếu phần mở rộng của tệp (file extension) bị thay đổi nhưng phần đầu tệp (file header) vẫn giữ nguyên?",
+          "vi_explanation": "C. Tệp sẽ không mở được bằng chương trình mong muốn.\nFile header vẫn xác định loại tệp thật, nên việc chỉ đổi phần mở rộng có thể khiến hệ điều hành chọn sai chương trình để mở.",
           "has_visual": false
         },
         {
@@ -2996,8 +2996,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Thiết bi nào thường có trong phòng thi nghiệm điều tra số (digital forensic laboratory)?",
-          "vi_explanation": "C. Công cụ tạo ảnh pháp y (forensic imaging tools) và thiết bị chặn ghi (write blockers).\nĐây là các thiết bị quan trong dé sao chép và phân tích dữ liệu mà không làm thay đỗi chứng cứ gốc.",
+          "vi_question": "Thiết bị nào thường có trong phòng thí nghiệm điều tra số (digital forensic laboratory)?",
+          "vi_explanation": "C. Công cụ tạo ảnh pháp y (forensic imaging tools) và thiết bị chặn ghi (write blockers).\nĐây là các thiết bị quan trọng để sao chép và phân tích dữ liệu mà không làm thay đổi chứng cứ gốc.",
           "has_visual": false
         },
         {
@@ -3016,7 +3016,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Đâu là một thực hành tốt trong quá trình thu thập chứng cứ số?",
-          "vi_explanation": "C. Ghi lại chuối bảo quản chứng cứ (chain of custody) trong quá trình thu thập.\nChain of custody giúp chứng minh chứng cứ được thu thập, bảo quản và xử lý đúng quy trình.",
+          "vi_explanation": "C. Ghi lại chuỗi bảo quản chứng cứ (chain of custody) trong quá trình thu thập.\nChain of custody giúp chứng minh chứng cứ được thu thập, bảo quản và xử lý đúng quy trình.",
           "has_visual": false
         },
         {
@@ -3034,8 +3034,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Đâu là một phương pháp thường dùng dé thu thập dữ liệu trực tiếp (live collection) trong điều tra số?",
-          "vi_explanation": "B. Chạy các tập lệnh tự động dé trích xuất dữ liệu từ bộ nhớ.\nLive collection được thực hiện khi hệ thống vẫn đang hoạt động nhằm thu thập dữ liệu dễ mat như RAM.",
+          "vi_question": "Đâu là một phương pháp thường dùng để thu thập dữ liệu trực tiếp (live collection) trong điều tra số?",
+          "vi_explanation": "B. Chạy các tập lệnh tự động để trích xuất dữ liệu từ bộ nhớ.\nLive collection được thực hiện khi hệ thống vẫn đang hoạt động nhằm thu thập dữ liệu dễ mất như RAM.",
           "has_visual": false
         },
         {
@@ -3073,7 +3073,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Đâu là một ví dụ về dữ liệu lưu trữ lâu dài (archival data)?",
-          "vi_explanation": "B. Các hồ sơ tài chính lịch sử được lưu trên băng từ.\nArchival data là dữ liệu được lưu giữ trong thời gian dài dé phục vụ tra cứu hoặc điều tra.",
+          "vi_explanation": "B. Các hồ sơ tài chính lịch sử được lưu trên băng từ.\nArchival data là dữ liệu được lưu giữ trong thời gian dài để phục vụ tra cứu hoặc điều tra.",
           "has_visual": false
         },
         {
@@ -3092,7 +3092,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Tổ chức nao sau day trực tiếp tham gia vào lĩnh vực điều tra số?",
+          "vi_question": "Tổ chức nào sau đây trực tiếp tham gia vào lĩnh vực điều tra số?",
           "vi_explanation": "A. Scientific Working Group on Digital Evidence (SWGDE).\nSWGDE xây dựng các tiêu chuẩn và hướng dẫn trong lĩnh vực điều tra chứng cứ số.",
           "has_visual": false
         },
@@ -3130,8 +3130,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Yếu tố nào có thé ảnh hưởng đến độ chính xác của dau thời gian (timestamp) trong điều tra số?",
-          "vi_explanation": "A.Vị trí địa lý của thiết bị.\nMúi giờ hoặc cài đặt thời gian theo khu vực có thé làm thay đỗi giá tri timestamp.",
+          "vi_question": "Yếu tố nào có thể ảnh hưởng đến độ chính xác của dấu thời gian (timestamp) trong điều tra số?",
+          "vi_explanation": "A. Vị trí địa lý của thiết bị.\nMúi giờ hoặc cài đặt thời gian theo khu vực có thể làm thay đổi giá trị timestamp.",
           "has_visual": false
         },
         {
@@ -3151,7 +3151,7 @@ window.QUIZ_COURSES.FRS301 = {
             "E"
           ],
           "vi_question": "Loại chứng cứ nào có mức độ dễ mất (volatile) cao nhất?",
-          "vi_explanation": "E. Nội dung CPU, bộ nhớ đệm (cache) và thanh ghi (register).\nĐây là dữ liệu mắt đi ngay khi hệ thống tắt nguồn nên cần thu thập trước tiên.",
+          "vi_explanation": "E. Nội dung CPU, bộ nhớ đệm (cache) và thanh ghi (register).\nĐây là dữ liệu mất đi ngay khi hệ thống tắt nguồn nên cần thu thập trước tiên.",
           "has_visual": false
         },
         {
@@ -3188,8 +3188,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Khi phân tích phần mở rộng của tệp trong điều tra số, sự xuất hiện của một phần mở rộng bất thường thường cho thấy điều gi?",
-          "vi_explanation": "G. Tệp có thé là tệp độc hại hoặc đáng nghĩ ngờ.\nPhần mở rộng lạ có thé là dau hiệu của tệp bị ngụy trang hoặc phan mềm độc hại.",
+          "vi_question": "Khi phân tích phần mở rộng của tệp trong điều tra số, sự xuất hiện của một phần mở rộng bất thường thường cho thấy điều gì?",
+          "vi_explanation": "C. Tệp có thể là tệp độc hại hoặc đáng nghi ngờ.\nPhần mở rộng lạ có thể là dấu hiệu của tệp bị ngụy trang hoặc phần mềm độc hại.",
           "has_visual": false
         },
         {
@@ -3208,7 +3208,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Khi phân tích chứng cứ số, hệ thập lục phân (hexadecimal) có ý nghĩa gì trong việc biểu diễn dữ liệu?",
-          "vi_explanation": "D. Nó cung cấp cách biểu diễn dữ liệu nhị phân ngắn gon và dễ đọc hơn.\nMỗi ký tự hex biéu diễn 4 bit nên việc đọc và phân tích dữ liệu nhị phân trở nên thuận tiện hơn.",
+          "vi_explanation": "D. Nó cung cấp cách biểu diễn dữ liệu nhị phân ngắn gọn và dễ đọc hơn.\nMỗi ký tự hex biểu diễn 4 bit nên việc đọc và phân tích dữ liệu nhị phân trở nên thuận tiện hơn.",
           "has_visual": false
         },
         {
@@ -3226,8 +3226,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Khi điều tra một hệ thống máy tính đễ tìm bằng chứng truy cập trái phép, khía cạnh nào của hoạt động máy tính thường được kiểm tra?",
-          "vi_explanation": "A. Quyền truy cập tệp và danh sách kiém soát truy cập (Access Control Lists).\nThông tin này giúp xác định ai đã truy cập hoặc thay đỗi dữ liệu.",
+          "vi_question": "Khi điều tra một hệ thống máy tính để tìm bằng chứng truy cập trái phép, khía cạnh nào của hoạt động máy tính thường được kiểm tra?",
+          "vi_explanation": "A. Quyền truy cập tệp và danh sách kiểm soát truy cập (Access Control Lists).\nThông tin này giúp xác định ai đã truy cập hoặc thay đổi dữ liệu.",
           "has_visual": false
         },
         {
@@ -3245,8 +3245,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Khi xóa 6 cứng bằng phương pháp pháp y (forensic wipe), bạn sẽ làm gì?",
-          "vi_explanation": "A. Ghi đè toàn bộ các vùng trên ỗ đĩa bằng một ký tự.\nViệc ghi đè giúp dữ liệu cũ không thể khôi phục bằng các công cụ pháp y.",
+          "vi_question": "Khi xóa ổ cứng bằng phương pháp pháp y (forensic wipe), bạn sẽ làm gì?",
+          "vi_explanation": "A. Ghi đè toàn bộ các vùng trên ổ đĩa bằng một ký tự.\nViệc ghi đè giúp dữ liệu cũ không thể khôi phục bằng các công cụ pháp y.",
           "has_visual": false
         },
         {
@@ -3264,8 +3264,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Khi lưu trữ chứng cứ số trong phòng thí nghiệm pháp y, cần thực hiện biện pháp nào dé đảm bảo tính toàn vẹn và tính xác thực của chứng cứ?",
-          "vi_explanation": "B. Trién khai kiếm soát truy cập và mã hóa trên hệ thống lưu trữ.\nKiếm soát quyền truy cập và mã hóa giúp ngăn chặn việc sửa đỗi hoặc truy cập trái phép vào chứng cứ.",
+          "vi_question": "Khi lưu trữ chứng cứ số trong phòng thí nghiệm pháp y, cần thực hiện biện pháp nào để đảm bảo tính toàn vẹn và tính xác thực của chứng cứ?",
+          "vi_explanation": "B. Triển khai kiểm soát truy cập và mã hóa trên hệ thống lưu trữ.\nKiểm soát quyền truy cập và mã hóa giúp ngăn chặn việc sửa đổi hoặc truy cập trái phép vào chứng cứ.",
           "has_visual": false
         },
         {
@@ -3284,7 +3284,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Digital Forensics đóng góp như thế nào cho các thủ tục pháp lý?",
-          "vi_explanation": "B. Bằng cách khôi phục các tệp đã xóa và phân tích các dầu vết kỹ thuật số.\nDigital Forensics giúp thu thập và phân tích chứng cứ điện tử phục vụ điều tra và xét xử.",
+          "vi_explanation": "B. Bằng cách khôi phục các tệp đã xóa và phân tích các dấu vết kỹ thuật số.\nDigital Forensics giúp thu thập và phân tích chứng cứ điện tử phục vụ điều tra và xét xử.",
           "has_visual": false
         },
         {
@@ -3302,8 +3302,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Lam thé nào đề bảo vệ chứng cứ?",
-          "vi_explanation": "A. Tạo bản sao pháp y (Forensic clone).\nForensic clone tạo bản sao chính xác từng bit đề bảo vệ chứng cứ góc khỏi bị thay đồi.",
+          "vi_question": "Làm thế nào để bảo vệ chứng cứ?",
+          "vi_explanation": "A. Tạo bản sao pháp y (Forensic clone).\nForensic clone tạo bản sao chính xác từng bit để bảo vệ chứng cứ gốc khỏi bị thay đổi.",
           "has_visual": false
         },
         {
@@ -3321,7 +3321,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Đồi tượng mà Tu chính án thứ Tư (Fourth Amendment) hướng tới là ai?",
+          "vi_question": "Đối tượng mà Tu chính án thứ Tư (Fourth Amendment) hướng tới là ai?",
           "vi_explanation": "B. Công dân và người cư trú tại Hoa Kỳ.\nFourth Amendment bảo vệ công dân và người cư trú khỏi việc khám xét và thu giữ tài sản một cách vô lý.",
           "has_visual": false
         },
@@ -3340,8 +3340,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trong điều tra số, điều gi là thách thức khi xử lý dữ liệu dễ mắt (volatile data)?",
-          "vi_explanation": "C. Dữ liệu dễ mắt có thé bị mất nếu không được thu thập kịp thời.\nDữ liệu như RAM, tiền trình đang chạy và kết nối mạng sẽ biến mắt khi hệ thống tắt.",
+          "vi_question": "Trong điều tra số, điều gì là thách thức khi xử lý dữ liệu dễ mất (volatile data)?",
+          "vi_explanation": "C. Dữ liệu dễ mất có thể bị mất nếu không được thu thập kịp thời.\nDữ liệu như RAM, tiến trình đang chạy và kết nối mạng sẽ biến mất khi hệ thống tắt.",
           "has_visual": false
         },
         {
@@ -3359,8 +3359,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trong báo cáo pháp y cuối cùng, thuật ngữ \"chain of custody\" (chuối bảo quản chứng cứ) đề cập đến điều gì?",
-          "vi_explanation": "C. Quy trình được ghi chép đầy đủ về việc xử lý và bảo quản chứng cứ.\nChuối bảo quản chứng cứ đảm bảo tính toàn vẹn và khả năng chấp nhận của chứng cứ trước tòa.",
+          "vi_question": "Trong báo cáo pháp y cuối cùng, thuật ngữ \"chain of custody\" (chuỗi bảo quản chứng cứ) đề cập đến điều gì?",
+          "vi_explanation": "C. Quy trình được ghi chép đầy đủ về việc xử lý và bảo quản chứng cứ.\nChuỗi bảo quản chứng cứ đảm bảo tính toàn vẹn và khả năng chấp nhận của chứng cứ trước tòa.",
           "has_visual": false
         },
         {
@@ -3379,7 +3379,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "",
-          "vi_explanation": "Hãy xác định dau là chứng cứ số (digital evidence) trong các lựa chọn sau.\nA. Một bài đăng trên mạng xã hội trong hồ sơ của người dùng.\nBài đăng trên mạng xã hội là dữ liệu điện tử và có thé được sử dụng làm chứng cứ.",
+          "vi_explanation": "Hãy xác định đâu là chứng cứ số (digital evidence) trong các lựa chọn sau.\nA. Một bài đăng trên mạng xã hội trong hồ sơ của người dùng.\nBài đăng trên mạng xã hội là dữ liệu điện tử và có thể được sử dụng làm chứng cứ.",
           "has_visual": false
         },
         {
@@ -3397,8 +3397,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Trong điều tra số, mồi quan hệ giữa byte và bit là gì?",
-          "vi_explanation": "A. Một byte gồm 8 bit.\n1 byte = 8 bit là đơn vị cơ bản dùng đề biéu diễn dữ liệu trong máy tinh.",
+          "vi_question": "Trong điều tra số, mối quan hệ giữa byte và bit là gì?",
+          "vi_explanation": "A. Một byte gồm 8 bit.\n1 byte = 8 bit là đơn vị cơ bản dùng để biểu diễn dữ liệu trong máy tính.",
           "has_visual": false
         },
         {
@@ -3416,8 +3416,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Các tùy chọn ghi nhật ky (logging) trên nhiều máy chủ email có thé là:",
-          "vi_explanation": "D. Tất cả các đáp án trên.\nMay chủ email có thé cho phép tắt logging, ghi theo dạng vòng tron (circular logging) hoặc giới hạn kích thước nhật ký trước khi ghi đè.",
+          "vi_question": "Các tùy chọn ghi nhật ký (logging) trên nhiều máy chủ email có thể là:",
+          "vi_explanation": "D. Tất cả các đáp án trên.\nMáy chủ email có thể cho phép tắt logging, ghi theo dạng vòng tròn (circular logging) hoặc giới hạn kích thước nhật ký trước khi ghi đè.",
           "has_visual": false
         },
         {
@@ -3435,7 +3435,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Pé đảm bảo tính toàn vẹn của chứng cứ email, ngoài nội dung thư, thông tin nào can được ghi lại can thận?",
+          "vi_question": "Để đảm bảo tính toàn vẹn của chứng cứ email, ngoài nội dung thư, thông tin nào cần được ghi lại cẩn thận?",
           "vi_explanation": "B. Thời gian và ngày email được gửi/nhận (The time and date the email was sent/received).\nThời gian gửi và nhận email là thông tin metadata quan trọng giúp xác minh tính xác thực và xây dựng dòng thời gian của vụ việc.",
           "has_visual": false
         },
@@ -3454,8 +3454,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Thumbcache.db được sử dung dé làm gì?",
-          "vi_explanation": "C. Lưu trữ các ảnh thu nhỏ (thumbnail) dé truy cập nhanh (Storing thumbnail images for quick access).\nThumbcache.db là tệp của Windows dùng dé lưu ảnh xem trước, giúp hiền thị nhanh các hình ảnh và video trong File Explorer.",
+          "vi_question": "Thumbcache.db được sử dụng để làm gì?",
+          "vi_explanation": "C. Lưu trữ các ảnh thu nhỏ (thumbnail) để truy cập nhanh (Storing thumbnail images for quick access).\nThumbcache.db là tệp của Windows dùng để lưu ảnh xem trước, giúp hiển thị nhanh các hình ảnh và video trong File Explorer.",
           "has_visual": false
         },
         {
@@ -3473,8 +3473,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tại sao việc phân tích Thumbnail Cache lại hữu ich trong các vụ xóa tệp?",
-          "vi_explanation": "C. Nó có thé van lưu lại hình thu nhỏ của các tệp đã bị xóa (It may preserve images of files that have been deleted).\nNgay cả khi tệp gốc đã bị xóa, thumbnail của tệp đó vẫn có thé còn ton tại trong Thumbcache.db, hỗ trợ điều tra số.",
+          "vi_question": "Tại sao việc phân tích Thumbnail Cache lại hữu ích trong các vụ xóa tệp?",
+          "vi_explanation": "C. Nó có thể vẫn lưu lại hình thu nhỏ của các tệp đã bị xóa (It may preserve images of files that have been deleted).\nNgay cả khi tệp gốc đã bị xóa, thumbnail của tệp đó vẫn có thể còn tồn tại trong Thumbcache.db, hỗ trợ điều tra số.",
           "has_visual": false
         },
         {
@@ -3492,8 +3492,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Khi phân tích phan mở rộng tệp (file extension) trong điều tra số, việc xuất hiện một phần mở rộng bất thường thường gợi ý điều gì?",
-          "vi_explanation": "C. Tệp có thé độc hại hoặc đáng ngờ (The file could be malicious or suspicious).\nCác phần mở rộng lạ hoặc không phd biến có thé cho thay tệp đã bị ngụy trang hoặc chứa mã độc.",
+          "vi_question": "Khi phân tích phần mở rộng tệp (file extension) trong điều tra số, việc xuất hiện một phần mở rộng bất thường thường gợi ý điều gì?",
+          "vi_explanation": "C. Tệp có thể độc hại hoặc đáng ngờ (The file could be malicious or suspicious).\nCác phần mở rộng lạ hoặc không phổ biến có thể cho thấy tệp đã bị ngụy trang hoặc chứa mã độc.",
           "has_visual": false
         },
         {
@@ -3511,8 +3511,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Đồi với văn bản ASCII, mục đích chính của việc mã hóa 7 bit cho mỗi ký tự là gì?",
-          "vi_explanation": "B. Mã hóa chính ký tự đó (To encode the character itself).\nASCII sử dụng 7 bit đề biểu diễn các ký tự như chữ cái, chữ số và ký hiệu đặc biệt.",
+          "vi_question": "Đối với văn bản ASCII, mục đích chính của việc mã hóa 7 bit cho mỗi ký tự là gì?",
+          "vi_explanation": "B. Mã hóa chính ký tự đó (To encode the character itself).\nASCII sử dụng 7 bit để biểu diễn các ký tự như chữ cái, chữ số và ký hiệu đặc biệt.",
           "has_visual": false
         },
         {
@@ -3530,8 +3530,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Một ứng dụng phd biến của giao thức P2P là gi?",
-          "vi_explanation": "C. Chia sẻ và phân phối tệp, chăng hạn như BitTorrent (File sharing and distribution, such as with BitTorrent).\nP2P cho phép các máy tính trao đỗi dữ liệu trực tiếp với nhau ma không cần máy chủ trung tâm.",
+          "vi_question": "Một ứng dụng phổ biến của giao thức P2P là gì?",
+          "vi_explanation": "C. Chia sẻ và phân phối tệp, chẳng hạn như BitTorrent (File sharing and distribution, such as with BitTorrent).\nP2P cho phép các máy tính trao đổi dữ liệu trực tiếp với nhau mà không cần máy chủ trung tâm.",
           "has_visual": false
         },
         {
@@ -3549,8 +3549,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Vai trò của may chủ DNS (Domain Name Server) là gi?",
-          "vi_explanation": "C. Ánh xạ tên miền sang dia chi IP (Maps domain names to IP addresses).\nDNS chuyén đỗi tên miền dễ nhớ (vi du: google.com) thành địa chi IP dé máy tính có thé kết nối đến máy chủ.",
+          "vi_question": "Vai trò của máy chủ DNS (Domain Name Server) là gì?",
+          "vi_explanation": "C. Ánh xạ tên miền sang địa chỉ IP (Maps domain names to IP addresses).\nDNS chuyển đổi tên miền dễ nhớ (ví dụ: google.com) thành địa chỉ IP để máy tính có thể kết nối đến máy chủ.",
           "has_visual": false
         },
         {
@@ -3568,8 +3568,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tại sao có thé xảy ra sự không khớp gia tri bam (hash mismatch) giữa 6 đĩa gốc va ban sao pháp y?",
-          "vi_explanation": "C. Dữ liệu đã bi thay đôi trong quá trình thu thập (Data was changed during acquisition).\nNếu dữ liệu bi thay đôi trong quá trình sao lưu hoặc thu thập chứng cứ, giá tri hash của bản sao sẽ khác với bản gốc.",
+          "vi_question": "Tại sao có thể xảy ra sự không khớp giá trị băm (hash mismatch) giữa ổ đĩa gốc và bản sao pháp y?",
+          "vi_explanation": "C. Dữ liệu đã bị thay đổi trong quá trình thu thập (Data was changed during acquisition).\nNếu dữ liệu bị thay đổi trong quá trình sao lưu hoặc thu thập chứng cứ, giá trị hash của bản sao sẽ khác với bản gốc.",
           "has_visual": false
         },
         {
@@ -3587,8 +3587,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Mối quan hệ giữa cluster va sector trong lưu trữ tệp là gì?",
-          "vi_explanation": "A. Một cluster chứa nhiều sector (One cluster contains multiple sectors).\nSector là đơn vị lưu trữ vật lý nhỏ nhất, còn cluster là nhóm gồm một hoặc nhiều sector mà hệ điều hành sử dụng dé quản lý dữ liệu.",
+          "vi_question": "Mối quan hệ giữa cluster và sector trong lưu trữ tệp là gì?",
+          "vi_explanation": "A. Một cluster chứa nhiều sector (One cluster contains multiple sectors).\nSector là đơn vị lưu trữ vật lý nhỏ nhất, còn cluster là nhóm gồm một hoặc nhiều sector mà hệ điều hành sử dụng để quản lý dữ liệu.",
           "has_visual": false
         },
         {
@@ -3606,8 +3606,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Khi đánh dau chứng cứ số đề nhận dạng, can bao gồm những thông tin nào?",
-          "vi_explanation": "B. Chữ ký hoặc ký hiệu của người thu thập, ngày tháng và số vụ án (Initials, dates, and case numbers).\nCác thông tin này giúp xác định nguồn gốc chứng cứ và duy trì chuối bảo quản chứng cứ (chain of custody).",
+          "vi_question": "Khi đánh dấu chứng cứ số để nhận dạng, cần bao gồm những thông tin nào?",
+          "vi_explanation": "B. Chữ ký hoặc ký hiệu của người thu thập, ngày tháng và số vụ án (Initials, dates, and case numbers).\nCác thông tin này giúp xác định nguồn gốc chứng cứ và duy trì chuỗi bảo quản chứng cứ (chain of custody).",
           "has_visual": false
         },
         {
@@ -3626,7 +3626,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Khi nào việc thu thập dữ liệu trực tiếp (live acquisition) đặc biệt quan trọng trong điều tra số?",
-          "vi_explanation": "B. Khi dữ liệu trong RAM quan trọng, chang hạn trong các cuộc điều tra mã độc (When RAM data is important, such as in malware investigations).\nLive acquisition cho phép thu thập dữ liệu dễ mắt như RAM, tiền trình đang chạy, khóa mã hóa và các kết nối mạng trước khi hệ thống bị tắt.",
+          "vi_explanation": "B. Khi dữ liệu trong RAM quan trọng, chẳng hạn trong các cuộc điều tra mã độc (When RAM data is important, such as in malware investigations).\nLive acquisition cho phép thu thập dữ liệu dễ mất như RAM, tiến trình đang chạy, khóa mã hóa và các kết nối mạng trước khi hệ thống bị tắt.",
           "has_visual": false
         },
         {
@@ -3644,8 +3644,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều nào sau day là một hạn chế của hệ thống tệp FAT32?",
-          "vi_explanation": "C. It has a maximum file size of 4GB\n— Nó có kích thước tệp tôi da là 4 GB.\nFAT32 không thé lưu một tệp đơn có kích thước từ 4 GB trở lên (giới hạn thực tế là nhỏ hơn 4 GiB một chút).",
+          "vi_question": "Điều nào sau đây là một hạn chế của hệ thống tệp FAT32?",
+          "vi_explanation": "C. It has a maximum file size of 4GB\n— Nó có kích thước tệp tối đa là 4 GB.\nFAT32 không thể lưu một tệp đơn có kích thước từ 4 GB trở lên (giới hạn thực tế là nhỏ hơn 4 GiB một chút).",
           "has_visual": false
         },
         {
@@ -3663,8 +3663,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Bằng chứng kỹ thuật sé (digital evidence) chủ yếu được sử dụng cho mục dich nào sau đây?",
-          "vi_explanation": "C. To detect violations of organizational policies _\n— Phat hiện các hành vi vi phạm chính sách của tô chức.\nDigital evidence có thé được thu thập và phân tích dé điều tra sự có, hành vi trái phép hoặc các vi phạm chính sách trong tb chức.",
+          "vi_question": "Bằng chứng kỹ thuật số (digital evidence) chủ yếu được sử dụng cho mục đích nào sau đây?",
+          "vi_explanation": "C. To detect violations of organizational policies\n— Phát hiện các hành vi vi phạm chính sách của tổ chức.\nDigital evidence có thể được thu thập và phân tích để điều tra sự cố, hành vi trái phép hoặc các vi phạm chính sách trong tổ chức.",
           "has_visual": false
         },
         {
@@ -3683,7 +3683,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Một lợi ích của virtual forensic lab là gì?",
-          "vi_explanation": "B. It allows more access to shared resources\n— Cho phép truy cập nhiêu hơn vào các tai nguyên được chia sé.\nPhòng lab pháp chứng ảo giúp các forensic examiner sử dụng và chia sẻ tài nguyên, công cụ và môi trường phân tích linh hoạt hơn.",
+          "vi_explanation": "B. It allows more access to shared resources\n— Cho phép truy cập nhiều hơn vào các tài nguyên được chia sẻ.\nPhòng lab pháp chứng ảo giúp các forensic examiner sử dụng và chia sẻ tài nguyên, công cụ và môi trường phân tích linh hoạt hơn.",
           "has_visual": false
         },
         {
@@ -3701,8 +3701,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Phương pháp nào được File Carving sử dụng dé tái tạo file từ dữ liệu bị phân mảnh?",
-          "vi_explanation": "B. Relying on file headers and footers\n— Dựa vào header va footer của file.\nFile carving thường nhận diện cầu trúc hoặc chữ ký đặc trưng ở đầu và cuối file dé xác định và khôi phục dữ liệu mà không phụ thuộc hoàn toàn vào metadata của hệ thống file.",
+          "vi_question": "Phương pháp nào được File Carving sử dụng để tái tạo file từ dữ liệu bị phân mảnh?",
+          "vi_explanation": "B. Relying on file headers and footers\n— Dựa vào header và footer của file.\nFile carving thường nhận diện cấu trúc hoặc chữ ký đặc trưng ở đầu và cuối file để xác định và khôi phục dữ liệu mà không phụ thuộc hoàn toàn vào metadata của hệ thống file.",
           "has_visual": false
         },
         {
@@ -3721,8 +3721,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Điểm khác biệt chính giữa steganography va encryption là gì?",
-          "vi_explanation": "B. Steganography hides the existence of data\n— Steganography che giâu sự tôn tại của dữ liệu.\nEncryption làm cho nội dung dữ liệu không thé đọc được nếu không có khóa, trong khi steganography có gắng che giấu việc dữ liệu bí mật đang ton tại.",
+          "vi_question": "Điểm khác biệt chính giữa steganography và encryption là gì?",
+          "vi_explanation": "B. Steganography hides the existence of data\n— Steganography che giấu sự tồn tại của dữ liệu.\nEncryption làm cho nội dung dữ liệu không thể đọc được nếu không có khóa, trong khi steganography cố gắng che giấu việc dữ liệu bí mật đang tồn tại.",
           "has_visual": false
         },
         {
@@ -3740,8 +3740,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Theo best practices, thủ tục đầu tiên cần thực hiện đề bảo quan bằng chứng đúng cach tại hiện trường là gi?",
-          "vi_explanation": "C. Photograph the computer and scene.\n— Chup ảnh máy tinh va hiện trường.\nTrước khi thay đổi hoặc thao tác với thiết bị, can ghi lại và chụp ảnh hiện trang dé bảo ton tài liệu về vi trí, kết nối va trang thái ban dau của bằng chứng.",
+          "vi_question": "Theo best practices, thủ tục đầu tiên cần thực hiện để bảo quản bằng chứng đúng cách tại hiện trường là gì?",
+          "vi_explanation": "C. Photograph the computer and scene.\n— Chụp ảnh máy tính và hiện trường.\nTrước khi thay đổi hoặc thao tác với thiết bị, cần ghi lại và chụp ảnh hiện trạng để bảo tồn tài liệu về vị trí, kết nối và trạng thái ban đầu của bằng chứng.",
           "has_visual": false
         },
         {
@@ -3759,8 +3759,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Một hạn chế phố biến của POP3 so với IMAP là gì?",
-          "vi_explanation": "B. POP3 does not allow synchronization across devices\n— POP3 không hỗ trợ đồng bộ hóa day đủ giữa nhiều thiết bị.\nIMAP giữ và đồng bộ trang thái email trên server giữa nhiều thiết bị, trong khi POP3 chủ yếu được thiết kế dé tải email về client.",
+          "vi_question": "Một hạn chế phổ biến của POP3 so với IMAP là gì?",
+          "vi_explanation": "B. POP3 does not allow synchronization across devices\n— POP3 không hỗ trợ đồng bộ hóa đầy đủ giữa nhiều thiết bị.\nIMAP giữ và đồng bộ trạng thái email trên server giữa nhiều thiết bị, trong khi POP3 chủ yếu được thiết kế để tải email về client.",
           "has_visual": false
         },
         {
@@ -3778,8 +3778,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Tại sao việc đơn giản copy va paste file không đủ dé tao forensic clone?",
-          "vi_explanation": "B. It skips system and deleted files\n— Nó bỏ qua các file hệ thông và dữ liệu/file đã bị xóa.\nForensic cloning can sao chép ở mức bit dé bảo toàn cả dữ liệu hiện có, dữ liệu đã xóa, unallocated space và các vùng dữ liệu quan trọng khác.",
+          "vi_question": "Tại sao việc đơn giản copy và paste file không đủ để tạo forensic clone?",
+          "vi_explanation": "B. It skips system and deleted files\n— Nó bỏ qua các file hệ thống và dữ liệu/file đã bị xóa.\nForensic cloning cần sao chép ở mức bit để bảo toàn cả dữ liệu hiện có, dữ liệu đã xóa, unallocated space và các vùng dữ liệu quan trọng khác.",
           "has_visual": false
         },
         {
@@ -3797,8 +3797,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Mục dich chính của quá trình cloning trong digital forensics là gì?",
-          "vi_explanation": "A. To create duplicate copies of evidence for analysis\n— Tao các ban sao của bang chứng dé phục vụ phân tích.\nForensic clone giúp examiner làm việc trên bản sao thay vì bằng chứng gốc, qua đó bảo vệ tính toàn vẹn của dữ liệu gốc.",
+          "vi_question": "Mục đích chính của quá trình cloning trong digital forensics là gì?",
+          "vi_explanation": "A. To create duplicate copies of evidence for analysis\n— Tạo các bản sao của bằng chứng để phục vụ phân tích.\nForensic clone giúp examiner làm việc trên bản sao thay vì bằng chứng gốc, qua đó bảo vệ tính toàn vẹn của dữ liệu gốc.",
           "has_visual": false
         },
         {
@@ -3817,7 +3817,7 @@ window.QUIZ_COURSES.FRS301 = {
             "C"
           ],
           "vi_question": "Metadata thường bao gồm thông tin nào?",
-          "vi_explanation": "C. File creation, access, and modification times\n— Thời gian tạo, truy cập và chỉnh sửa file.\nMetadata là dữ liệu mô tả dữ liệu, thường chứa các timestamp như thời điểm file được tạo, truy cập và sửa doi.",
+          "vi_explanation": "C. File creation, access, and modification times\n— Thời gian tạo, truy cập và chỉnh sửa file.\nMetadata là dữ liệu mô tả dữ liệu, thường chứa các timestamp như thời điểm file được tạo, truy cập và sửa đổi.",
           "has_visual": false
         },
         {
@@ -3835,8 +3835,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Khi nào kẻ tan công muốn phá hủy dữ liệu (data destruction)?",
-          "vi_explanation": "B. Sometimes hiding data isn’t enough\n— Khi việc che giấu dữ liệu đôi khi là chưa đủ.\nKẻ tấn công có thé phá hủy dữ liệu nhằm xóa dau vết hoặc khiến dữ liệu không thé được phục hồi và sử dụng làm bằng chứng.",
+          "vi_question": "Khi nào kẻ tấn công muốn phá hủy dữ liệu (data destruction)?",
+          "vi_explanation": "B. Sometimes hiding data isn’t enough\n— Khi việc che giấu dữ liệu đôi khi là chưa đủ.\nKẻ tấn công có thể phá hủy dữ liệu nhằm xóa dấu vết hoặc khiến dữ liệu không thể được phục hồi và sử dụng làm bằng chứng.",
           "has_visual": false
         },
         {
@@ -3854,8 +3854,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tại sao sử dung Shift + Delete khiến việc khôi phục file khó khăn hơn?",
-          "vi_explanation": "C. It skips the Recycle Bin, reducing user recovery options\n— Nó bỏ qua Recycle Bin, làm giảm các lựa chọn khôi phục thông thường của người dùng.\nShift + Delete xóa file mà không chuyễn nó vào Recycle Bin. Tuy nhiên, dữ liệu van có thé còn trên thiết bị lưu trữ cho đến khi bị ghi đè.",
+          "vi_question": "Tại sao sử dụng Shift + Delete khiến việc khôi phục file khó khăn hơn?",
+          "vi_explanation": "C. It skips the Recycle Bin, reducing user recovery options\n— Nó bỏ qua Recycle Bin, làm giảm các lựa chọn khôi phục thông thường của người dùng.\nShift + Delete xóa file mà không chuyển nó vào Recycle Bin. Tuy nhiên, dữ liệu vẫn có thể còn trên thiết bị lưu trữ cho đến khi bị ghi đè.",
           "has_visual": false
         }
       ]
@@ -3881,8 +3881,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mã hóa (Encryption) là gi?",
-          "vi_explanation": "C. Quá trình chuyễn đỗi dữ liệu thành mã dé ngăn chặn truy cập trái phép.\nMã hóa là quá trình biến dữ liệu thành dạng mã đề chỉ những người được cấp quyền mới có thé truy cập và đọc được.",
+          "vi_question": "Mã hóa (Encryption) là gì?",
+          "vi_explanation": "C. Quá trình chuyển đổi dữ liệu thành mã để ngăn chặn truy cập trái phép.\nMã hóa là quá trình biến dữ liệu thành dạng mã để chỉ những người được cấp quyền mới có thể truy cập và đọc được.",
           "has_visual": false
         },
         {
@@ -3900,8 +3900,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "\"Anonymous remailing\" (chuyên tiếp email ân danh) trong ngữ cảnh giả mạo email (e-mail spoofing) là gì?",
-          "vi_explanation": "C. Dịch vụ chuyén tiếp email, loại bỏ thông tin nhận dạng trước khi gửi dé đảm bảo quyền riêng tư của người dùng.\nAnonymous remailing giúp ân danh người gửi bằng cách xóa thông tin nhận dạng trước khi chuyễn tiếp email.",
+          "vi_question": "\"Anonymous remailing\" (chuyển tiếp email ẩn danh) trong ngữ cảnh giả mạo email (e-mail spoofing) là gì?",
+          "vi_explanation": "C. Dịch vụ chuyển tiếp email, loại bỏ thông tin nhận dạng trước khi gửi để đảm bảo quyền riêng tư của người dùng.\nAnonymous remailing giúp ẩn danh người gửi bằng cách xóa thông tin nhận dạng trước khi chuyển tiếp email.",
           "has_visual": false
         },
         {
@@ -3919,8 +3919,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Dữ liệu tiềm an (latent data) là gì?",
-          "vi_explanation": "B. Dữ liệu bi an hoặc không thé nhìn thầy ngay nhưng có thé được khôi phục.\nLatent data là dữ liệu không hién thị trực tiếp nhưng van có thé được khôi phục bằng các công cụ pháp y.",
+          "vi_question": "Dữ liệu tiềm ẩn (latent data) là gì?",
+          "vi_explanation": "B. Dữ liệu bị ẩn hoặc không thể nhìn thấy ngay nhưng có thể được khôi phục.\nLatent data là dữ liệu không hiển thị trực tiếp nhưng vẫn có thể được khôi phục bằng các công cụ pháp y.",
           "has_visual": false
         },
         {
@@ -3939,7 +3939,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Một trong những thách thức khi thu thập chứng cứ từ nhật ký (log) của router trong điều tra mạng là gì?",
-          "vi_explanation": "B. Nhật ký router có tính dễ mất (volatile) và có thé dễ dàng bị sửa đôi hoặc xóa nếu truy cập không đúng cách.\nRouter log có thé bị ghi đè hoặc thay đôi nhanh chóng, vì vậy cần được thu thập đúng quy trình dé bảo toàn chứng cứ.",
+          "vi_explanation": "B. Nhật ký router có tính dễ mất (volatile) và có thể dễ dàng bị sửa đổi hoặc xóa nếu truy cập không đúng cách.\nRouter log có thể bị ghi đè hoặc thay đổi nhanh chóng, vì vậy cần được thu thập đúng quy trình để bảo toàn chứng cứ.",
           "has_visual": false
         },
         {
@@ -3958,7 +3958,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Mục tiêu chính của việc bảo vệ hiện trường trong điều tra số (Digital Forensics) là gì?",
-          "vi_explanation": "D. Giảm thiéu sự xáo trộn và bảo toàn tính toàn vẹn của các chứng cứ tiềm năng.\nViệc bảo vệ hiện trường nhằm đảm bảo chứng cứ không bị thay đỗi, mất mát hoặc nhiễm ban trong quá trình điều tra.",
+          "vi_explanation": "D. Giảm thiểu sự xáo trộn và bảo toàn tính toàn vẹn của các chứng cứ tiềm năng.\nViệc bảo vệ hiện trường nhằm đảm bảo chứng cứ không bị thay đổi, mất mát hoặc nhiễm bẩn trong quá trình điều tra.",
           "has_visual": false
         },
         {
@@ -3976,8 +3976,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Ly do chính dé cách ly điện thoại di động trong quá trình điều tra pháp y số là gì?",
-          "vi_explanation": "D. Ngăn chặn việc truy cập trái phép hoặc làm thay đỗi chứng cứ.\nCách ly điện thoại (ví dụ bằng túi Faraday) giúp ngăn tín hiệu mạng và tránh dữ liệu bị xóa hoặc thay đồi từ xa.",
+          "vi_question": "Lý do chính để cách ly điện thoại di động trong quá trình điều tra pháp y số là gì?",
+          "vi_explanation": "D. Ngăn chặn việc truy cập trái phép hoặc làm thay đổi chứng cứ.\nCách ly điện thoại (ví dụ bằng túi Faraday) giúp ngăn tín hiệu mạng và tránh dữ liệu bị xóa hoặc thay đổi từ xa.",
           "has_visual": false
         },
         {
@@ -3995,8 +3995,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich chính của việc hiéu thứ tự độ biến dong (order of volatility) trong điều tra số là gì?",
-          "vi_explanation": "C. Xác định những chứng cứ quan trọng nhất can được thu thập và bảo quản trước.\nDữ liệu dễ mất như RAM phải được thu thập trước các dữ liệu ít biến động như 6 cứng.",
+          "vi_question": "Mục đích chính của việc hiểu thứ tự độ biến động (order of volatility) trong điều tra số là gì?",
+          "vi_explanation": "C. Xác định những chứng cứ quan trọng nhất cần được thu thập và bảo quản trước.\nDữ liệu dễ mất như RAM phải được thu thập trước các dữ liệu ít biến động như ổ cứng.",
           "has_visual": false
         },
         {
@@ -4015,7 +4015,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Khoa học pháp y (Forensic Science) là gì?",
-          "vi_explanation": "B. Việc áp dụng các nguyên lý khoa hoc dé phân tích chứng cứ trong các cuộc điều tra pháp lý.\nKhoa học pháp y sử dụng các phương pháp khoa học đề thu thập, phân tích và trình bày chứng cứ phục vụ điều tra và xét xử.",
+          "vi_explanation": "B. Việc áp dụng các nguyên lý khoa học để phân tích chứng cứ trong các cuộc điều tra pháp lý.\nKhoa học pháp y sử dụng các phương pháp khoa học để thu thập, phân tích và trình bày chứng cứ phục vụ điều tra và xét xử.",
           "has_visual": false
         },
         {
@@ -4034,7 +4034,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Lấy mẫu dữ liệu (Data sampling) trong ngữ cảnh Dữ liệu được lưu trữ điện tử (Electronically Stored Information - ESI) là gì?",
-          "vi_explanation": "B. Chọn một tập dữ liệu đại diện từ một tập dữ liệu lớn hơn dé phân tích.\nData sampling giúp phân tích hiệu quả bằng cách sử dụng một mẫu đại diện thay vì toàn bộ dữ liệu.",
+          "vi_explanation": "B. Chọn một tập dữ liệu đại diện từ một tập dữ liệu lớn hơn để phân tích.\nData sampling giúp phân tích hiệu quả bằng cách sử dụng một mẫu đại diện thay vì toàn bộ dữ liệu.",
           "has_visual": false
         },
         {
@@ -4052,8 +4052,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Tần công từ điễn (Dictionary attack) là gì?",
-          "vi_explanation": "B. Kỹ thuật đoán mật khẩu bằng cách thử lần lượt danh sách các từ hoặc cụm từ phd biến.\nDictionary attack sử dụng danh sách từ phd biến dé thử đoán mật khẫu.",
+          "vi_question": "Tấn công từ điển (Dictionary attack) là gì?",
+          "vi_explanation": "B. Kỹ thuật đoán mật khẩu bằng cách thử lần lượt danh sách các từ hoặc cụm từ phổ biến.\nDictionary attack sử dụng danh sách từ phổ biến để thử đoán mật khẩu.",
           "has_visual": false
         },
         {
@@ -4071,8 +4071,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Một rủi ro tiềm ân khi phân tích một hệ thống đang hoạt động (live system) trong điều tra số là gì?",
-          "vi_explanation": "B. Chứng cứ có thé bị thay đỗi hoặc phá hủy do các tiền trình của hệ thống van đang hoạt động.\nCác tiền trình đang chạy có thé làm thay đỗi dữ liệu và ảnh hưởng đến tính toàn vẹn của chứng cứ.",
+          "vi_question": "Một rủi ro tiềm ẩn khi phân tích một hệ thống đang hoạt động (live system) trong điều tra số là gì?",
+          "vi_explanation": "B. Chứng cứ có thể bị thay đổi hoặc phá hủy do các tiến trình của hệ thống vẫn đang hoạt động.\nCác tiến trình đang chạy có thể làm thay đổi dữ liệu và ảnh hưởng đến tính toàn vẹn của chứng cứ.",
           "has_visual": false
         },
         {
@@ -4090,8 +4090,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich chính của việc kiém tra các thiết bi trung gian như router và máy chủ trong điều tra mạng là gì?",
-          "vi_explanation": "C. Thu thập thông tin và chứng cứ có giá trị trên đường đi mà kẻ tan công đã sử dụng.\nRouter và máy chủ thường lưu lại nhật ký giúp truy vết hoạt động của kẻ tấn công.",
+          "vi_question": "Mục đích chính của việc kiểm tra các thiết bị trung gian như router và máy chủ trong điều tra mạng là gì?",
+          "vi_explanation": "C. Thu thập thông tin và chứng cứ có giá trị trên đường đi mà kẻ tấn công đã sử dụng.\nRouter và máy chủ thường lưu lại nhật ký giúp truy vết hoạt động của kẻ tấn công.",
           "has_visual": false
         },
         {
@@ -4109,8 +4109,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Theo NIST, một hoạt động quan trong trong giai đoạn sau sự có (post-incident) là gì?",
-          "vi_explanation": "C. Thực hiện đánh giá toàn diện sau sự có dé xác định các điểm can cải thiện.\nViệc đánh giá sau sự cố giúp rút kinh nghiệm và nâng cao khả năng ứng phó trong tương lai.",
+          "vi_question": "Theo NIST, một hoạt động quan trọng trong giai đoạn sau sự cố (post-incident) là gì?",
+          "vi_explanation": "C. Thực hiện đánh giá toàn diện sau sự cố để xác định các điểm cần cải thiện.\nViệc đánh giá sau sự cố giúp rút kinh nghiệm và nâng cao khả năng ứng phó trong tương lai.",
           "has_visual": false
         },
         {
@@ -4128,8 +4128,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "\"Anonymous remailing\" (chuyên tiếp email ân danh) trong ngữ cảnh giả mao email là gi?",
-          "vi_explanation": "C. Dịch vụ chuyén tiếp email, loại bỏ thông tin nhận dạng trước khi gửi dé đảm bảo quyền riêng tư của người dùng.\nDich vụ này giúp che giấu danh tính người gửi bằng cách xóa thông tin nhận dạng.",
+          "vi_question": "\"Anonymous remailing\" (chuyển tiếp email ẩn danh) trong ngữ cảnh giả mạo email là gì?",
+          "vi_explanation": "C. Dịch vụ chuyển tiếp email, loại bỏ thông tin nhận dạng trước khi gửi để đảm bảo quyền riêng tư của người dùng.\nDịch vụ này giúp che giấu danh tính người gửi bằng cách xóa thông tin nhận dạng.",
           "has_visual": false
         },
         {
@@ -4204,8 +4204,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich chính của việc hiéu thứ tự độ biến dong (order of volatility) trong điều tra số là gì?",
-          "vi_explanation": "C. Xác định những chứng cứ quan trọng nhất can được thu thập và bảo quản trước.\nDữ liệu dễ mất như RAM cần được thu thập trước các dữ liệu trên ô cứng.",
+          "vi_question": "Mục đích chính của việc hiểu thứ tự độ biến động (order of volatility) trong điều tra số là gì?",
+          "vi_explanation": "C. Xác định những chứng cứ quan trọng nhất cần được thu thập và bảo quản trước.\nDữ liệu dễ mất như RAM cần được thu thập trước các dữ liệu trên ổ cứng.",
           "has_visual": false
         },
         {
@@ -4223,8 +4223,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Sự khác biệt đáng ké giữa môi trường đám may (cloud) và môi trường truyền thống (on-premises) trong điều tra số là gì?",
-          "vi_explanation": "C. Môi trường đám mây thường không cho phép truy cập vật lý vào thiết bị lưu trữ.\nĐiều tra trên cloud phụ thuộc nhiều vào nhà cung cấp dịch vụ vì không thé trực tiếp truy cập 6 lưu trữ.",
+          "vi_question": "Sự khác biệt đáng kể giữa môi trường đám mây (cloud) và môi trường truyền thống (on-premises) trong điều tra số là gì?",
+          "vi_explanation": "C. Môi trường đám mây thường không cho phép truy cập vật lý vào thiết bị lưu trữ.\nĐiều tra trên cloud phụ thuộc nhiều vào nhà cung cấp dịch vụ vì không thể trực tiếp truy cập ổ lưu trữ.",
           "has_visual": false
         },
         {
@@ -4242,8 +4242,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Một phương pháp mà nghi phạm có thé sử dụng đề ngăn email bị truy vết là gì?",
-          "vi_explanation": "B. Giả mạo email dé làm cho nó có vẻ như được gửi từ một người khác.\nGiả mạo email (email spoofing) giúp che giấu nguồn gốc thực của thư điện tử.",
+          "vi_question": "Một phương pháp mà nghi phạm có thể sử dụng để ngăn email bị truy vết là gì?",
+          "vi_explanation": "B. Giả mạo email để làm cho nó có vẻ như được gửi từ một người khác.\nGiả mạo email (email spoofing) giúp che giấu nguồn gốc thực của thư điện tử.",
           "has_visual": false
         },
         {
@@ -4281,7 +4281,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Sự khác biệt chính giữa hệ thống đang hoạt động (live system) và hệ thống đã tắt (dead system) trong điều tra số là gì?",
-          "vi_explanation": "A. Live system đang được bật và hoạt động, con dead system đã tắt nguồn.\nLive system còn chứa dữ liệu dễ mat như RAM, trong khi dead system thì không.",
+          "vi_explanation": "A. Live system đang được bật và hoạt động, còn dead system đã tắt nguồn.\nLive system còn chứa dữ liệu dễ mất như RAM, trong khi dead system thì không.",
           "has_visual": false
         },
         {
@@ -4319,7 +4319,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Chức năng chính của giao thức TCP (Transmission Control Protocol) trong mạng là gì?",
-          "vi_explanation": "B. Cung cấp kênh truyền thông tin cậy, có kết nối giữa các thiết bị mạng.\nTCP đảm bảo dữ liệu được truyền day đủ, đúng thứ tự và không bi mat.",
+          "vi_explanation": "B. Cung cấp kênh truyền thông tin cậy, có kết nối giữa các thiết bị mạng.\nTCP đảm bảo dữ liệu được truyền đầy đủ, đúng thứ tự và không bị mất.",
           "has_visual": false
         },
         {
@@ -4337,8 +4337,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục đích chính của việc hiéu thứ tự độ biến động (order of volatility) trong điều tra số là gì?",
-          "vi_explanation": "C. Xác định những chứng cứ quan trọng nhất can được thu thập và bảo quản trước.\nThứ tự độ biến động giúp điều tra viên ưu tiên thu thập dữ liệu dễ mất trước.",
+          "vi_question": "Mục đích chính của việc hiểu thứ tự độ biến động (order of volatility) trong điều tra số là gì?",
+          "vi_explanation": "C. Xác định những chứng cứ quan trọng nhất cần được thu thập và bảo quản trước.\nThứ tự độ biến động giúp điều tra viên ưu tiên thu thập dữ liệu dễ mất trước.",
           "has_visual": false
         },
         {
@@ -4375,8 +4375,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Những thách thức nào có thé phát sinh khi bảo vệ hiện trường điều tra số so với hiện trường truyền thống?",
-          "vi_explanation": "B. Thiết bị điện tử có thé chứa dữ liệu dễ mắt và dữ liệu này có thé biến mắt nếu tắt nguồn.\nViệc xử lý sai có thé làm mat RAM, kết nối mạng và các chứng cứ quan trọng khác.",
+          "vi_question": "Những thách thức nào có thể phát sinh khi bảo vệ hiện trường điều tra số so với hiện trường truyền thống?",
+          "vi_explanation": "B. Thiết bị điện tử có thể chứa dữ liệu dễ mất và dữ liệu này có thể biến mất nếu tắt nguồn.\nViệc xử lý sai có thể làm mất RAM, kết nối mạng và các chứng cứ quan trọng khác.",
           "has_visual": false
         },
         {
@@ -4394,8 +4394,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Điều tra viên có thé gặp thách thức gì khi khôi phục dữ liệu đã xóa trong điều tra số?",
-          "vi_explanation": "B. Dữ liệu đã xóa sẽ không thé khôi phục nếu đã bị ghi đè.\nSau khi bị ghi đè, dữ liệu gốc thường không con khả năng phục hồi.",
+          "vi_question": "Điều tra viên có thể gặp thách thức gì khi khôi phục dữ liệu đã xóa trong điều tra số?",
+          "vi_explanation": "B. Dữ liệu đã xóa sẽ không thể khôi phục nếu đã bị ghi đè.\nSau khi bị ghi đè, dữ liệu gốc thường không còn khả năng phục hồi.",
           "has_visual": false
         },
         {
@@ -4413,8 +4413,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Các chuyên gia pháp y có thé gặp khó khăn gì khi xử ly System Restore trong điều tra số?",
-          "vi_explanation": "B. System Restore có thé ghi đè hoặc xóa các dầu vết pháp y có giá trị.\nViệc khôi phục hệ thống có thé làm mất hoặc thay đôi các chứng cứ quan trong.",
+          "vi_question": "Các chuyên gia pháp y có thể gặp khó khăn gì khi xử lý System Restore trong điều tra số?",
+          "vi_explanation": "B. System Restore có thể ghi đè hoặc xóa các dấu vết pháp y có giá trị.\nViệc khôi phục hệ thống có thể làm mất hoặc thay đổi các chứng cứ quan trọng.",
           "has_visual": false
         },
         {
@@ -4433,7 +4433,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "",
-          "vi_explanation": "Giải thích: i . | : i i i\nMessage-ID là mã định danh duy nhat của môi email. Trong điêu tra sô, nó giúp đôi chiêu email với các mail server logs dé xác minh đường di của email và chứng minh email đã được gửi hoặc nhận bởi một máy chủ cụ thê.",
+          "vi_explanation": "Giải thích:\nMessage-ID là mã định danh duy nhất của mỗi email. Trong điều tra số, nó giúp đối chiếu email với các mail server logs để xác minh đường đi của email và chứng minh email đã được gửi hoặc nhận bởi một máy chủ cụ thể.",
           "has_visual": false
         },
         {
@@ -4470,8 +4470,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Những thách thức nào có thé phát sinh khi bảo vệ hiện trường điều tra số so với hiện trường truyền thống?",
-          "vi_explanation": "B. Thiết bị điện tử có thé chứa dữ liệu dễ mắt (volatile) và dữ liệu này có thé bị mất nếu tắt nguồn.\nDữ liệu như RAM và các kết nối đang hoạt động sẽ biến mất khi thiết bị bị tắt.",
+          "vi_question": "Những thách thức nào có thể phát sinh khi bảo vệ hiện trường điều tra số so với hiện trường truyền thống?",
+          "vi_explanation": "B. Thiết bị điện tử có thể chứa dữ liệu dễ mất (volatile) và dữ liệu này có thể bị mất nếu tắt nguồn.\nDữ liệu như RAM và các kết nối đang hoạt động sẽ biến mất khi thiết bị bị tắt.",
           "has_visual": false
         },
         {
@@ -4489,8 +4489,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Yếu tố quan trọng nào mà một chuyên gia pháp y số phải chứng minh đề lời khai của mình được chấp nhận tại tòa?",
-          "vi_explanation": "B. Các phương pháp thu thập và phân tích chứng cứ số được chấp nhận về mặt khoa học và có độ tin cậy.\nTính hợp lệ của phương pháp là điều kiện quan trọng đễ chứng cứ được chấp nhận.",
+          "vi_question": "Yếu tố quan trọng nào mà một chuyên gia pháp y số phải chứng minh để lời khai của mình được chấp nhận tại tòa?",
+          "vi_explanation": "B. Các phương pháp thu thập và phân tích chứng cứ số được chấp nhận về mặt khoa học và có độ tin cậy.\nTính hợp lệ của phương pháp là điều kiện quan trọng để chứng cứ được chấp nhận.",
           "has_visual": false
         },
         {
@@ -4508,8 +4508,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Thông tin nào thường được ghi trong tài liệu Chain of Custody (Chuối bảo quản chứng cứ)?",
-          "vi_explanation": "B. Thông tin chi tiết về chứng cứ, bao gồm mô tả, vị trí và thời điểm thu thập.\nChain of Custody ghi lại toàn bộ quá trình xử lý chứng cứ đề đảm bảo tính toàn vẹn.",
+          "vi_question": "Thông tin nào thường được ghi trong tài liệu Chain of Custody (Chuỗi bảo quản chứng cứ)?",
+          "vi_explanation": "B. Thông tin chi tiết về chứng cứ, bao gồm mô tả, vị trí và thời điểm thu thập.\nChain of Custody ghi lại toàn bộ quá trình xử lý chứng cứ để đảm bảo tính toàn vẹn.",
           "has_visual": false
         },
         {
@@ -4527,8 +4527,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Phát biếu nào mô tả đúng về mạng Client/Server?",
-          "vi_explanation": "B. Mỗi máy tính được gan một trong hai vai trò: client hoặc server; client yêu cầu dịch vụ và server cung cấp dịch vụ.\nMô hình Client/Server phân chia rõ ràng vai trò giữa máy khách và máy chủ.",
+          "vi_question": "Phát biểu nào mô tả đúng về mạng Client/Server?",
+          "vi_explanation": "B. Mỗi máy tính được gán một trong hai vai trò: client hoặc server; client yêu cầu dịch vụ và server cung cấp dịch vụ.\nMô hình Client/Server phân chia rõ ràng vai trò giữa máy khách và máy chủ.",
           "has_visual": false
         },
         {
@@ -4546,8 +4546,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Phương pháp nào được khuyến nghị đề cách ly điện thoại trong quá trình phân tích pháp y số?",
-          "vi_explanation": "B. Chuyễn thiết bị sang chế độ máy bay (Airplane Mode) đễ vô hiệu hóa kết nối không dây.\nĐiều này giúp ngăn thiết bị nhận hoặc gửi dữ liệu trong quá trình thu thập chứng cứ.",
+          "vi_question": "Phương pháp nào được khuyến nghị để cách ly điện thoại trong quá trình phân tích pháp y số?",
+          "vi_explanation": "B. Chuyển thiết bị sang chế độ máy bay (Airplane Mode) để vô hiệu hóa kết nối không dây.\nĐiều này giúp ngăn thiết bị nhận hoặc gửi dữ liệu trong quá trình thu thập chứng cứ.",
           "has_visual": false
         },
         {
@@ -4565,8 +4565,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Hành động nào nên được thực hiện dé bảo vệ hiện trường điều tra số?",
-          "vi_explanation": "B. Phong tỏa khu vực đề ngăn ngừa việc làm nhiễm bản hoặc can thiệp vào chứng cứ.\nViệc phong tỏa giúp bảo vệ tính toàn vẹn của chứng cứ điện tử.",
+          "vi_question": "Hành động nào nên được thực hiện để bảo vệ hiện trường điều tra số?",
+          "vi_explanation": "B. Phong tỏa khu vực để ngăn ngừa việc làm nhiễm bẩn hoặc can thiệp vào chứng cứ.\nViệc phong tỏa giúp bảo vệ tính toàn vẹn của chứng cứ điện tử.",
           "has_visual": false
         },
         {
@@ -4585,7 +4585,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Đâu là một ưu điểm quan trọng của việc phân tích hệ thống đang hoạt động (live system)?",
-          "vi_explanation": "A. Có thé truy cập và phân tích dữ liệu dễ mat như nội dung RAM.\nLive analysis cho phép thu thập các dữ liệu sẽ mất khi tắt máy.",
+          "vi_explanation": "A. Có thể truy cập và phân tích dữ liệu dễ mất như nội dung RAM.\nLive analysis cho phép thu thập các dữ liệu sẽ mất khi tắt máy.",
           "has_visual": false
         },
         {
@@ -4603,8 +4603,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Hành động nào nên được thực hiện dé bảo vệ hiện trường điều tra số?",
-          "vi_explanation": "B. Phong tỏa khu vực đề ngăn ngừa việc làm nhiễm bản hoặc can thiệp vào chứng cứ.\nĐây là bước đầu tiên đề bảo đảm chứng cứ không bị thay đồi.",
+          "vi_question": "Hành động nào nên được thực hiện để bảo vệ hiện trường điều tra số?",
+          "vi_explanation": "B. Phong tỏa khu vực để ngăn ngừa việc làm nhiễm bẩn hoặc can thiệp vào chứng cứ.\nĐây là bước đầu tiên để bảo đảm chứng cứ không bị thay đổi.",
           "has_visual": false
         },
         {
@@ -4622,8 +4622,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều nào sau day có thé làm giảm độ tin cậy trong lời khai của chuyên gia pháp y số?",
-          "vi_explanation": "C. Chuyên gia sử dụng các kỹ thuật phân tích đã lỗi thời hoặc không còn được công nhận.\nNhững phương pháp không còn được công nhận có thé khiến chứng cứ bị bác bỏ.",
+          "vi_question": "Điều nào sau đây có thể làm giảm độ tin cậy trong lời khai của chuyên gia pháp y số?",
+          "vi_explanation": "C. Chuyên gia sử dụng các kỹ thuật phân tích đã lỗi thời hoặc không còn được công nhận.\nNhững phương pháp không còn được công nhận có thể khiến chứng cứ bị bác bỏ.",
           "has_visual": false
         },
         {
@@ -4642,7 +4642,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Đâu là một ưu điểm quan trọng của việc phân tích hệ thống đang hoạt động (live system)?",
-          "vi_explanation": "A. Có thé truy cập và phân tích dữ liệu dễ mat như nội dung RAM.\nĐây là lợi thế lớn nhất của phân tích trên hệ thống đang chạy.",
+          "vi_explanation": "A. Có thể truy cập và phân tích dữ liệu dễ mất như nội dung RAM.\nĐây là lợi thế lớn nhất của phân tích trên hệ thống đang chạy.",
           "has_visual": false
         },
         {
@@ -4660,7 +4660,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Trách nhiệm chính của chuyên gia pháp y số khi làm nhân chứng chuyên môn trước toa là gì?",
+          "vi_question": "Trách nhiệm chính của chuyên gia pháp y số khi làm nhân chứng chuyên môn trước tòa là gì?",
           "vi_explanation": "A. Giải thích chứng cứ số và trình bày ý nghĩa của chúng đối với vụ án.\nChuyên gia giải thích chứng cứ, không quyết định bị cáo có tội hay không.",
           "has_visual": false
         },
@@ -4680,7 +4680,7 @@ window.QUIZ_COURSES.FRS301 = {
             "D"
           ],
           "vi_question": "Phát biểu nào sau đây là không đúng khi bảo quản chứng cứ số?",
-          "vi_explanation": "D. Bật máy tính lên và trích xuất nhật ký Windows Event Viewer.\nKhông nên bật máy tính vì có thé làm thay đỏi hoặc phá hủy chứng cứ.",
+          "vi_explanation": "D. Bật máy tính lên và trích xuất nhật ký Windows Event Viewer.\nKhông nên bật máy tính vì có thể làm thay đổi hoặc phá hủy chứng cứ.",
           "has_visual": false
         },
         {
@@ -4698,7 +4698,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều nào sau day có thé làm giảm độ tin cậy trong lời khai của chuyên gia pháp y số?",
+          "vi_question": "Điều nào sau đây có thể làm giảm độ tin cậy trong lời khai của chuyên gia pháp y số?",
           "vi_explanation": "C. Chuyên gia sử dụng các kỹ thuật phân tích đã lỗi thời hoặc không còn được công nhận.\nCác kỹ thuật phải được kiểm chứng và được cộng đồng khoa học chấp nhận.",
           "has_visual": false
         },
@@ -4717,8 +4717,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Phương pháp nào được khuyến nghị đề cách ly điện thoại trong quá trình phân tích pháp y số?",
-          "vi_explanation": "B. Chuyễn thiết bị sang chế độ máy bay (Airplane Mode) đễ vô hiệu hóa kết nối không dây.\nĐiều này giúp tránh việc dữ liệu bị thay đổi từ xa.",
+          "vi_question": "Phương pháp nào được khuyến nghị để cách ly điện thoại trong quá trình phân tích pháp y số?",
+          "vi_explanation": "B. Chuyển thiết bị sang chế độ máy bay (Airplane Mode) để vô hiệu hóa kết nối không dây.\nĐiều này giúp tránh việc dữ liệu bị thay đổi từ xa.",
           "has_visual": false
         },
         {
@@ -4736,8 +4736,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tổ chức nao thường chịu trách nhiệm công nhận (accreditation) các phòng thi nghiệm pháp y tại Hoa Ky?",
-          "vi_explanation": "C. American Society of Crime Laboratory Directors/Laboratory Accreditation Board (ASCLD/LAB).\nASCLD/LAB là tỗ chức nỗi tiếng về kiểm định phòng thi nghiệm pháp y.",
+          "vi_question": "Tổ chức nào thường chịu trách nhiệm công nhận (accreditation) các phòng thí nghiệm pháp y tại Hoa Kỳ?",
+          "vi_explanation": "C. American Society of Crime Laboratory Directors/Laboratory Accreditation Board (ASCLD/LAB).\nASCLD/LAB là tổ chức nổi tiếng về kiểm định phòng thí nghiệm pháp y.",
           "has_visual": false
         },
         {
@@ -4755,7 +4755,7 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Khi nào việc khám xét của ca nhân (private search) được bảo vệ theo Tu chính án thứ Tư (Fourth Amendment)?",
+          "vi_question": "Khi nào việc khám xét của cá nhân (private search) được bảo vệ theo Tu chính án thứ Tư (Fourth Amendment)?",
           "vi_explanation": "A. Khi được thực hiện bởi một cá nhân mà không có sự tham gia của chính phủ.\nFourth Amendment chỉ hạn chế hành vi của chính phủ, không áp dụng với hành động độc lập của cá nhân.",
           "has_visual": false
         },
@@ -4774,8 +4774,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tai sao việc duy trì chính xác Chain of Custody lại quan trong trong điều tra số?",
-          "vi_explanation": "C. Dé bảo đảm tính toàn vẹn của chứng cứ nhằm được chấp nhận tại tòa án.\nChuối bảo quản chứng cứ giúp chứng minh chứng cứ không bị sửa doi.",
+          "vi_question": "Tại sao việc duy trì chính xác Chain of Custody lại quan trọng trong điều tra số?",
+          "vi_explanation": "C. Để bảo đảm tính toàn vẹn của chứng cứ nhằm được chấp nhận tại tòa án.\nChuỗi bảo quản chứng cứ giúp chứng minh chứng cứ không bị sửa đổi.",
           "has_visual": false
         },
         {
@@ -4794,7 +4794,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Tại sao drive slack lại quan trọng trong điều tra số?",
-          "vi_explanation": "B. Vì nó có thễ chứa phần còn sót lại của các tệp đã xóa và thông tin nhạy cảm.\nDrive slack thường lưu các dữ liệu còn dư từ những tệp trước đó.",
+          "vi_explanation": "B. Vì nó có thể chứa phần còn sót lại của các tệp đã xóa và thông tin nhạy cảm.\nDrive slack thường lưu các dữ liệu còn dư từ những tệp trước đó.",
           "has_visual": false
         },
         {
@@ -4813,7 +4813,7 @@ window.QUIZ_COURSES.FRS301 = {
             "B"
           ],
           "vi_question": "Tại sao cần sử dụng các công cụ pháp y đã được kiểm chứng và thử nghiệm khi thu thập chứng cứ?",
-          "vi_explanation": "B. Vì các công cụ chưa được kiểm chứng có thể làm thay đôi hoặc hỏng chứng cứ, khiến chứng cứ không còn giá trị pháp lý.\nCông cụ đã được xác thực giúp đảm bảo tính toàn vẹn của chứng cứ.",
+          "vi_explanation": "B. Vì các công cụ chưa được kiểm chứng có thể làm thay đổi hoặc hỏng chứng cứ, khiến chứng cứ không còn giá trị pháp lý.\nCông cụ đã được xác thực giúp đảm bảo tính toàn vẹn của chứng cứ.",
           "has_visual": false
         },
         {
@@ -4831,8 +4831,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "File header la gi?",
-          "vi_explanation": "A. Một tập ky tự đặc trưng ở đầu tệp dùng dé xác định loại tệp.\nFile header đáng tin cậy hơn phần mở rộng (extension) trong việc nhận diện loại tệp.",
+          "vi_question": "File header là gì?",
+          "vi_explanation": "A. Một tập ký tự đặc trưng ở đầu tệp dùng để xác định loại tệp.\nFile header đáng tin cậy hơn phần mở rộng (extension) trong việc nhận diện loại tệp.",
           "has_visual": false
         },
         {
@@ -4850,8 +4850,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trong điều tra số, theo thứ tự độ biến động (order of volatility), điều gi là thách thức khi xử lý dữ liệu dễ mat?",
-          "vi_explanation": "C. Dữ liệu dễ mắt có thé bị mất nếu không được thu thập kịp thời.\nRAM và các dữ liệu đang hoạt động phải được ưu tiên thu thập.",
+          "vi_question": "Trong điều tra số, theo thứ tự độ biến động (order of volatility), điều gì là thách thức khi xử lý dữ liệu dễ mất?",
+          "vi_explanation": "C. Dữ liệu dễ mất có thể bị mất nếu không được thu thập kịp thời.\nRAM và các dữ liệu đang hoạt động phải được ưu tiên thu thập.",
           "has_visual": false
         },
         {
@@ -4869,8 +4869,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Trong vụ án của vũ công Debbie Flores-Narvaez tai Las Vegas, chứng cứ GPS đã giúp tìm thấy thi thé của cô ấy như thế nào?",
-          "vi_explanation": "B. Dữ liệu GPS từ xe tải U-Haul đã giúp truy vết đường di chuyên của nghi phạm.\nDữ liệu GPS trên xe thuê là chứng cứ quan trong trong vu an.",
+          "vi_question": "Trong vụ án của vũ công Debbie Flores-Narvaez tại Las Vegas, chứng cứ GPS đã giúp tìm thấy thi thể của cô ấy như thế nào?",
+          "vi_explanation": "B. Dữ liệu GPS từ xe tải U-Haul đã giúp truy vết đường di chuyển của nghi phạm.\nDữ liệu GPS trên xe thuê là chứng cứ quan trọng trong vụ án.",
           "has_visual": false
         },
         {
@@ -4889,7 +4889,7 @@ window.QUIZ_COURSES.FRS301 = {
             "A"
           ],
           "vi_question": "Trong điều tra số, sự khác biệt chính giữa phân tích hệ thống đang hoạt động (live system) và hệ thống đã tắt (dead system) là gì?",
-          "vi_explanation": "A. Live system phân tích dữ liệu trên hệ thống đang chạy, con dead system phân tích hệ thống đã tắt hoặc ảnh dia (disk image).\nLive analysis thu thập được dữ liệu dễ mất, trong khi dead analysis tập trung vào dữ liệu lưu trữ lâu dài.",
+          "vi_explanation": "A. Live system phân tích dữ liệu trên hệ thống đang chạy, còn dead system phân tích hệ thống đã tắt hoặc ảnh đĩa (disk image).\nLive analysis thu thập được dữ liệu dễ mất, trong khi dead analysis tập trung vào dữ liệu lưu trữ lâu dài.",
           "has_visual": false
         },
         {
@@ -4907,8 +4907,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Hệ thống phát hiện xâm nhập (Intrusion Detection System - IDS) được thiết kế dé làm gì?",
-          "vi_explanation": "B. Giám sát mạng nhằm phát hiện các dầu hiệu của các cuộc tần công đã biết và các hoạt động bất thường từ cả bên ngoài lẫn bên trong (To monitor a network for signs of known attacks and unusual activities from both external and internal\nsources).\nIDS có nhiệm vụ phát hiện và cảnh báo các hành vi đáng ngờ trên mạng, nhưng không nhất thiết ngăn chặn chúng.",
+          "vi_question": "Hệ thống phát hiện xâm nhập (Intrusion Detection System - IDS) được thiết kế để làm gì?",
+          "vi_explanation": "B. Giám sát mạng nhằm phát hiện các dấu hiệu của các cuộc tấn công đã biết và các hoạt động bất thường từ cả bên ngoài lẫn bên trong (To monitor a network for signs of known attacks and unusual activities from both external and internal sources).\nIDS có nhiệm vụ phát hiện và cảnh báo các hành vi đáng ngờ trên mạng, nhưng không nhất thiết ngăn chặn chúng.",
           "has_visual": false
         },
         {
@@ -4926,8 +4926,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Kỹ thuật tần cong Brute Force là gì?",
-          "vi_explanation": "C. Chiến lược đoán mật khẩu hoặc khóa mã hóa bằng cách thử lần lượt nhiều khả năng (A strategy for guessing passwords or encryption keys through trial and error).\nBrute Force Attack thử liên tục nhiều mật khâu hoặc khóa mã hóa cho đến khi tìm được kết quả đúng.",
+          "vi_question": "Kỹ thuật tấn công Brute Force là gì?",
+          "vi_explanation": "C. Chiến lược đoán mật khẩu hoặc khóa mã hóa bằng cách thử lần lượt nhiều khả năng (A strategy for guessing passwords or encryption keys through trial and error).\nBrute Force Attack thử liên tục nhiều mật khẩu hoặc khóa mã hóa cho đến khi tìm được kết quả đúng.",
           "has_visual": false
         },
         {
@@ -4945,8 +4945,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Đâu là nhược điểm của Chứng cứ điện tử (Electronic Stored Information - ESI) liên quan đến việc sửa đỗi dữ liệu?",
-          "vi_explanation": "C. ESI có thé dễ dàng bị sửa đi, khiến việc đảm bảo tính toàn vẹn của dữ liệu trở nên khó khăn (ESI can be easily modified, making it challenging to ensure data integrity).\nDo dữ liệu điện tử có thé bị thay đôi mà không dé lại dau vết rõ ràng, điều tra viên phải sử dụng các biện pháp như giá trị băm (hash value) và chuối bảo quản chứng cứ (chain of custody) d@& đảm bảo tính toàn ven của chứng cứ.",
+          "vi_question": "Đâu là nhược điểm của Chứng cứ điện tử (Electronic Stored Information - ESI) liên quan đến việc sửa đổi dữ liệu?",
+          "vi_explanation": "C. ESI có thể dễ dàng bị sửa đổi, khiến việc đảm bảo tính toàn vẹn của dữ liệu trở nên khó khăn (ESI can be easily modified, making it challenging to ensure data integrity).\nDo dữ liệu điện tử có thể bị thay đổi mà không để lại dấu vết rõ ràng, điều tra viên phải sử dụng các biện pháp như giá trị băm (hash value) và chuỗi bảo quản chứng cứ (chain of custody) để đảm bảo tính toàn vẹn của chứng cứ.",
           "has_visual": false
         },
         {
@@ -4965,8 +4965,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich của Standard Operating Procedures (SOPs) trong pháp chứng kỹ thuật số (digital forensics) là gi?",
-          "vi_explanation": "C. To provide consistency and reliability in lab procedures\n— Đảm bảo tinh nhat quán va độ tin cậy trong các quy trình của phòng thi nghiệm pháp chứng.\nSOPs cung cấp các quy trình chuẩn dé forensic examiner thực hiện công việc theo cùng một phương pháp, giúp duy trì tính nhất quán, chính xác và đáng tin cậy của quá trình xử lý bằng chứng.",
+          "vi_question": "Mục đích của Standard Operating Procedures (SOPs) trong pháp chứng kỹ thuật số (digital forensics) là gì?",
+          "vi_explanation": "C. To provide consistency and reliability in lab procedures\n→ Đảm bảo tính nhất quán và độ tin cậy trong các quy trình của phòng thí nghiệm pháp chứng.\nSOPs cung cấp các quy trình chuẩn để forensic examiner thực hiện công việc theo cùng một phương pháp, giúp duy trì tính nhất quán, chính xác và đáng tin cậy của quá trình xử lý bằng chứng.",
           "has_visual": false
         },
         {
@@ -4984,8 +4984,8 @@ window.QUIZ_COURSES.FRS301 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Mục dich chính của việc cach ly điện thoại di động khỏi mạng trong quá trình kiém tra pháp chứng là gì?",
-          "vi_explanation": "A. To prevent remote wiping and overwriting of potential evidence\n— Ngăn chặn việc xóa dữ liệu từ xa và ghi đè lên các băng chứng tiêm nang.\nViệc cách ly thiết bị khỏi mạng giúp ngăn các lệnh từ xa có thé thay đổi hoặc xóa dữ liệu trên điện thoại, qua đó bảo vệ tính toàn vẹn của bằng chứng.\n— Chon",
+          "vi_question": "Mục đích chính của việc cách ly điện thoại di động khỏi mạng trong quá trình kiểm tra pháp chứng là gì?",
+          "vi_explanation": "A. To prevent remote wiping and overwriting of potential evidence\n→ Ngăn chặn việc xóa dữ liệu từ xa và ghi đè lên các bằng chứng tiềm năng.\nViệc cách ly thiết bị khỏi mạng giúp ngăn các lệnh từ xa có thể thay đổi hoặc xóa dữ liệu trên điện thoại, qua đó bảo vệ tính toàn vẹn của bằng chứng.\n→ Chọn A",
           "has_visual": false
         }
       ]

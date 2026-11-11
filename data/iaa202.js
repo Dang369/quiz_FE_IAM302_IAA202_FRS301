@@ -25,7 +25,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "Điều nào đúng về Information Technology Infrastructure Library (ITIL)? (Chọn 2 đáp án)",
-          "vi_explanation": "B. Là tập hợp các thông lệ tốt (Set of good practices).\nC. Bao gôm 5 giai đoạn/vòng đời dịch vụ (Include 5 books of its lifecycle).\nITIL là bộ thông lệ tốt về quản lý dịch vụ CNTT và phiên bản ITIL v3 được td chức theo 5 giai đoạn của vòng đời dịch vụ.",
+          "vi_explanation": "B. Là tập hợp các thông lệ tốt (Set of good practices).\nC. Bao gồm 5 giai đoạn/vòng đời dịch vụ (Include 5 books of its lifecycle).\nITIL là bộ thông lệ tốt về quản lý dịch vụ CNTT và phiên bản ITIL v3 được tổ chức theo 5 giai đoạn của vòng đời dịch vụ.",
           "has_visual": false
         },
         {
@@ -44,8 +44,8 @@ window.QUIZ_COURSES.IAA202 = {
             "B",
             "C"
           ],
-          "vi_question": "Khi một hệ thống bị nhiễm phần mềm độc hai (malware), những bước nào sau đây có thé được thực hiện dé phan ứng với sự cố? (Chon 2 đáp án)",
-          "vi_explanation": "B. Giữ nguyên trạng thái bật nguồn của hệ thống.\nC. Ghi lại moi thông báo xuat hiện trên màn hình.\nViệc giữ nguyên hiện trạng và ghi nhận thông tin giúp quá trình điều tra và xử lý sự cố hiệu quả hơn.",
+          "vi_question": "Khi một hệ thống bị nhiễm phần mềm độc hại (malware), những bước nào sau đây có thể được thực hiện để phản ứng với sự cố? (Chọn 2 đáp án)",
+          "vi_explanation": "B. Giữ nguyên trạng thái bật nguồn của hệ thống.\nC. Ghi lại mọi thông báo xuất hiện trên màn hình.\nViệc giữ nguyên hiện trạng và ghi nhận thông tin giúp quá trình điều tra và xử lý sự cố hiệu quả hơn.",
           "has_visual": false
         },
         {
@@ -66,7 +66,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "",
-          "vi_explanation": "Một trong những thách thức của việc quản lý rủi ro hiệu quả là đạt được sự cân bằng hợp lý giữa và . (Chọn 2 đáp án)\nA. Bảo mật (Security).\nB. Khả năng sử dụng (Usability).\nQuản lý rủi ro can cân bằng giữa mức độ bảo mật và tính tiện dụng của hệ thống.",
+          "vi_explanation": "Một trong những thách thức của việc quản lý rủi ro hiệu quả là đạt được sự cân bằng hợp lý giữa ________ và ________. (Chọn 2 đáp án)\nA. Bảo mật (Security).\nB. Khả năng sử dụng (Usability).\nQuản lý rủi ro cần cân bằng giữa mức độ bảo mật và tính tiện dụng của hệ thống.",
           "has_visual": false
         },
         {
@@ -85,8 +85,8 @@ window.QUIZ_COURSES.IAA202 = {
             "A",
             "B"
           ],
-          "vi_question": "Khi thực hiện đánh giá rủi ro định tinh (qualitative risk assessment) cho tỗ chức, bạn đang chuẩn bị báo cáo cuối cùng. Bạn nên can nhắc điều gì khi đưa ra kết quả và khuyến nghị? (Chon 2 đáp án)",
-          "vi_explanation": "A. Phân bb nguồn lực (Resource allocation).\nB. Chap nhan ri ro (Risk acceptance).\nBáo cáo đánh gia rủi ro định tinh cần hỗ trợ việc phan bd nguồn lực va quyết định chấp nhận hay xử lý rủi ro.",
+          "vi_question": "Khi thực hiện đánh giá rủi ro định tính (qualitative risk assessment) cho tổ chức, bạn đang chuẩn bị báo cáo cuối cùng. Bạn nên cân nhắc điều gì khi đưa ra kết quả và khuyến nghị? (Chọn 2 đáp án)",
+          "vi_explanation": "A. Phân bổ nguồn lực (Resource allocation).\nB. Chấp nhận rủi ro (Risk acceptance).\nBáo cáo đánh giá rủi ro định tính cần hỗ trợ việc phân bổ nguồn lực và quyết định chấp nhận hay xử lý rủi ro.",
           "has_visual": false
         },
         {
@@ -107,8 +107,8 @@ window.QUIZ_COURSES.IAA202 = {
             "C",
             "D"
           ],
-          "vi_question": "Một biện pháp đối phó (countermeasure) dang được xem xét dé bd sung vào kế hoạch giảm thiéu rủi ro. Những loại chi phí nào can được xem xét? (Chọn tất cả các đáp án đúng)",
-          "vi_explanation": "A. Chi phí mua sắm định kỳ (Regularly purchase costs).\nB. Chi phí cơ sở vật chất (Facility costs).\nC. Chi phí lắp đặt (Installation costs).\nD. Chi phí đào tao (Training costs).\nKhi triển khai một biện pháp đối phó, can tinh đến toàn bộ chi phí vòng đời, bao gồm mua sắm, cơ sở vật chất, lắp đặt và đào tao.",
+          "vi_question": "Một biện pháp đối phó (countermeasure) đang được xem xét để bổ sung vào kế hoạch giảm thiểu rủi ro. Những loại chi phí nào cần được xem xét? (Chọn tất cả các đáp án đúng)",
+          "vi_explanation": "A. Chi phí mua sắm định kỳ (Regularly purchase costs).\nB. Chi phí cơ sở vật chất (Facility costs).\nC. Chi phí lắp đặt (Installation costs).\nD. Chi phí đào tạo (Training costs).\nKhi triển khai một biện pháp đối phó, cần tính đến toàn bộ chi phí vòng đời, bao gồm mua sắm, cơ sở vật chất, lắp đặt và đào tạo.",
           "has_visual": false
         },
         {
@@ -130,7 +130,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "Những giai đoạn nào sau đây thường có trong Kế hoạch duy trì hoạt động kinh doanh — Business Continuity Plan? (Chọn tất cả đáp án đúng)",
-          "vi_explanation": "A. Thông báo. — Notification.\nB. Phuc hoi. — Recovery.\nC. Tải thiét lập. — Reconstitution.\nThông báo kích hoạt kế hoạch, phục hồi đưa các chức năng trở lai hoạt động và tái thiết lập chuyén hệ thống về trang thái vận hành bình thường.",
+          "vi_explanation": "A. Thông báo. — Notification.\nB. Phục hồi. — Recovery.\nC. Tái thiết lập. — Reconstitution.\nThông báo kích hoạt kế hoạch, phục hồi đưa các chức năng trở lại hoạt động và tái thiết lập chuyển hệ thống về trạng thái vận hành bình thường.",
           "has_visual": false
         },
         {
@@ -150,8 +150,8 @@ window.QUIZ_COURSES.IAA202 = {
             "B",
             "C"
           ],
-          "vi_question": "Những nội dung nào nên được đưa vào mục tiêu của kế hoạch quản lý rủi ro? (Chọn tat cả đáp án đúng)",
-          "vi_explanation": "A. Danh sách các mối đe dọa. — A list of threats.\nB. Danh sách các lô hông. — A list of vulnerabilities.\nC. Các chi phí liên quan đên rủi ro. — Costs associated with risks.\nKế hoạch cần xác định các mồi de dọa, lỗ hỗng và tác động hoặc chi phí của rủi ro đề hỗ trợ việc lựa chọn biện pháp xử lý phù hợp.",
+          "vi_question": "Những nội dung nào nên được đưa vào mục tiêu của kế hoạch quản lý rủi ro? (Chọn tất cả đáp án đúng)",
+          "vi_explanation": "A. Danh sách các mối đe dọa. — A list of threats.\nB. Danh sách các lỗ hổng. — A list of vulnerabilities.\nC. Các chi phí liên quan đến rủi ro. — Costs associated with risks.\nKế hoạch cần xác định các mối đe dọa, lỗ hổng và tác động hoặc chi phí của rủi ro để hỗ trợ việc lựa chọn biện pháp xử lý phù hợp.",
           "has_visual": false
         },
         {
@@ -170,8 +170,8 @@ window.QUIZ_COURSES.IAA202 = {
             "A",
             "B"
           ],
-          "vi_question": "Bạn đang thực hiện đánh giá rủi ro định tinh cho công ty. Khi cung cấp kết quả và khuyến nghị trong báo cáo cuối cùng, bạn nên xem xét những yếu tố nào? (Chon hai đáp án)",
-          "vi_explanation": "A. Phân bd nguồn lực. — Resource allocation.\nB. Chap nhận rủi ro. — Risk acceptance.\nĐánh giá định tinh hỗ trợ ban quản lý ưu tiên nguồn lực va quyết định rủi ro nào can giảm thiéu hoặc có thé chấp nhận. SLE, ARO va ALE chủ yếu thuộc đánh gia định lượng",
+          "vi_question": "Bạn đang thực hiện đánh giá rủi ro định tính cho công ty. Khi cung cấp kết quả và khuyến nghị trong báo cáo cuối cùng, bạn nên xem xét những yếu tố nào? (Chọn hai đáp án)",
+          "vi_explanation": "A. Phân bổ nguồn lực. — Resource allocation.\nB. Chấp nhận rủi ro. — Risk acceptance.\nĐánh giá định tính hỗ trợ ban quản lý ưu tiên nguồn lực và quyết định rủi ro nào cần giảm thiểu hoặc có thể chấp nhận. SLE, ARO và ALE chủ yếu thuộc đánh giá định lượng",
           "has_visual": false
         },
         {
@@ -191,8 +191,8 @@ window.QUIZ_COURSES.IAA202 = {
             "B",
             "C"
           ],
-          "vi_question": "Một kế hoạch khôi phục sau thảm họa — DRP áp dụng cho hệ thống lưu trữ cơ sở dữ liệu lớn. Những phương pháp nào có thé được sử dụng dé sao chép dữ liệu đến địa điểm ngoài cơ sở? (Chọn tat cả đáp án đúng)",
-          "vi_explanation": "A. Sao chép dữ liệu. — Data replication.\nB. Lưu trữ điện tử từ xa. — Electronic vaulting.\nC. Ghi nhật ký từ xa. — Remote journaling.\nD. S3 Bucket. - S3 bucket.\nCả bốn phương pháp đều có thé lưu hoặc đồng bộ dữ liệu tới một địa điểm từ xa; trong đó Electronic Vaulting va Remote Journaling là các kỹ thuật DRP truyền thống, còn S3 Bucket là một lựa chọn lưu trữ đám mây ngoài cơ sở.",
+          "vi_question": "Một kế hoạch khôi phục sau thảm họa — DRP áp dụng cho hệ thống lưu trữ cơ sở dữ liệu lớn. Những phương pháp nào có thể được sử dụng để sao chép dữ liệu đến địa điểm ngoài cơ sở? (Chọn tất cả đáp án đúng)",
+          "vi_explanation": "A. Sao chép dữ liệu. — Data replication.\nB. Lưu trữ điện tử từ xa. — Electronic vaulting.\nC. Ghi nhật ký từ xa. — Remote journaling.\nD. S3 Bucket. - S3 bucket.\nCả bốn phương pháp đều có thể lưu hoặc đồng bộ dữ liệu tới một địa điểm từ xa; trong đó Electronic Vaulting và Remote Journaling là các kỹ thuật DRP truyền thống, còn S3 Bucket là một lựa chọn lưu trữ đám mây ngoài cơ sở.",
           "has_visual": false
         },
         {
@@ -212,8 +212,8 @@ window.QUIZ_COURSES.IAA202 = {
             "B",
             "C"
           ],
-          "vi_question": "Việc xây dựng kế hoạch CIRT có thé giúp giảm thiéu rủi ro cho tô chức. Những lợi ích của kế hoạch CIRT là gì? (Chọn ba đáp án đúng)",
-          "vi_explanation": "A. Giúp t6 chức chuẩn bị tốt cho các sự cố. — Help the organization be well-prepared for incidents.\nB. Xác định vai trò và trách nhiệm. — Identifying roles and responsibilities.\nC. Hiéu rõ hơn những kỹ nang can thiết. — Better understanding of required skills.\nKế hoạch CIRT giúp tô chức chuẩn bi trước quy trình ứng phó, phân công trách nhiệm và xác định năng lực cần có của doi xử lý sự cố.",
+          "vi_question": "Việc xây dựng kế hoạch CIRT có thể giúp giảm thiểu rủi ro cho tổ chức. Những lợi ích của kế hoạch CIRT là gì? (Chọn ba đáp án đúng)",
+          "vi_explanation": "A. Giúp tổ chức chuẩn bị tốt cho các sự cố. — Help the organization be well-prepared for incidents.\nB. Xác định vai trò và trách nhiệm. — Identifying roles and responsibilities.\nC. Hiểu rõ hơn những kỹ năng cần thiết. — Better understanding of required skills.\nKế hoạch CIRT giúp tổ chức chuẩn bị trước quy trình ứng phó, phân công trách nhiệm và xác định năng lực cần có của đội xử lý sự cố.",
           "has_visual": false
         },
         {
@@ -232,8 +232,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Những nội dung nào cần được tuân thủ dé nang cao an ninh cho hệ thống CNTT? (Chọn 4 dap an)",
-          "vi_explanation": "A. Luật pháp. — Laws.\nB. Chính sách. — Policies.\nC. Quy định. — Regulations.\nD. Tiêu chuân. — Standards.\nViệc tuân thủ luật, chính sách, quy định và tiêu chuẩn giúp đảm bảo hệ thống đáp ứng các yêu cầu về an toàn thông tin",
+          "vi_question": "Những nội dung nào cần được tuân thủ để nâng cao an ninh cho hệ thống CNTT? (Chọn 4 đáp án)",
+          "vi_explanation": "A. Luật pháp. — Laws.\nB. Chính sách. — Policies.\nC. Quy định. — Regulations.\nD. Tiêu chuẩn. — Standards.\nViệc tuân thủ luật, chính sách, quy định và tiêu chuẩn giúp đảm bảo hệ thống đáp ứng các yêu cầu về an toàn thông tin",
           "has_visual": false
         },
         {
@@ -281,7 +281,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "",
-          "vi_explanation": "Sử dung ma trận Khả năng xảy ra mối de dọa / Mức độ tác dong (Threat Likelihood / Impact Matrix) đề xác định mức độ ưu tiên của các biện pháp đối phó, điểm cuối cùng là bao nhiêu nếu thảm hoa có khả năng xảy ra thấp (10%) va mức độ tac\nđộng cao (100)?\nC. 10\nPiém rủi ro = Khả năng xảy ra x Mức độ tác dong = 0,1 x 100 = 10.",
+          "vi_explanation": "Sử dụng ma trận Khả năng xảy ra mối đe dọa / Mức độ tác động (Threat Likelihood / Impact Matrix) để xác định mức độ ưu tiên của các biện pháp đối phó, điểm cuối cùng là bao nhiêu nếu thảm họa có khả năng xảy ra thấp (10%) và mức độ tác động cao (100)?\nC. 10\nĐiểm rủi ro = Khả năng xảy ra × Mức độ tác động = 0,1 × 100 = 10.",
           "has_visual": false
         },
         {
@@ -346,7 +346,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "",
-          "vi_explanation": "Một công ty dang bắt dau thực hiện đánh gia rủi ro cho một hệ thống. Trong giai đoạn đầu của quá trình đánh giá, can xác định cả đặc điểm và sứ mệnh (mission) của hệ thống.\nC. Hoạt động (Operational).\nViệc xác định các đặc điểm hoạt động và mục tiêu của hệ thống là bước đầu trong đánh giá rủi ro.",
+          "vi_explanation": "Một công ty đang bắt đầu thực hiện đánh giá rủi ro cho một hệ thống. Trong giai đoạn đầu của quá trình đánh giá, cần xác định cả đặc điểm ________ và sứ mệnh (mission) của hệ thống.\nC. Hoạt động (Operational).\nViệc xác định các đặc điểm hoạt động và mục tiêu của hệ thống là bước đầu trong đánh giá rủi ro.",
           "has_visual": false
         },
         {
@@ -363,8 +363,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Một trong những bước dau tiên của đánh giá rủi ro (Risk Assessment — RA) là:",
-          "vi_explanation": "A. Xác định tài sản (Identify assets).\nMuốn đánh giá rủi ro, trước hết phải biết những tài sản nào can được bảo vệ",
+          "vi_question": "Một trong những bước đầu tiên của đánh giá rủi ro (Risk Assessment — RA) là:",
+          "vi_explanation": "A. Xác định tài sản (Identify assets).\nMuốn đánh giá rủi ro, trước hết phải biết những tài sản nào cần được bảo vệ",
           "has_visual": false
         },
         {
@@ -381,8 +381,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Bạn nên xem xét va ra soát Kế hoạch khôi phục sau thảm hoa (Disaster Recovery Plan — DRP) ít nhất:",
-          "vi_explanation": "A. Hằng năm (Annually).\nThông lệ là DRP can được xem xét, cập nhật và kiếm thử ít nhất mối năm một lần.",
+          "vi_question": "Bạn nên xem xét và rà soát Kế hoạch khôi phục sau thảm họa (Disaster Recovery Plan — DRP) ít nhất:",
+          "vi_explanation": "A. Hằng năm (Annually).\nThông lệ là DRP cần được xem xét, cập nhật và kiểm thử ít nhất mỗi năm một lần.",
           "has_visual": false
         },
         {
@@ -400,8 +400,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Bạn đang trong quá trình lựa chọn phương pháp đánh gia rủi ro phù hợp. Một lợi ích chính của phương pháp đánh giá rủi ro nào là cung cấp thông tin chi tiết dé thực hiện phân tích chi phí — lợi ich (cost-benefit analysis)?",
-          "vi_explanation": "A. Định lượng (Quantitative).\nĐánh giá rủi ro định lượng sử dụng các giá trị số (như SLE, ALE) đề hỗ trợ phân tích chi phí - lợi ích.",
+          "vi_question": "Bạn đang trong quá trình lựa chọn phương pháp đánh giá rủi ro phù hợp. Một lợi ích chính của phương pháp đánh giá rủi ro nào là cung cấp thông tin chi tiết để thực hiện phân tích chi phí — lợi ích (cost-benefit analysis)?",
+          "vi_explanation": "A. Định lượng (Quantitative).\nĐánh giá rủi ro định lượng sử dụng các giá trị số (như SLE, ALE) để hỗ trợ phân tích chi phí - lợi ích.",
           "has_visual": false
         },
         {
@@ -448,7 +448,7 @@ window.QUIZ_COURSES.IAA202 = {
             "E"
           ],
           "vi_question": "Nội dung nào sau đây không phải là thành phần hợp lệ của kế hoạch quản lý rủi ro (Risk Management Plan)?",
-          "vi_explanation": "E. Chính sách của Đội ứng cứu sự có máy tính (CIRT Policies).\nKế hoạch quản lý rủi ro thường bao gồm mục tiêu, phạm vi, khuyến nghị va POAM, còn chính sách của CIRT là tài liệu riêng về ứng phó sự cố.",
+          "vi_explanation": "E. Chính sách của Đội ứng cứu sự cố máy tính (CIRT Policies).\nKế hoạch quản lý rủi ro thường bao gồm mục tiêu, phạm vi, khuyến nghị và POAM, còn chính sách của CIRT là tài liệu riêng về ứng phó sự cố.",
           "has_visual": false
         },
         {
@@ -466,8 +466,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Nội dung nào sau đây KHÔNG phải là thành phần dién hình của Kế hoạch khôi phục sau thảm hoa (Disaster Recovery Plan — DRP)?",
-          "vi_explanation": "C. Các tác vụ bảo trì định ky (Regular maintenance tasks).\nDRP tập trung vào mục đích, phạm vi và quy trình khôi phục sau thảm họa, không phải các công việc bảo trì thường xuyên",
+          "vi_question": "Nội dung nào sau đây KHÔNG phải là thành phần điển hình của Kế hoạch khôi phục sau thảm họa (Disaster Recovery Plan — DRP)?",
+          "vi_explanation": "C. Các tác vụ bảo trì định kỳ (Regular maintenance tasks).\nDRP tập trung vào mục đích, phạm vi và quy trình khôi phục sau thảm họa, không phải các công việc bảo trì thường xuyên",
           "has_visual": false
         },
         {
@@ -485,8 +485,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Lựa chọn nào sau đây không được xem là thông lệ tốt (best practice) khi xác định các mồi de doa?",
-          "vi_explanation": "D. Gia định rằng hệ thống không thay đỗi ké từ lan đánh giá mối de doa trước.\nViệc luôn giả định hệ thống không thay đỗi có thé khiến bỏ sót các mồi đe dọa mới",
+          "vi_question": "Lựa chọn nào sau đây không được xem là thông lệ tốt (best practice) khi xác định các mối đe dọa?",
+          "vi_explanation": "D. Giả định rằng hệ thống không thay đổi kể từ lần đánh giá mối đe dọa trước.\nViệc luôn giả định hệ thống không thay đổi có thể khiến bỏ sót các mối đe dọa mới",
           "has_visual": false
         },
         {
@@ -503,7 +503,7 @@ window.QUIZ_COURSES.IAA202 = {
             "A"
           ],
           "vi_question": "Một trong những lợi ích chính của kế hoạch CIRT là xác định các thành viên của đội CIRT. Đúng hay Sai?",
-          "vi_explanation": "A. Đúng. — True.\nKế hoạch CIRT xác định rõ thành viên, vai trò và trách nhiệm của từng người dé sẵn sàng ứng phó khi xảy ra sự cố.",
+          "vi_explanation": "A. Đúng. — True.\nKế hoạch CIRT xác định rõ thành viên, vai trò và trách nhiệm của từng người để sẵn sàng ứng phó khi xảy ra sự cố.",
           "has_visual": false
         },
         {
@@ -539,8 +539,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Điều nào sau đây KHÔNG phải là một thực hành tốt trong quản lý lỗ hông?",
-          "vi_explanation": "B. Bỏ qua những mồi đe dọa có vẻ không đáng ké. — Ignoring threats that seem insignificant.\nNgay cả những mồi đe dọa nhỏ cũng cần được đánh giá vì chúng có thé bị khai thác trong những điều kiện nhất định",
+          "vi_question": "Điều nào sau đây KHÔNG phải là một thực hành tốt trong quản lý lỗ hổng?",
+          "vi_explanation": "B. Bỏ qua những mối đe dọa có vẻ không đáng kể. — Ignoring threats that seem insignificant.\nNgay cả những mối đe dọa nhỏ cũng cần được đánh giá vì chúng có thể bị khai thác trong những điều kiện nhất định",
           "has_visual": false
         },
         {
@@ -556,8 +556,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Một rủi ro có thé được giảm thiểu bằng nhiều hơn một biện pháp đối phó. Đúng hay Sai?",
-          "vi_explanation": "A. Đúng. — True.\nTrong thực tế, một rủi ro thường được giảm thiêu bằng nhiều biện pháp kết hop dé tăng hiệu quả bảo vệ.",
+          "vi_question": "Một rủi ro có thể được giảm thiểu bằng nhiều hơn một biện pháp đối phó. Đúng hay Sai?",
+          "vi_explanation": "A. Đúng. — True.\nTrong thực tế, một rủi ro thường được giảm thiểu bằng nhiều biện pháp kết hợp để tăng hiệu quả bảo vệ.",
           "has_visual": false
         },
         {
@@ -617,8 +617,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Khoảng thời gian hợp lý dé hoàn thành và được phê duyệt chính sách quản lý tai khoản (Account Management Policy) là bao lâu?",
-          "vi_explanation": "C. 1 tháng (1 month).\nMột thang là khoảng thời gian hợp lý dé soạn thảo, xem xét và phê duyệt một chính sách quản lý tài khoản.",
+          "vi_question": "Khoảng thời gian hợp lý để hoàn thành và được phê duyệt chính sách quản lý tài khoản (Account Management Policy) là bao lâu?",
+          "vi_explanation": "C. 1 tháng (1 month).\nMột tháng là khoảng thời gian hợp lý để soạn thảo, xem xét và phê duyệt một chính sách quản lý tài khoản.",
           "has_visual": false
         },
         {
@@ -636,8 +636,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trong đánh gia rủi ro (Risk Assessment — RA), yếu tố nào giúp chứng minh tính hợp lý về chi phi của một biện pháp kiém soát?",
-          "vi_explanation": "C. Phân tích chi phí - lợi ich (Cost-Benefit Analysis — CBA).\nCBA giúp xác định liệu chi phí triển khai biện pháp kiém soát có xứng đáng với loi ich giảm thiêu rủi ro hay không.",
+          "vi_question": "Trong đánh giá rủi ro (Risk Assessment — RA), yếu tố nào giúp chứng minh tính hợp lý về chi phí của một biện pháp kiểm soát?",
+          "vi_explanation": "C. Phân tích chi phí - lợi ích (Cost-Benefit Analysis — CBA).\nCBA giúp xác định liệu chi phí triển khai biện pháp kiểm soát có xứng đáng với lợi ích giảm thiểu rủi ro hay không.",
           "has_visual": false
         },
         {
@@ -655,7 +655,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục tiêu chính của một biện pháp kiém soát (control) là gì?",
+          "vi_question": "Mục tiêu chính của một biện pháp kiểm soát (control) là gì?",
           "vi_explanation": "C. Ngăn ngừa, khôi phục và phát hiện (Prevent, recover, and detect).\nCác biện pháp kiểm soát trong an toàn thông tin thường hướng tới ba mục tiêu chính là ngăn ngừa, phát hiện và khôi phục.",
           "has_visual": false
         },
@@ -674,8 +674,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Thuật ngữ SLE trong quan lý rủi ro là viết tắt của:",
-          "vi_explanation": "A. Single Loss Expectancy.\nSLE là giá trị tôn thất ước tinh cho một lằn xảy ra sự cổ",
+          "vi_question": "Thuật ngữ SLE trong quản lý rủi ro là viết tắt của:",
+          "vi_explanation": "A. Single Loss Expectancy.\nSLE là giá trị tổn thất ước tính cho một lần xảy ra sự cố",
           "has_visual": false
         },
         {
@@ -693,8 +693,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Nếu phát hiện thêm các chi phí mới sau khi kế hoạch giảm thiêu rủi ro ban đầu đã được lập thi cần làm gì?",
-          "vi_explanation": "B. Tính toán lại phân tích chi phí - lợi ich (Recalculate the cost-benefit analysis).\nCác chi phí mới có thé ảnh hưởng đến tinh khả thi của biện pháp kiểm soát nên cần đánh giá lại CBA. Vi vậy đáp án đúng",
+          "vi_question": "Nếu phát hiện thêm các chi phí mới sau khi kế hoạch giảm thiểu rủi ro ban đầu đã được lập thì cần làm gì?",
+          "vi_explanation": "B. Tính toán lại phân tích chi phí - lợi ích (Recalculate the cost-benefit analysis).\nCác chi phí mới có thể ảnh hưởng đến tính khả thi của biện pháp kiểm soát nên cần đánh giá lại CBA. Vì vậy đáp án đúng",
           "has_visual": false
         },
         {
@@ -712,7 +712,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Yếu tố nào là quan trong dé xác định mức độ tác động của rủi ro trong cả đánh giá định tinh và định lượng?",
+          "vi_question": "Yếu tố nào là quan trọng để xác định mức độ tác động của rủi ro trong cả đánh giá định tính và định lượng?",
           "vi_explanation": "C. Giá trị của các tài sản có nguy cơ bị ảnh hưởng (The value of the assets at risk).\nGiá trị tài sản quyết định mức độ thiệt hại khi rủi ro xảy ra.",
           "has_visual": false
         },
@@ -733,7 +733,7 @@ window.QUIZ_COURSES.IAA202 = {
             "E"
           ],
           "vi_question": "",
-          "vi_explanation": "[5\nNhững hành động nào sau đây có thé được thực hiện dé tăng cường bảo mật cho máy chủ?\nE. Tắt cả các đáp án trên.\nBao gồm loại bỏ các dịch vụ không cần thiết, cập nhật hệ thống, thay đỏi cầu hình mặc định và bật tường lửa cục bộ",
+          "vi_explanation": "Những hành động nào sau đây có thể được thực hiện để tăng cường bảo mật cho máy chủ?\nE. Tất cả các đáp án trên.\nBao gồm loại bỏ các dịch vụ không cần thiết, cập nhật hệ thống, thay đổi cấu hình mặc định và bật tường lửa cục bộ",
           "has_visual": false
         },
         {
@@ -751,7 +751,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Bộ định tuyến (router) sẽ làm gì nếu không có default route và cần chuyễn tiếp một gói tin đến mạng đích không có trong bảng định tuyến?",
+          "vi_question": "Bộ định tuyến (router) sẽ làm gì nếu không có default route và cần chuyển tiếp một gói tin đến mạng đích không có trong bảng định tuyến?",
           "vi_explanation": "B. Loại bỏ gói tin (Drop it).\nNếu không có tuyến phù hợp, router sẽ hủy gói tin.",
           "has_visual": false
         },
@@ -770,8 +770,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Đâu là ví dụ về chi phí cơ sở vật chất (facility cost) can được xem xét khi triển khai một biện pháp đối phó?",
-          "vi_explanation": "B. Hệ thống điều hòa không khí (Air conditioning).\nĐiều hòa là chi phí liên quan đến cơ sở hạ tang phục vụ hệ thống.",
+          "vi_question": "Đâu là ví dụ về chi phí cơ sở vật chất (facility cost) cần được xem xét khi triển khai một biện pháp đối phó?",
+          "vi_explanation": "B. Hệ thống điều hòa không khí (Air conditioning).\nĐiều hòa là chi phí liên quan đến cơ sở hạ tầng phục vụ hệ thống.",
           "has_visual": false
         },
         {
@@ -790,7 +790,7 @@ window.QUIZ_COURSES.IAA202 = {
             "A"
           ],
           "vi_question": "Đâu là một biện pháp kiểm soát kỹ thuật (technical control)?",
-          "vi_explanation": "A. PKI (Public Key Infrastructure).\nPKI là giải pháp kỹ thuật dùng dé quản lý khóa va chứng chỉ số.",
+          "vi_explanation": "A. PKI (Public Key Infrastructure).\nPKI là giải pháp kỹ thuật dùng để quản lý khóa và chứng chỉ số.",
           "has_visual": false
         },
         {
@@ -808,7 +808,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Loại mạng không dây nao thường sử dụng bộ phat công suất thắp cho phạm vi ngắn?",
+          "vi_question": "Loại mạng không dây nào thường sử dụng bộ phát công suất thấp cho phạm vi ngắn?",
           "vi_explanation": "A. WPAN (Wireless Personal Area Network).\nWPAN được thiết kế cho kết nối khoảng cách ngắn như Bluetooth",
           "has_visual": false
         },
@@ -847,7 +847,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Địa chỉ IP đích khi một máy chủ IPv4 gửi thông điệp DHCPDISCOVER là:",
-          "vi_explanation": "D. 255.255.255.255\nDHCPDISCOVER được gửi dưới dạng quảng ba (broadcast) vì máy khách chưa biết dia chi của máy chủ DHCP.",
+          "vi_explanation": "D. 255.255.255.255\nDHCPDISCOVER được gửi dưới dạng quảng bá (broadcast) vì máy khách chưa biết địa chỉ của máy chủ DHCP.",
           "has_visual": false
         },
         {
@@ -865,8 +865,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Điều gì có thé được sử dụng đề đảm bảo rằng các thay di trái phép không được thực hiện đối với hệ thống?",
-          "vi_explanation": "D. Quản lý cầu hình (Configuration management).\nConfiguration management giúp kiểm soát, theo dõi và phê duyệt mọi thay di của hệ thống.",
+          "vi_question": "Điều gì có thể được sử dụng để đảm bảo rằng các thay đổi trái phép không được thực hiện đối với hệ thống?",
+          "vi_explanation": "D. Quản lý cấu hình (Configuration management).\nConfiguration management giúp kiểm soát, theo dõi và phê duyệt mọi thay đổi của hệ thống.",
           "has_visual": false
         },
         {
@@ -885,7 +885,7 @@ window.QUIZ_COURSES.IAA202 = {
             "A"
           ],
           "vi_question": "Đâu là một biện pháp kiểm soát kỹ thuật (technical control)?",
-          "vi_explanation": "A. PKI (Public Key Infrastructure).\nPKI là giải pháp kỹ thuật sử dụng chứng chỉ số và mã hóa dé bảo vệ hệ thống",
+          "vi_explanation": "A. PKI (Public Key Infrastructure).\nPKI là giải pháp kỹ thuật sử dụng chứng chỉ số và mã hóa để bảo vệ hệ thống",
           "has_visual": false
         },
         {
@@ -904,7 +904,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "Đâu được xem là tài sản phần cứng (hardware asset)?",
-          "vi_explanation": "C. Máy tính dé bàn và may chủ (Desktop PCs and servers).\nĐây là các thiết bị phan cứng của tổ chức",
+          "vi_explanation": "C. Máy tính để bàn và máy chủ (Desktop PCs and servers).\nĐây là các thiết bị phần cứng của tổ chức",
           "has_visual": false
         },
         {
@@ -941,8 +941,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Mối quan hệ nào sau đây thé hiện đúng giữa rủi ro (risk), lỗ hông (vulnerabilities) và mồi đe doa (threats)?",
-          "vi_explanation": "B. Risk = Vulnerability x Threat.\nRủi ro tăng khi cả mồi đe doa và lỗ hông đều ton tại.",
+          "vi_question": "Mối quan hệ nào sau đây thể hiện đúng giữa rủi ro (risk), lỗ hổng (vulnerabilities) và mối đe dọa (threats)?",
+          "vi_explanation": "B. Risk = Vulnerability x Threat.\nRủi ro tăng khi cả mối đe dọa và lỗ hổng đều tồn tại.",
           "has_visual": false
         },
         {
@@ -960,8 +960,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Phương pháp nào sau đây có thé được sử dụng dé xác định các mồi đe dọa?",
-          "vi_explanation": "C.CảA và B.\nViệc xem xét dữ liệu lịch sử và thực hiện mô hình hóa mồi de doa đều là những phương pháp xác định mối đe dọa hiệu quả.",
+          "vi_question": "Phương pháp nào sau đây có thể được sử dụng để xác định các mối đe dọa?",
+          "vi_explanation": "C. Cả A và B.\nViệc xem xét dữ liệu lịch sử và thực hiện mô hình hóa mối đe dọa đều là những phương pháp xác định mối đe dọa hiệu quả.",
           "has_visual": false
         },
         {
@@ -979,8 +979,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Đâu là mô tả đúng về khái niệm tỗng rủi ro (total risk)?",
-          "vi_explanation": "B. Threat x Vulnerability x Asset Value.\nTổng rủi ro phụ thuộc vào mối đe doa, lỗ hông và giá trị tài sản",
+          "vi_question": "Đâu là mô tả đúng về khái niệm tổng rủi ro (total risk)?",
+          "vi_explanation": "B. Threat x Vulnerability x Asset Value.\nTổng rủi ro phụ thuộc vào mối đe dọa, lỗ hổng và giá trị tài sản",
           "has_visual": false
         },
         {
@@ -998,7 +998,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "An phẩm nào của NIST cung cấp hướng dẫn về hơn 200 biện pháp kiếm soát bảo mật?",
+          "vi_question": "Ấn phẩm nào của NIST cung cấp hướng dẫn về hơn 200 biện pháp kiểm soát bảo mật?",
           "vi_explanation": "B. SP 800-53.\nNIST SP 800-53 là tài liệu tiêu chuẩn về các biện pháp kiểm soát bảo mật và quyền riêng tư",
           "has_visual": false
         },
@@ -1017,8 +1017,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Luật nào yêu cầu các cơ quan liên bang bảo vệ hệ thống CNTT và dữ liệu của mình, đồng thời bắt buộc phải kiêm tra hằng năm?",
-          "vi_explanation": "C. FISMA.\nFISMA đặt ra các yêu cầu về quản lý an toàn thông tin đối với các cơ quan liên bang Hoa Ky",
+          "vi_question": "Luật nào yêu cầu các cơ quan liên bang bảo vệ hệ thống CNTT và dữ liệu của mình, đồng thời bắt buộc phải kiểm tra hằng năm?",
+          "vi_explanation": "C. FISMA.\nFISMA đặt ra các yêu cầu về quản lý an toàn thông tin đối với các cơ quan liên bang Hoa Kỳ",
           "has_visual": false
         },
         {
@@ -1036,7 +1036,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Loại tai sản nào bao gồm hệ điều hành và các ứng dụng trong một tô chức?",
+          "vi_question": "Loại tài sản nào bao gồm hệ điều hành và các ứng dụng trong một tổ chức?",
           "vi_explanation": "C. Tài sản phần mềm (Software assets).\nHệ điều hành và ứng dụng đều thuộc nhóm tài sản phần mềm",
           "has_visual": false
         },
@@ -1056,7 +1056,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Phương thức xác thực mạng không dây nao hiện được xem là mạnh nhất?",
+          "vi_question": "Phương thức xác thực mạng không dây nào hiện được xem là mạnh nhất?",
           "vi_explanation": "C. WPA2.\nTrong các lựa chọn được đưa ra, WPA2 là phương thức bảo mật mạnh nhất",
           "has_visual": false
         },
@@ -1075,7 +1075,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Loại điểm truy cập không dây (Access Point — AP) nào được quản lý bởi một bộ điều khiến không dây?",
+          "vi_question": "Loại điểm truy cập không dây (Access Point — AP) nào được quản lý bởi một bộ điều khiển không dây?",
           "vi_explanation": "D. Lightweight AP.\nLightweight AP hoạt động dưới sự quản lý tập trung của Wireless LAN Controller (WLC)",
           "has_visual": false
         },
@@ -1094,8 +1094,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Loại VLAN nào được gan cho các công 802.1Q trunk đề truyền lưu lượng không gắn thé (untagged traffic)?",
-          "vi_explanation": "B. Native VLAN.\nNative VLAN được sử dụng dé mang các frame không có VLAN tag trên liên kết trunk",
+          "vi_question": "Loại VLAN nào được gán cho các cổng 802.1Q trunk để truyền lưu lượng không gắn thẻ (untagged traffic)?",
+          "vi_explanation": "B. Native VLAN.\nNative VLAN được sử dụng để mang các frame không có VLAN tag trên liên kết trunk",
           "has_visual": false
         },
         {
@@ -1113,8 +1113,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Loại ang-ten nào cung cấp vùng phủ sóng 360 độ và thích hợp sử dụng trong gia đình hoặc văn phòng?",
-          "vi_explanation": "B. Ăng-ten đa hướng (Omnidirectional).\nĂng-ten đa hướng phát sóng đều theo mọi hướng trên mặt phăng ngang",
+          "vi_question": "Loại ăng-ten nào cung cấp vùng phủ sóng 360 độ và thích hợp sử dụng trong gia đình hoặc văn phòng?",
+          "vi_explanation": "B. Ăng-ten đa hướng (Omnidirectional).\nĂng-ten đa hướng phát sóng đều theo mọi hướng trên mặt phẳng ngang",
           "has_visual": false
         },
         {
@@ -1132,7 +1132,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Loại sự cố nào liên quan đến truy cập trái phép, thường là kết quả của kỹ nghệ xã hội hoặc các cuộc tần công kỹ thuật?",
+          "vi_question": "Loại sự cố nào liên quan đến truy cập trái phép, thường là kết quả của kỹ nghệ xã hội hoặc các cuộc tấn công kỹ thuật?",
           "vi_explanation": "C. Sự cố truy cập trái phép (Unauthorized access incident).\nĐây là loại sự cố xảy ra khi người không được phép truy cập vào hệ thống hoặc dữ liệu",
           "has_visual": false
         },
@@ -1151,8 +1151,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Hai trang thái công nào trong STP (Spanning Tree Protocol) không chuyén tiếp frame nhưng van xử lý BPDU?",
-          "vi_explanation": "C. Blocking va Listening.\nHai trang thai này không chuyén tiếp lưu lượng dữ liệu nhưng van nhận va xử ly các BPDU dé duy tri cay STP.",
+          "vi_question": "Hai trạng thái cổng nào trong STP (Spanning Tree Protocol) không chuyển tiếp frame nhưng vẫn xử lý BPDU?",
+          "vi_explanation": "C. Blocking và Listening.\nHai trạng thái này không chuyển tiếp lưu lượng dữ liệu nhưng vẫn nhận và xử lý các BPDU để duy trì cây STP.",
           "has_visual": false
         },
         {
@@ -1189,8 +1189,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Khi thực hiện đánh giá lỗ hông bảo mật (vulnerability assessment), mục tiêu chính là gì?",
-          "vi_explanation": "D. Xác định các điểm yếu trong hạ tằng CNTT (Identifying weaknesses in IT infrastructure).\nVulnerability assessment nhằm phát hiện các điểm yếu đề có biện pháp khắc phục.",
+          "vi_question": "Khi thực hiện đánh giá lỗ hổng bảo mật (vulnerability assessment), mục tiêu chính là gì?",
+          "vi_explanation": "D. Xác định các điểm yếu trong hạ tầng CNTT (Identifying weaknesses in IT infrastructure).\nVulnerability assessment nhằm phát hiện các điểm yếu để có biện pháp khắc phục.",
           "has_visual": false
         },
         {
@@ -1208,8 +1208,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Khi bảo mật là mồi quan tâm, tầng nào của mô hình OSI thường được xem là mắt xích yếu nhất trong hệ thống mạng?",
-          "vi_explanation": "B. Layer 7 (Application Layer).\nTang ứng dụng thường là nơi người dùng tương tác trực tiếp và là mục tiêu của nhiều cuộc tan công bảo mật",
+          "vi_question": "Khi bảo mật là mối quan tâm, tầng nào của mô hình OSI thường được xem là mắt xích yếu nhất trong hệ thống mạng?",
+          "vi_explanation": "B. Layer 7 (Application Layer).\nTầng ứng dụng thường là nơi người dùng tương tác trực tiếp và là mục tiêu của nhiều cuộc tấn công bảo mật",
           "has_visual": false
         },
         {
@@ -1227,8 +1227,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Khi xác định hệ thống đề thực hiện đánh giá rủi ro (risk assessment), bạn can đảm bảo bao gồm điều gì?",
-          "vi_explanation": "B. Cấu hình hiện tại của hệ thống (The current configuration of the system).\nViệc xác định cầu hình hiện tại giúp đánh giá chính xác các tai sản, lỗ hồng va rủi ro",
+          "vi_question": "Khi xác định hệ thống để thực hiện đánh giá rủi ro (risk assessment), bạn cần đảm bảo bao gồm điều gì?",
+          "vi_explanation": "B. Cấu hình hiện tại của hệ thống (The current configuration of the system).\nViệc xác định cấu hình hiện tại giúp đánh giá chính xác các tài sản, lỗ hổng và rủi ro",
           "has_visual": false
         },
         {
@@ -1247,7 +1247,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Phạm vi của Phân tích tác động kinh doanh (Business Impact Analysis — BIA) được xác định như thế nào?",
-          "vi_explanation": "D. Xác định các chức năng kinh doanh quan trong (Identifying critical business functions).\nBIA tập trung vào việc xác định những chức năng thiết yéu cần được duy trì khi xảy ra sự c",
+          "vi_explanation": "D. Xác định các chức năng kinh doanh quan trọng (Identifying critical business functions).\nBIA tập trung vào việc xác định những chức năng thiết yếu cần được duy trì khi xảy ra sự cố.",
           "has_visual": false
         },
         {
@@ -1265,8 +1265,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Làm thé nào đề đảm bảo người dùng chi được cấp các quyền cần thiết đề thực hiện những nhiệm vụ phù hợp với vai trò của họ?",
-          "vi_explanation": "A. Nguyên tắc đặc quyền tối thiéu (Principle of Least Privilege).\nNguyên tắc này quy định người dùng chỉ được cấp quyền tối thiêu can thiết dé thực hiện công việc",
+          "vi_question": "Làm thế nào để đảm bảo người dùng chỉ được cấp các quyền cần thiết để thực hiện những nhiệm vụ phù hợp với vai trò của họ?",
+          "vi_explanation": "A. Nguyên tắc đặc quyền tối thiểu (Principle of Least Privilege).\nNguyên tắc này quy định người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
           "has_visual": false
         },
         {
@@ -1284,7 +1284,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Làm thé nào đề đảm bảo kế hoạch quản lý rủi ro được kiếm soát và tránh hiện tượng scope creep (mở rộng phạm vi ngoài kiếm soát)?",
+          "vi_question": "Làm thế nào để đảm bảo kế hoạch quản lý rủi ro được kiểm soát và tránh hiện tượng scope creep (mở rộng phạm vi ngoài kiểm soát)?",
           "vi_explanation": "D. Xác định rõ phạm vi (Identifying the scope).\nViệc xác định phạm vi ngay từ đầu giúp kiểm soát dự án và ngăn chặn việc mở rộng ngoài kế hoạch",
           "has_visual": false
         },
@@ -1303,7 +1303,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "",
-          "vi_explanation": "Kế hoạch khôi phục sau thảm hoa (Disaster Recovery Plan - DRP) là kế hoạch nhằm khôi phục một quy trình hoặc hệ thống kinh doanh quan trọng trở lại hoạt động thảm họa.\nC. Sau (After).\nDRP được thực hiện sau khi thảm họa xảy ra dé khôi phục hệ thống.",
+          "vi_explanation": "Kế hoạch khôi phục sau thảm họa (Disaster Recovery Plan - DRP) là kế hoạch nhằm khôi phục một quy trình hoặc hệ thống kinh doanh quan trọng trở lại hoạt động ________ thảm họa.\nC. Sau (After).\nDRP được thực hiện sau khi thảm họa xảy ra để khôi phục hệ thống.",
           "has_visual": false
         },
         {
@@ -1321,8 +1321,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Một phân tích chi phí — lợi ich (Cost-Benefit Analysis — CBA) cho thay chi phí của biện pháp kiém soát gần bằng với lợi ích dự kiến. Nên làm gi?",
-          "vi_explanation": "C Hủy việc mua kiểm soát này",
+          "vi_question": "Một phân tích chi phí — lợi ích (Cost-Benefit Analysis — CBA) cho thấy chi phí của biện pháp kiểm soát gần bằng với lợi ích dự kiến. Nên làm gì?",
+          "vi_explanation": "C. Hủy việc mua kiểm soát này",
           "has_visual": false
         },
         {
@@ -1340,7 +1340,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Một tô chức muốn đảm bảo các hoạt động quan trọng đối với sứ mệnh van được duy trì khi xảy ra thảm họa. Tỗ chức nên sử dụng gì?",
+          "vi_question": "Một tổ chức muốn đảm bảo các hoạt động quan trọng đối với sứ mệnh vẫn được duy trì khi xảy ra thảm họa. Tổ chức nên sử dụng gì?",
           "vi_explanation": "B. Kế hoạch duy trì hoạt động kinh doanh (Business Continuity Plan - BCP).\nBCP giúp duy trì các hoạt động kinh doanh thiết yếu trong và sau thảm họa",
           "has_visual": false
         },
@@ -1360,8 +1360,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "E"
           ],
-          "vi_question": "Trong các lựa chọn dưới đây, đâu có thé được xem là tài sản (asset)?",
-          "vi_explanation": "E. Tắt cả các đáp án trên.\nPhan cứng, phần mềm, nhân sự và dữ liệu đều là tài sản can được bảo vệ",
+          "vi_question": "Trong các lựa chọn dưới đây, đâu có thể được xem là tài sản (asset)?",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nPhần cứng, phần mềm, nhân sự và dữ liệu đều là tài sản cần được bảo vệ",
           "has_visual": false
         },
         {
@@ -1379,8 +1379,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Một người dùng đang cầu hình điểm truy cập không day (Wireless Access Point) và muốn ngăn hàng xóm phát hiện mang của minh. Người dùng cần thực hiện thao tác nào?",
-          "vi_explanation": "C. Tắt phát quảng bá SSID (Disable SSID broadcast).\nViệc tắt SSID broadcast giúp mạng không hiến thị trong danh sách mạng khả dụng",
+          "vi_question": "Một người dùng đang cấu hình điểm truy cập không dây (Wireless Access Point) và muốn ngăn hàng xóm phát hiện mạng của mình. Người dùng cần thực hiện thao tác nào?",
+          "vi_explanation": "C. Tắt phát quảng bá SSID (Disable SSID broadcast).\nViệc tắt SSID broadcast giúp mạng không hiển thị trong danh sách mạng khả dụng",
           "has_visual": false
         },
         {
@@ -1399,8 +1399,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Nhờ các biện pháp kiếm soát bảo mật đã được triển khai, người dùng chỉ có thé truy cập máy chủ bằng FTP. Thanh phần nào của AAA thực hiện chức năng này?",
-          "vi_explanation": "A. Authorization (Uy quyền).\nAuthorization quyết định người dùng được phép truy cập tài nguyên hoặc dịch vụ nào.",
+          "vi_question": "Nhờ các biện pháp kiểm soát bảo mật đã được triển khai, người dùng chỉ có thể truy cập máy chủ bằng FTP. Thành phần nào của AAA thực hiện chức năng này?",
+          "vi_explanation": "A. Authorization (Ủy quyền).\nAuthorization quyết định người dùng được phép truy cập tài nguyên hoặc dịch vụ nào.",
           "has_visual": false
         },
         {
@@ -1436,7 +1436,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Fiduciary đề cap đến một mồi quan hệ dựa trên:",
+          "vi_question": "Fiduciary đề cập đến một mối quan hệ dựa trên:",
           "vi_explanation": "A. Sự tin cậy (Trust).\nFiduciary relationship là mối quan hệ mà một bên có trách nhiệm hành động vì lợi ích tốt nhất của bên còn lại trên cơ sở sự tin cậy",
           "has_visual": false
         },
@@ -1455,8 +1455,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Khi thiết lập một mạng văn phòng nhỏ, quản trị viên mạng gan địa chi IP riêng (private IP) động cho các máy trạm và thiết bị di động. Dé các thiết bị này có thé truy cập Internet, cần bật tính năng nào trên bộ định tuyến?",
-          "vi_explanation": "B. NAT (Network Address Translation).\nNAT chuyễn đổi địa chi IP riêng thành dia chỉ IP công cộng dé các thiết bị trong mạng nội bộ có thé truy cập Internet",
+          "vi_question": "Khi thiết lập một mạng văn phòng nhỏ, quản trị viên mạng gán địa chỉ IP riêng (private IP) động cho các máy trạm và thiết bị di động. Để các thiết bị này có thể truy cập Internet, cần bật tính năng nào trên bộ định tuyến?",
+          "vi_explanation": "B. NAT (Network Address Translation).\nNAT chuyển đổi địa chỉ IP riêng thành địa chỉ IP công cộng để các thiết bị trong mạng nội bộ có thể truy cập Internet",
           "has_visual": false
         },
         {
@@ -1475,7 +1475,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Những rủi ro không vượt qua bài kiểm tra về tính hợp lý (reasonableness test) sẽ được:",
-          "vi_explanation": "D. Giảm thiếu (Mitigated).\nNhững rủi ro không thé chấp nhận hợp lý can được áp dụng các biện pháp giảm thiếu.\n[Lưu ý: Slide gốc dòng trên ghi B, giải thích bên dưới chọn D. Mitigated]",
+          "vi_explanation": "D. Giảm thiểu (Mitigated).\nNhững rủi ro không thể chấp nhận hợp lý cần được áp dụng các biện pháp giảm thiểu.\n[Lưu ý: Slide gốc dòng trên ghi B, giải thích bên dưới chọn D. Mitigated]",
           "has_visual": false
         },
         {
@@ -1493,7 +1493,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trong kế hoạch quản lý rủi ro, báo cáo có danh sách các phát hiện xác định rõ các mồi de dọa và lỗ hông. Loại sơ đồ nào có thé được sử dụng dé ghi lai một số phát hiện này?",
+          "vi_question": "Trong kế hoạch quản lý rủi ro, báo cáo có danh sách các phát hiện xác định rõ các mối đe dọa và lỗ hổng. Loại sơ đồ nào có thể được sử dụng để ghi lại một số phát hiện này?",
           "vi_explanation": "",
           "has_visual": false
         },
@@ -1512,8 +1512,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Hoạt động liên quan đến quản lý có hệ thống các hệ thống thông tin của tô chức thuộc miền nào?",
-          "vi_explanation": "A. Configuration Management (CM).\nConfiguration Management chịu trách nhiệm quản lý và kiểm soát cầu hình của hệ thống thông tin",
+          "vi_question": "Hoạt động liên quan đến quản lý có hệ thống các hệ thống thông tin của tổ chức thuộc miền nào?",
+          "vi_explanation": "A. Configuration Management (CM).\nConfiguration Management chịu trách nhiệm quản lý và kiểm soát cấu hình của hệ thống thông tin",
           "has_visual": false
         },
         {
@@ -1531,8 +1531,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "Trong trường hợp xác suất xảy ra thiệt hại rất thấp nhưng mức độ tac động rất cao, các tb chức thường chọn rủi ro.\nA vận chuyên\nTrong quản trị rủi ro, khi đối mặt với các rủi ro có xác suất xảy ra rất thấp nhưng tác động (hậu quả) lại rất cao (ví dụ: thiên tai lớn, thảm họa hệ thống quy mô lớn), các tỗ chức thường không đủ khả năng hoặc không muốn tự mình gánh chịu hoàn\ntoàn hậu quả nêu nó xảy ra.",
+          "vi_question": "Trong trường hợp xác suất xảy ra thiệt hại rất thấp nhưng mức độ tác động rất cao, các tổ chức thường chọn ____ rủi ro.",
+          "vi_explanation": "A. Vận chuyển — Transfer (Chuyển giao rủi ro).\nTrong quản trị rủi ro, khi đối mặt với các rủi ro có xác suất xảy ra rất thấp nhưng tác động (hậu quả) lại rất cao (ví dụ: thiên tai lớn, thảm họa hệ thống quy mô lớn), các tổ chức thường không đủ khả năng hoặc không muốn tự mình gánh chịu hoàn toàn hậu quả nếu nó xảy ra.",
           "has_visual": false
         },
         {
@@ -1549,8 +1549,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Có thé triển khai nhiều biện pháp đối phó cho cùng một rủi ro như một:",
-          "vi_explanation": "A. Chiến lược phòng thủ nhiều lớp (Defense-in-depth strategy).\nDefense-in-depth sử dụng nhiều lớp bảo vệ dé giảm thiéu rủi ro néu một lớp bị vượt qua",
+          "vi_question": "Có thể triển khai nhiều biện pháp đối phó cho cùng một rủi ro như một:",
+          "vi_explanation": "A. Chiến lược phòng thủ nhiều lớp (Defense-in-depth strategy).\nDefense-in-depth sử dụng nhiều lớp bảo vệ để giảm thiểu rủi ro nếu một lớp bị vượt qua",
           "has_visual": false
         },
         {
@@ -1568,7 +1568,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Phan tách nhiệm vụ (Separation of duties) đảm bảo không một cá nhân nào kiểm soát toàn bộ một quy trình, từ đó giảm thiéu rủi ro về:",
+          "vi_question": "Phân tách nhiệm vụ (Separation of duties) đảm bảo không một cá nhân nào kiểm soát toàn bộ một quy trình, từ đó giảm thiểu rủi ro về:",
           "vi_explanation": "D. Gian lận, trộm cắp, sai sót và xung đột lợi ích (Fraud, theft, errors, and conflicts of interest).\nViệc phân chia trách nhiệm giúp ngăn chặn hành vi gian lận và giảm sai sót trong quy trình",
           "has_visual": false
         },
@@ -1587,8 +1587,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Phương pháp được sử dụng dé khai thác một lỗ hông còn được gọi là:",
-          "vi_explanation": "A.Exploit.\nExploit là kỹ thuật hoặc đoạn mã được sử dụng dé khai thác lỗ hông bảo mật.",
+          "vi_question": "Phương pháp được sử dụng để khai thác một lỗ hổng còn được gọi là:",
+          "vi_explanation": "A. Exploit.\nExploit là kỹ thuật hoặc đoạn mã được sử dụng để khai thác lỗ hổng bảo mật.",
           "has_visual": false
         },
         {
@@ -1605,8 +1605,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Bạn nên xem xét va ra soát Kế hoạch khôi phục sau thảm hoa (Disaster Recovery Plan — DRP) ít nhất:",
-          "vi_explanation": "A. Hằng năm (Annually).\nDRP cần được rà soát và kiểm thử tối thiểu mỗi năm một lần đễ đảm bảo luôn phù hợp.",
+          "vi_question": "Bạn nên xem xét và rà soát Kế hoạch khôi phục sau thảm họa (Disaster Recovery Plan — DRP) ít nhất:",
+          "vi_explanation": "A. Hằng năm (Annually).\nDRP cần được rà soát và kiểm thử tối thiểu mỗi năm một lần để đảm bảo luôn phù hợp.",
           "has_visual": false
         },
         {
@@ -1624,7 +1624,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Khi thực hiện Phân tích tác động kinh doanh (Business Impact Analysis — BIA) cho một t chức, bạn nên ánh xạ (map) các chức năng kinh doanh quan trọng với:",
+          "vi_question": "Khi thực hiện Phân tích tác động kinh doanh (Business Impact Analysis — BIA) cho một tổ chức, bạn nên ánh xạ (map) các chức năng kinh doanh quan trọng với:",
           "vi_explanation": "D. Các hệ thống CNTT (IT systems).\nViệc xác định hệ thống CNTT hỗ trợ từng chức năng kinh doanh là bước quan trọng trong BIA.",
           "has_visual": false
         },
@@ -1643,8 +1643,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Trong khuôn khô COBIT, miền nào trong bốn miền CNTT và 34 quy trình CNTT tập trung vào chiến lược và chiến thuật?",
-          "vi_explanation": "A. Plan and Organize.\nMiền Plan and Organize chịu trách nhiệm lập kế hoạch chiến lược và tô chức các nguồn lực",
+          "vi_question": "Trong khuôn khổ COBIT, miền nào trong bốn miền CNTT và 34 quy trình CNTT tập trung vào chiến lược và chiến thuật?",
+          "vi_explanation": "A. Plan and Organize.\nMiền Plan and Organize chịu trách nhiệm lập kế hoạch chiến lược và tổ chức các nguồn lực",
           "has_visual": false
         },
         {
@@ -1662,8 +1662,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Sau khi các biện pháp kiểm soát nhằm giảm thiéu rủi ro đã được áp dung, phần rủi ro còn lại được gọi là gì?",
-          "vi_explanation": "D. Rủi ro còn lại. - Residual risk.\nResidual Risk là phần rủi ro van ton tại sau khi đã triển khai các biện pháp kiểm soát.",
+          "vi_question": "Sau khi các biện pháp kiểm soát nhằm giảm thiểu rủi ro đã được áp dụng, phần rủi ro còn lại được gọi là gì?",
+          "vi_explanation": "D. Rủi ro còn lại. — Residual risk.\nResidual Risk là phần rủi ro vẫn tồn tại sau khi đã triển khai các biện pháp kiểm soát.",
           "has_visual": false
         },
         {
@@ -1681,8 +1681,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Nhược điểm phd biến của công cụ quét lỗ hông (Vulnerability Scanner) là gì?",
-          "vi_explanation": "A. Tỷ lệ cảnh báo sai dương tinh (False Positive) cao. — A high false-positive error rate.\nCông cụ quét lỗ hồng thường phat hiện nhiều van đề không thực sự là lỗ hỏng, nên cần được xác minh lại.",
+          "vi_question": "Nhược điểm phổ biến của công cụ quét lỗ hổng (Vulnerability Scanner) là gì?",
+          "vi_explanation": "A. Tỷ lệ cảnh báo sai dương tính (False Positive) cao. — A high false-positive error rate.\nCông cụ quét lỗ hổng thường phát hiện nhiều vấn đề không thực sự là lỗ hổng, nên cần được xác minh lại.",
           "has_visual": false
         },
         {
@@ -1700,8 +1700,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục tiêu chính của Kế hoạch khôi phục sau thảm hoa (Disaster Recovery Plan - DRP) là gì?",
-          "vi_explanation": "C. Khôi phục hệ thống sau thảm họa. — Restore systems after a disaster.\nDRP tập trung vào việc đưa hệ thống và dữ liệu trở lại hoạt động sau khi xảy ra sự cổ hoặc thảm họa.",
+          "vi_question": "Mục tiêu chính của Kế hoạch khôi phục sau thảm họa (Disaster Recovery Plan - DRP) là gì?",
+          "vi_explanation": "C. Khôi phục hệ thống sau thảm họa. — Restore systems after a disaster.\nDRP tập trung vào việc đưa hệ thống và dữ liệu trở lại hoạt động sau khi xảy ra sự cố hoặc thảm họa.",
           "has_visual": false
         },
         {
@@ -1720,7 +1720,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Đâu là một biện pháp kiểm soát vật lý (Physical Control)?",
-          "vi_explanation": "B. Camera giám sat (CCTV). — CCTV.\nCCTV là biện pháp bảo vệ vật lý nhằm giám sát va ngăn chặn các hành vi trái phép.",
+          "vi_explanation": "B. Camera giám sát (CCTV). — CCTV.\nCCTV là biện pháp bảo vệ vật lý nhằm giám sát và ngăn chặn các hành vi trái phép.",
           "has_visual": false
         },
         {
@@ -1738,8 +1738,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Trong Risk Assessment (RA), yếu tố nào được đưa vào dé chứng minh tính hợp lý về chi phí của một biện pháp kiếm soát?",
-          "vi_explanation": "C. Phân tích chi phí - lợi ích. — CBA (Cost-Benefit Analysis).\nCBA giúp xác định liệu chi phí triển khai biện pháp kiếm soát có tương xứng với loi ích giảm thiểu rủi ro hay không",
+          "vi_question": "Trong Risk Assessment (RA), yếu tố nào được đưa vào để chứng minh tính hợp lý về chi phí của một biện pháp kiểm soát?",
+          "vi_explanation": "C. Phân tích chi phí - lợi ích. — CBA (Cost-Benefit Analysis).\nCBA giúp xác định liệu chi phí triển khai biện pháp kiểm soát có tương xứng với lợi ích giảm thiểu rủi ro hay không",
           "has_visual": false
         },
         {
@@ -1796,7 +1796,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Yếu tố nào xác định phạm vi của Business Impact Analysis (BIA)?",
-          "vi_explanation": "D. Phạm vi. — Scope.\nScope xác định những hệ thống, quy trình va tài sản nào sẽ được đưa vào phân tích tác động kinh doanh.",
+          "vi_explanation": "D. Phạm vi. — Scope.\nScope xác định những hệ thống, quy trình và tài sản nào sẽ được đưa vào phân tích tác động kinh doanh.",
           "has_visual": false
         },
         {
@@ -1815,7 +1815,7 @@ window.QUIZ_COURSES.IAA202 = {
             "A"
           ],
           "vi_question": "MAO là viết tắt của cụm từ nào?",
-          "vi_explanation": "A. Maximum Acceptable Outage. — Maximum Acceptable Outage.\nMAO là khoảng thời gian tối đa mà doanh nghiệp có thé chấp nhận hệ thống bị gián đoạn.",
+          "vi_explanation": "A. Maximum Acceptable Outage. — Maximum Acceptable Outage.\nMAO là khoảng thời gian tối đa mà doanh nghiệp có thể chấp nhận hệ thống bị gián đoạn.",
           "has_visual": false
         },
         {
@@ -1833,8 +1833,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Bước dau tiên sau khi hoàn thành đánh gia rủi ro là gì?",
-          "vi_explanation": "C. Xem xét và xác nhận kết quả. — Review and validate findings.\nCác kết quả đánh giá can được kiểm tra đề đảm bảo chính xác trước khi đưa ra quyết định xử lý rủi ro.",
+          "vi_question": "Bước đầu tiên sau khi hoàn thành đánh giá rủi ro là gì?",
+          "vi_explanation": "C. Xem xét và xác nhận kết quả. — Review and validate findings.\nCác kết quả đánh giá cần được kiểm tra để đảm bảo chính xác trước khi đưa ra quyết định xử lý rủi ro.",
           "has_visual": false
         },
         {
@@ -1852,8 +1852,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "AUP trong tô chức là gì?",
-          "vi_explanation": "D. Chính sách sử dụng chấp nhận được. — Acceptable Use Policy.\nAUP quy định những hành vi được phép và không được phép khi sử dụng máy tính và hệ thống của tô chức.",
+          "vi_question": "AUP trong tổ chức là gì?",
+          "vi_explanation": "D. Chính sách sử dụng chấp nhận được. — Acceptable Use Policy.\nAUP quy định những hành vi được phép và không được phép khi sử dụng máy tính và hệ thống của tổ chức.",
           "has_visual": false
         },
         {
@@ -1871,8 +1871,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "",
-          "vi_explanation": "b\nMối quan tâm quan trọng nhất khi quản lý dữ liệu người dùng trong User Domain là gì?\nB. Tính bảo mật. — Confidentiality.\nDữ liệu người dùng cần được bảo vệ khỏi việc truy cập hoặc tiết lộ trái phép",
+          "vi_question": "Mối quan tâm quan trọng nhất khi quản lý dữ liệu người dùng trong User Domain là gì?",
+          "vi_explanation": "B. Tính bảo mật. — Confidentiality.\nDữ liệu người dùng cần được bảo vệ khỏi việc truy cập hoặc tiết lộ trái phép",
           "has_visual": false
         },
         {
@@ -1890,8 +1890,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Loại mồi de doa nào liên quan đến việc thủ phạm hành động vi tức giận?",
-          "vi_explanation": "C. Mối đe doa có chủ đích. — Intentional threat.\nCác hành vi xuất phát từ sự tức giận hoặc trả đũa là những mối đe dọa có chủ đích.",
+          "vi_question": "Loại mối đe dọa nào liên quan đến việc thủ phạm hành động vì tức giận?",
+          "vi_explanation": "C. Mối đe dọa có chủ đích. — Intentional threat.\nCác hành vi xuất phát từ sự tức giận hoặc trả đũa là những mối đe dọa có chủ đích.",
           "has_visual": false
         },
         {
@@ -1910,7 +1910,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Trong DRP, thuật ngữ nào được sử dụng thay cho MAO?",
-          "vi_explanation": "D. Recovery Time Objective (RTO). — Recovery Time Objective (RTO).\nRTO xác định khoảng thời gian mục tiêu cần dé khôi phục hệ thống sau sự cd.",
+          "vi_explanation": "D. Recovery Time Objective (RTO). — Recovery Time Objective (RTO).\nRTO xác định khoảng thời gian mục tiêu cần để khôi phục hệ thống sau sự cố.",
           "has_visual": false
         },
         {
@@ -1928,7 +1928,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Loại tai sản nào bao gồm hệ điều hành và các ứng dụng trong tô chức?",
+          "vi_question": "Loại tài sản nào bao gồm hệ điều hành và các ứng dụng trong tổ chức?",
           "vi_explanation": "C. Tài sản phần mềm. — Software assets.\nHệ điều hành và ứng dụng đều được phân loại là tài sản phần mềm.",
           "has_visual": false
         },
@@ -1947,8 +1947,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Thuật ngữ nào xác định thời gian ngừng hoạt động tối đa có thé chấp nhận của một hệ thống?",
-          "vi_explanation": "C. Maximum Acceptable Outage (MAO). — Maximum Acceptable Outage (MAO).\nMAO là giới han tối da mà doanh nghiệp có thé chấp nhận trước khi thiệt hại trở nên nghiêm trong.",
+          "vi_question": "Thuật ngữ nào xác định thời gian ngừng hoạt động tối đa có thể chấp nhận của một hệ thống?",
+          "vi_explanation": "C. Maximum Acceptable Outage (MAO). — Maximum Acceptable Outage (MAO).\nMAO là giới hạn tối đa mà doanh nghiệp có thể chấp nhận trước khi thiệt hại trở nên nghiêm trọng.",
           "has_visual": false
         },
         {
@@ -1966,8 +1966,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Chiến lược nào giúp giảm khoảng trồng bảo mật ngay cả khi một biện pháp bao mật bị that bai?",
-          "vi_explanation": "C. Phòng thủ nhiều lớp. — Defense in depth.\nDefense in Depth sử dụng nhiều lớp kiểm soát dé nếu một lớp bị vượt qua thì các lớp khác van bảo vệ hệ thống",
+          "vi_question": "Chiến lược nào giúp giảm khoảng trống bảo mật ngay cả khi một biện pháp bảo mật bị thất bại?",
+          "vi_explanation": "C. Phòng thủ nhiều lớp. — Defense in depth.\nDefense in Depth sử dụng nhiều lớp kiểm soát để nếu một lớp bị vượt qua thì các lớp khác vẫn bảo vệ hệ thống",
           "has_visual": false
         },
         {
@@ -1985,8 +1985,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Biểu đồ Gantt chủ yếu hiền thị điều gì?",
-          "vi_explanation": "B. Aprojects schedule\n— Lịch trình của một dự án.\nGantt chart thé hiện các công việc của dự án theo trục thời gian, bao gồm thời điểm bắt đầu, kết thúc và thời lượng của từng công việc.",
+          "vi_question": "Biểu đồ Gantt chủ yếu hiển thị điều gì?",
+          "vi_explanation": "B. A project's schedule\n— Lịch trình của một dự án.\nGantt chart thể hiện các công việc của dự án theo trục thời gian, bao gồm thời điểm bắt đầu, kết thúc và thời lượng của từng công việc.",
           "has_visual": false
         },
         {
@@ -2004,8 +2004,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Một tô chức muốn xác định mức độ ảnh hưởng nếu một máy chủ IT cụ thé bị lỗi. TS chức nên sử dụng phương pháp nào?",
-          "vi_explanation": "A.\n— Business Impact Analysis — Phân tích tác động kinh doanh.\nBIA được sử dụng dé xác định tác động của việc gián đoạn hoặc mat một hệ thống/dịch vụ quan trọng đối với hoạt động của td chức.",
+          "vi_question": "Một tổ chức muốn xác định mức độ ảnh hưởng nếu một máy chủ IT cụ thể bị lỗi. Tổ chức nên sử dụng phương pháp nào?",
+          "vi_explanation": "A. BIA\n— Business Impact Analysis — Phân tích tác động kinh doanh.\nBIA được sử dụng để xác định tác động của việc gián đoạn hoặc mất một hệ thống/dịch vụ quan trọng đối với hoạt động của tổ chức.",
           "has_visual": false
         },
         {
@@ -2024,8 +2024,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "E"
           ],
-          "vi_question": "Các thành phần của CIRT (Computer Incident Response Team) có thé khác nhau, nhưng thường bao gồm những thông tin nào?",
-          "vi_explanation": "E. All of them\n— Tat cả các phương án trên.\nCIRT có thé bao gồm members (thành viên), policies (chính sách), incident response process (quy trình ứng phó sự cố) va incident response procedure (thủ tục ứng phó sự cd).",
+          "vi_question": "Các thành phần của CIRT (Computer Incident Response Team) có thể khác nhau, nhưng thường bao gồm những thông tin nào?",
+          "vi_explanation": "E. All of them\n— Tất cả các phương án trên.\nCIRT có thể bao gồm members (thành viên), policies (chính sách), incident response process (quy trình ứng phó sự cố) và incident response procedure (thủ tục ứng phó sự cố).",
           "has_visual": false
         },
         {
@@ -2043,8 +2043,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Sau khi một sự cố được xác minh, can ngăn không cho nó lan sang các hệ thống khác. Quá trình này được gọi là gì?",
-          "vi_explanation": "B. Containment .\n— Cô lập/kiêm chê sự cô.\nContainment là giai đoạn giới hạn phạm vi của sự cố và ngăn mồi đe dọa tiếp tục lây lan sang các hệ thống khác.",
+          "vi_question": "Sau khi một sự cố được xác minh, cần ngăn không cho nó lan sang các hệ thống khác. Quá trình này được gọi là gì?",
+          "vi_explanation": "B. Containment\n— Cô lập/kiềm chế sự cố.\nContainment là giai đoạn giới hạn phạm vi của sự cố và ngăn mối đe dọa tiếp tục lây lan sang các hệ thống khác.",
           "has_visual": false
         },
         {
@@ -2062,8 +2062,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Biểu đồ nào được sử dụng dé chỉ ra các nhiệm vụ quan trọng phải hoàn thành đúng hạn nhằm tránh làm chậm dự án?",
-          "vi_explanation": "C. Critical path chart\n— Biéu đô đường găng.\nCritical path xác định chuối công việc quan trọng quyết định thời gian hoàn thành dự án. Nếu một công việc trên đường găng bị chậm, toàn bộ dự án có thé bị chậm.",
+          "vi_question": "Biểu đồ nào được sử dụng để chỉ ra các nhiệm vụ quan trọng phải hoàn thành đúng hạn nhằm tránh làm chậm dự án?",
+          "vi_explanation": "C. Critical path chart\n— Biểu đồ đường găng.\nCritical path xác định chuỗi công việc quan trọng quyết định thời gian hoàn thành dự án. Nếu một công việc trên đường găng bị chậm, toàn bộ dự án có thể bị chậm.",
           "has_visual": false
         },
         {
@@ -2081,8 +2081,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Luật nào áp dụng cho các tô chức xử lý thông tin chăm sóc sức khỏe?",
-          "vi_explanation": "D.\n— Health Insurance Portability and Accountability Act.\nHIPAA đặt ra các yêu cầu về bảo vệ quyền riêng tư va bảo mat đối với thông tin sức khỏe được bảo vệ (PHI).D",
+          "vi_question": "Luật nào áp dụng cho các tổ chức xử lý thông tin chăm sóc sức khỏe?",
+          "vi_explanation": "D. HIPAA\n— Health Insurance Portability and Accountability Act.\nHIPAA đặt ra các yêu cầu về bảo vệ quyền riêng tư và bảo mật đối với thông tin sức khỏe được bảo vệ (PHI).",
           "has_visual": false
         },
         {
@@ -2100,8 +2100,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Cơ quan chính phủ nào có Information Technology Laboratory va ban hành tai liệu SP 800-30?",
-          "vi_explanation": "A.NIST\n— National Institute of Standards and Technology - Viện Tiêu chuẩn va Công nghệ Quốc gia Hoa Ky.\nNIST có Information Technology Laboratory (ITL) và phát hành SP 800-30 về hướng dẫn thực hiện đánh giá rủi ro.",
+          "vi_question": "Cơ quan chính phủ nào có Information Technology Laboratory và ban hành tài liệu SP 800-30?",
+          "vi_explanation": "A. NIST\n— National Institute of Standards and Technology — Viện Tiêu chuẩn và Công nghệ Quốc gia Hoa Kỳ.\nNIST có Information Technology Laboratory (ITL) và phát hành SP 800-30 về hướng dẫn thực hiện đánh giá rủi ro.",
           "has_visual": false
         },
         {
@@ -2120,7 +2120,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Ấn phẩm nào của NIST trình bày các bước về contingency planning, bao gồm cả BIA?",
-          "vi_explanation": "B. SP 800-34 Rev 1\n— NIST Special Publication 800-34 Revision 1.\nSP 800-34 Rev. 1 cung cấp hướng dẫn lập kế hoạch dự phòng cho hệ thống thông tin liên bang, trong đó BIA là một bước quan trong.",
+          "vi_explanation": "B. SP 800-34 Rev 1\n— NIST Special Publication 800-34 Revision 1.\nSP 800-34 Rev. 1 cung cấp hướng dẫn lập kế hoạch dự phòng cho hệ thống thông tin liên bang, trong đó BIA là một bước quan trọng.",
           "has_visual": false
         }
       ]
@@ -2147,7 +2147,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "Mục đích chính của Kế hoạch duy trì hoạt động kinh doanh (Business Continuity Plan — BCP) là gì?",
-          "vi_explanation": "C. Đảm bảo các thành phần quan trọng đối với sứ mệnh của tỗ chức tiếp tục hoạt động sau khi xảy ra gián đoạn.\nBCP giúp duy trì các hoạt động kinh doanh thiết yếu khi xảy ra sự cố hoặc thảm hoa.\n[Lưu ý: Slide gốc dòng trên ghi nhầm D, giải thích chuẩn là C]",
+          "vi_explanation": "C. Đảm bảo các thành phần quan trọng đối với sứ mệnh của tổ chức tiếp tục hoạt động sau khi xảy ra gián đoạn.\nBCP giúp duy trì các hoạt động kinh doanh thiết yếu khi xảy ra sự cố hoặc thảm họa.\n[Lưu ý: Slide gốc dòng trên ghi nhầm D, giải thích chuẩn là C]",
           "has_visual": false
         },
         {
@@ -2165,8 +2165,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich của việc thực hiện diễn tập trên ban (tabletop exercise) trong bồi cảnh BCP là gì?",
-          "vi_explanation": "C. Ra soát các quy trình của BCP thông qua hình thức thảo luận.\nTabletop exercise là budi diễn tập bằng thảo luận dé kiểm tra tính khả thi của kế hoạch mà không mô phỏng thực tế.",
+          "vi_question": "Mục đích của việc thực hiện diễn tập trên bàn (tabletop exercise) trong bối cảnh BCP là gì?",
+          "vi_explanation": "C. Rà soát các quy trình của BCP thông qua hình thức thảo luận.\nTabletop exercise là buổi diễn tập bằng thảo luận để kiểm tra tính khả thi của kế hoạch mà không mô phỏng thực tế.",
           "has_visual": false
         },
         {
@@ -2185,7 +2185,7 @@ window.QUIZ_COURSES.IAA202 = {
             "C"
           ],
           "vi_question": "Mục tiêu chính của quản lý rủi ro (risk management) trong một tổ chức là gì?",
-          "vi_explanation": "C. Quản lý và giảm thiêu rủi ro xuống mức có thé chấp nhận được.\nQuản lý rủi ro không nhằm loại bỏ hoàn toàn rủi ro mà hướng đến việc kiếm soát chúng ở mức chấp nhận được.",
+          "vi_explanation": "C. Quản lý và giảm thiểu rủi ro xuống mức có thể chấp nhận được.\nQuản lý rủi ro không nhằm loại bỏ hoàn toàn rủi ro mà hướng đến việc kiểm soát chúng ở mức chấp nhận được.",
           "has_visual": false
         },
         {
@@ -2204,7 +2204,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Kết quả trực tiếp của việc xác định các chức năng và nguồn lực quan trọng trong Phân tích tác động kinh doanh (BIA) là gì?",
-          "vi_explanation": "D. Xác định các nguồn lực quan trọng hỗ trợ những chức năng đó.\nSau khi xác định các chức năng thiết yếu, BIA sẽ xác định các nguồn lực cần thiết dé duy tri chúng",
+          "vi_explanation": "D. Xác định các nguồn lực quan trọng hỗ trợ những chức năng đó.\nSau khi xác định các chức năng thiết yếu, BIA sẽ xác định các nguồn lực cần thiết để duy trì chúng",
           "has_visual": false
         },
         {
@@ -2222,8 +2222,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Một cach dé ngăn chặn tần cong SQL Injection được đề cập trong tài liệu là gì?",
-          "vi_explanation": "C. Sử dung stored procedures đề kiêm tra và xác thực dữ liệu đầu vào.\nViệc xác thực dữ liệu đầu vào giúp ngăn chặn mã SQL độc hai được thực thi",
+          "vi_question": "Một cách để ngăn chặn tấn công SQL Injection được đề cập trong tài liệu là gì?",
+          "vi_explanation": "C. Sử dụng stored procedures để kiểm tra và xác thực dữ liệu đầu vào.\nViệc xác thực dữ liệu đầu vào giúp ngăn chặn mã SQL độc hại được thực thi\n[Lưu ý: Slide gốc ghi chú nhầm nội dung của câu 127 (SQL Injection); câu hỏi tiếng Anh của slide này hỏi về lợi ích chính của điện toán đám mây trong DRP với đáp án C. Rapid scalability and flexibility (Khả năng mở rộng nhanh chóng và tính linh hoạt), tương tự câu 130.]",
           "has_visual": false
         },
         {
@@ -2241,8 +2241,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Một cach dé ngăn chặn tần cong SQL Injection được đề cập trong tài liệu là gì?",
-          "vi_explanation": "C. Sử dung stored procedures đề kiêm tra và xác thực dữ liệu đầu vào.\nViệc xác thực dữ liệu đầu vào giúp ngăn chặn mã SQL độc hai được thực thi.",
+          "vi_question": "Một cách để ngăn chặn tấn công SQL Injection được đề cập trong tài liệu là gì?",
+          "vi_explanation": "C. Sử dụng stored procedures để kiểm tra và xác thực dữ liệu đầu vào.\nViệc xác thực dữ liệu đầu vào giúp ngăn chặn mã SQL độc hại được thực thi.",
           "has_visual": false
         },
         {
@@ -2260,8 +2260,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Một cach dé khắc phục lối của Spanning Tree (STP) là gì?",
-          "vi_explanation": "C. Thêm các liên kết dự phòng đề thay thế các liên kết STP bị lối.\nViệc bd sung các liên kết dự phòng giúp STP tiếp tục duy trì kết nối khi có sự cố.",
+          "vi_question": "Một cách để khắc phục lỗi của Spanning Tree (STP) là gì?",
+          "vi_explanation": "C. Thêm các liên kết dự phòng để thay thế các liên kết STP bị lỗi.\nViệc bổ sung các liên kết dự phòng giúp STP tiếp tục duy trì kết nối khi có sự cố.",
           "has_visual": false
         },
         {
@@ -2298,7 +2298,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Lợi ich chính của việc sử dụng điện toán dam may trong kế hoạch khôi phục sau thảm họa là gi?",
+          "vi_question": "Lợi ích chính của việc sử dụng điện toán đám mây trong kế hoạch khôi phục sau thảm họa là gì?",
           "vi_explanation": "C. Khả năng mở rộng nhanh chóng và tính linh hoạt.\nCloud computing giúp mở rộng tài nguyên nhanh chóng khi cần khôi phục dịch vụ.",
           "has_visual": false
         },
@@ -2318,7 +2318,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Plan of Action and Milestones (POAM) ghi lại nội dung gì?",
-          "vi_explanation": "B. Các biện pháp đồi phó đã được phê duyệt và thời gian triển khai của chúng.\nPOAM theo dõi các hành động cần thực hiện dé khắc phục các điểm yếu và thời hạn hoàn thành.",
+          "vi_explanation": "B. Các biện pháp đối phó đã được phê duyệt và thời gian triển khai của chúng.\nPOAM theo dõi các hành động cần thực hiện để khắc phục các điểm yếu và thời hạn hoàn thành.",
           "has_visual": false
         },
         {
@@ -2336,8 +2336,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Thuật ngữ nào mô tả tông thiệt hại dự kiến từ một sự cố đơn lẻ?",
-          "vi_explanation": "B. Single Loss Expectancy (SLE).\nSLE là giá trị tôn thất ước tinh cho một lần xảy ra sự cố.",
+          "vi_question": "Thuật ngữ nào mô tả tổng thiệt hại dự kiến từ một sự cố đơn lẻ?",
+          "vi_explanation": "B. Single Loss Expectancy (SLE).\nSLE là giá trị tổn thất ước tính cho một lần xảy ra sự cố.",
           "has_visual": false
         },
         {
@@ -2355,8 +2355,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "Điều gì xảy ra trong một cuộc tắn công MAC Address Flooding?",
-          "vi_explanation": "D. Bộ chuyễn mạch (switch) sẽ phát (flood) các frame ra tất cả các công.\nKhi bảng MAC bị tran, switch hoạt động giống như một hub và phát frame ra mọi công",
+          "vi_question": "Điều gì xảy ra trong một cuộc tấn công MAC Address Flooding?",
+          "vi_explanation": "D. Bộ chuyển mạch (switch) sẽ phát (flood) các frame ra tất cả các cổng.\nKhi bảng MAC bị tràn, switch hoạt động giống như một hub và phát frame ra mọi cổng",
           "has_visual": false
         },
         {
@@ -2374,8 +2374,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Điều gì nên được bao gồm trong phân tích chi phí — lợi ich (Cost-Benefit Analysis — CBA) của kế hoạch quản lý rủi ro?",
-          "vi_explanation": "B. Chi phí của các khuyến nghị và lợi ích dự kiến (Cost of recommendations and projected benefits).\nCBA so sánh chi phí trién khai biện pháp kiém soát với lợi ích dự kiến đạt được dé hỗ trợ ra quyết định",
+          "vi_question": "Điều gì nên được bao gồm trong phân tích chi phí — lợi ích (Cost-Benefit Analysis — CBA) của kế hoạch quản lý rủi ro?",
+          "vi_explanation": "B. Chi phí của các khuyến nghị và lợi ích dự kiến (Cost of recommendations and projected benefits).\nCBA so sánh chi phí triển khai biện pháp kiểm soát với lợi ích dự kiến đạt được để hỗ trợ ra quyết định",
           "has_visual": false
         },
         {
@@ -2394,7 +2394,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Cần thực hiện điều gì trong giai đoạn ngăn chặn (containment phase) của một sự cố máy tính?",
-          "vi_explanation": "B. Cô lập các hệ thống bi ảnh hưởng đề ngăn chặn thiệt hại lan rộng.\nContainment nhằm hạn chế sự lan truyền của sự cố trước khi tiền hành khắc phục.",
+          "vi_explanation": "B. Cô lập các hệ thống bị ảnh hưởng để ngăn chặn thiệt hại lan rộng.\nContainment nhằm hạn chế sự lan truyền của sự cố trước khi tiến hành khắc phục.",
           "has_visual": false
         },
         {
@@ -2412,8 +2412,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mô tả nào sau đây đúng nhất về tan cong DDoS?",
-          "vi_explanation": "C. Nhiều thiết bị đồng thời gửi lưu lượng dé làm quá tải mục tiêu.\nDDoS sử dụng nhiều thiết bi (hường là botnet) dé làm cạn kiệt tài nguyên của hệ thống dich.",
+          "vi_question": "Mô tả nào sau đây đúng nhất về tấn công DDoS?",
+          "vi_explanation": "C. Nhiều thiết bị đồng thời gửi lưu lượng để làm quá tải mục tiêu.\nDDoS sử dụng nhiều thiết bị (thường là botnet) để làm cạn kiệt tài nguyên của hệ thống đích.",
           "has_visual": false
         },
         {
@@ -2431,8 +2431,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Tài liệu ISO nào dưới day cung cấp hướng dẫn chung về thực hành quan lý rủi ro?",
-          "vi_explanation": "C. ISO 31000 — Risk Management Principles and Guidelines.\n1SO 31000 là tiêu chuẩn quốc tế về nguyên tắc và hướng dan quan lý rủi ro.",
+          "vi_question": "Tài liệu ISO nào dưới đây cung cấp hướng dẫn chung về thực hành quản lý rủi ro?",
+          "vi_explanation": "C. ISO 31000 — Risk Management Principles and Guidelines.\nISO 31000 là tiêu chuẩn quốc tế về nguyên tắc và hướng dẫn quản lý rủi ro.",
           "has_visual": false
         },
         {
@@ -2450,8 +2450,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Khi xác định hệ thống đề thực hiện đánh giá rủi ro, can bao gồm điều gì?",
-          "vi_explanation": "B. Cấu hình hiện tại của hệ thống (The current configuration of the system).\nThông tin về cầu hình hiện tại giúp đánh giá chính xác các lỗ hông và rủi ro",
+          "vi_question": "Khi xác định hệ thống để thực hiện đánh giá rủi ro, cần bao gồm điều gì?",
+          "vi_explanation": "B. Cấu hình hiện tại của hệ thống (The current configuration of the system).\nThông tin về cấu hình hiện tại giúp đánh giá chính xác các lỗ hổng và rủi ro",
           "has_visual": false
         },
         {
@@ -2469,8 +2469,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Đánh gia lỗ hông nội bộ (internal) và bên ngoài (external) khác nhau như thé nào, và mục tiêu của mỗi loại là gì?",
-          "vi_explanation": "B. Đánh giá nội bộ khai thác hệ thống; đánh giá bên ngoài tìm hiểu các lỗ hong.\nĐánh giá nội bộ mô phỏng kẻ tần công đã xâm nhập vào mạng nội bộ, còn đánh giá bên ngoài tập trung xác định các lỗ hông có thé bị khai thác từ bên ngoài\n[Lưu ý: Slide gốc dòng trên ghi C, giải thích bên dưới chọn B]",
+          "vi_question": "Đánh giá lỗ hổng nội bộ (internal) và bên ngoài (external) khác nhau như thế nào, và mục tiêu của mỗi loại là gì?",
+          "vi_explanation": "B. Đánh giá nội bộ khai thác hệ thống; đánh giá bên ngoài tìm hiểu các lỗ hổng.\nĐánh giá nội bộ mô phỏng kẻ tấn công đã xâm nhập vào mạng nội bộ, còn đánh giá bên ngoài tập trung xác định các lỗ hổng có thể bị khai thác từ bên ngoài\n[Lưu ý: Slide gốc dòng trên ghi C, giải thích bên dưới chọn B]",
           "has_visual": false
         },
         {
@@ -2507,8 +2507,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Trong quá trình xác định tai sản, tại sao can phân loại tài sản theo mức độ ảnh hưởng đến hoạt động kinh doanh thay vì chỉ theo giá tri tiền tệ?",
-          "vi_explanation": "A. Vì một số tài sản có ý nghĩa quan trọng đối với hoạt động của td chức vượt xa giá trị tài chính của chúng.\nNhiều tài sản có giá trị kinh doanh hoặc vận hành rất lớn dù chỉ phí thay thế không cao.",
+          "vi_question": "Trong quá trình xác định tài sản, tại sao cần phân loại tài sản theo mức độ ảnh hưởng đến hoạt động kinh doanh thay vì chỉ theo giá trị tiền tệ?",
+          "vi_explanation": "A. Vì một số tài sản có ý nghĩa quan trọng đối với hoạt động của tổ chức vượt xa giá trị tài chính của chúng.\nNhiều tài sản có giá trị kinh doanh hoặc vận hành rất lớn dù chi phí thay thế không cao.",
           "has_visual": false
         },
         {
@@ -2528,7 +2528,7 @@ window.QUIZ_COURSES.IAA202 = {
             "E"
           ],
           "vi_question": "Điều nào sau đây được xem là thông lệ tốt (best practice) khi thực hiện đánh giá rủi ro?",
-          "vi_explanation": "E. Tắt cả các đáp án trên.\nCác thông lệ tốt bao gồm:\nBắt đầu với mục tiêu rõ ràng và phạm vi xác định.\nCó sự ho trợ của lãnh đạo cap cao.\nThực hiện đánh giá định kỳ.",
+          "vi_explanation": "E. Tất cả các đáp án trên.\nCác thông lệ tốt bao gồm:\nBắt đầu với mục tiêu rõ ràng và phạm vi xác định.\nCó sự hỗ trợ của lãnh đạo cấp cao.\nThực hiện đánh giá định kỳ.",
           "has_visual": false
         },
         {
@@ -2546,8 +2546,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Theo Seven Steps of Contingency Planning của NIST, bước dau tiên là gì?",
-          "vi_explanation": "C. Xây dựng tuyên bố chính sách về lập kế hoạch dự phòng. — Develop the contingency planning policy statement.\nTheo NIST SP 800-34, bước đầu tiên là xây dựng chính sách lập kế hoạch dự phòng dé xác định phạm vi, mục tiêu và trách nhiệm.",
+          "vi_question": "Theo Seven Steps of Contingency Planning của NIST, bước đầu tiên là gì?",
+          "vi_explanation": "C. Xây dựng tuyên bố chính sách về lập kế hoạch dự phòng. — Develop the contingency planning policy statement.\nTheo NIST SP 800-34, bước đầu tiên là xây dựng chính sách lập kế hoạch dự phòng để xác định phạm vi, mục tiêu và trách nhiệm.",
           "has_visual": false
         },
         {
@@ -2565,8 +2565,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Hai mục tiêu chính khi trién khai kế hoạch giảm thiéu rủi ro là gì?",
-          "vi_explanation": "C. Đảm bảo dự án đúng ngân sách và đúng tiền độ. — To stay within budget and on schedule.\nViệc trién khai kế hoạch giảm thiéu rủi ro can tuân thủ các nguyên tắc quản lý dự án nhằm kiểm soát chi phí và thời gian",
+          "vi_question": "Hai mục tiêu chính khi triển khai kế hoạch giảm thiểu rủi ro là gì?",
+          "vi_explanation": "C. Đảm bảo dự án đúng ngân sách và đúng tiến độ. — To stay within budget and on schedule.\nViệc triển khai kế hoạch giảm thiểu rủi ro cần tuân thủ các nguyên tắc quản lý dự án nhằm kiểm soát chi phí và thời gian",
           "has_visual": false
         },
         {
@@ -2585,7 +2585,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Vai trò của Business Impact Analysis (BIA) đầy đủ trong quá trình xây dựng Business Continuity Plan (BCP) là gì?",
-          "vi_explanation": "D. Hiểu tác động của các gián đoạn đối với các chức năng kinh doanh. — Understanding the impact of disruptions on business functions.\nBIA giúp xác định mức độ ảnh hưởng của sự có dé ưu tiên các hoạt động can được khôi phục trước",
+          "vi_explanation": "D. Hiểu tác động của các gián đoạn đối với các chức năng kinh doanh. — Understanding the impact of disruptions on business functions.\nBIA giúp xác định mức độ ảnh hưởng của sự cố để ưu tiên các hoạt động cần được khôi phục trước",
           "has_visual": false
         },
         {
@@ -2603,7 +2603,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Scope Creep la gi?",
+          "vi_question": "Scope Creep là gì?",
           "vi_explanation": "C. Sự mở rộng không được kiểm soát của mục tiêu hoặc các sản phẩm bàn giao của dự án. — Uncontrolled growth of a project's goals or deliverables.\nScope Creep xảy ra khi yêu cầu dự án liên tục tăng lên mà không được quản lý hoặc phê duyệt thích hợp",
           "has_visual": false
         },
@@ -2622,8 +2622,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục dich của việc thực hiện Tabletop Exercise trong Business Continuity Plan (BCP) là gì?",
-          "vi_explanation": "C. Xem xét các quy trình của BCP thông qua hình thức thảo luận. — To review the BCP procedures in a discussion format.\nTabletop Exercise là budi diễn tập trên giấy nhằm kiểm tra quy trình và vai trò của các bên mà không cần mô phỏng thực tế.",
+          "vi_question": "Mục đích của việc thực hiện Tabletop Exercise trong Business Continuity Plan (BCP) là gì?",
+          "vi_explanation": "C. Xem xét các quy trình của BCP thông qua hình thức thảo luận. — To review the BCP procedures in a discussion format.\nTabletop Exercise là buổi diễn tập trên giấy nhằm kiểm tra quy trình và vai trò của các bên mà không cần mô phỏng thực tế.",
           "has_visual": false
         },
         {
@@ -2642,7 +2642,7 @@ window.QUIZ_COURSES.IAA202 = {
             "D"
           ],
           "vi_question": "Các quy trình tự động mang lại giá trị cho cả khách hàng và doanh nghiệp như thế nào?",
-          "vi_explanation": "D. Cần ít nhân công hơn đề vận hành và đảm bảo tính sẵn sàng của quy trình. — They require less labor to use and ensure process availability.\nTự động hóa giúp giảm công sức, tăng hiệu quả và duy trì hoạt động liên tục của quy trình.",
+          "vi_explanation": "D. Cần ít nhân công hơn để vận hành và đảm bảo tính sẵn sàng của quy trình. — They require less labor to use and ensure process availability.\nTự động hóa giúp giảm công sức, tăng hiệu quả và duy trì hoạt động liên tục của quy trình.",
           "has_visual": false
         },
         {
@@ -2660,8 +2660,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Yếu tố nào can được ưu tiên nhất khi xác định RTO cho các chức năng kinh doanh quan trong trong DRP?",
-          "vi_explanation": "C. Tác động của thời gian ngừng hoạt động đối với hoạt động kinh doanh và tôn thất tài chính. — Impact of downtime on business operations and financial losses.\nRTO được xác định dựa trên mức độ ảnh hưởng mà việc gián đoạn gây ra đối với doanh nghiệp.",
+          "vi_question": "Yếu tố nào cần được ưu tiên nhất khi xác định RTO cho các chức năng kinh doanh quan trọng trong DRP?",
+          "vi_explanation": "C. Tác động của thời gian ngừng hoạt động đối với hoạt động kinh doanh và tổn thất tài chính. — Impact of downtime on business operations and financial losses.\nRTO được xác định dựa trên mức độ ảnh hưởng mà việc gián đoạn gây ra đối với doanh nghiệp.",
           "has_visual": false
         },
         {
@@ -2680,7 +2680,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Đâu là một ví dụ về Exploit?",
-          "vi_explanation": "B. Một cuộc tần công từ chối dịch vụ (DoS). — A denial of service (DoS) attack.\nExploit là việc khai thác lỗ hông dé thực hiện tan công; DoS là một ví dụ điễn hình.",
+          "vi_explanation": "B. Một cuộc tấn công từ chối dịch vụ (DoS). — A denial of service (DoS) attack.\nExploit là việc khai thác lỗ hổng để thực hiện tấn công; DoS là một ví dụ điển hình.",
           "has_visual": false
         },
         {
@@ -2698,7 +2698,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Lợi ich của việc truyền đạt rủi ro bằng ngôn ngữ kinh doanh thay vì ngôn ngữ kỹ thuật là gi?",
+          "vi_question": "Lợi ích của việc truyền đạt rủi ro bằng ngôn ngữ kinh doanh thay vì ngôn ngữ kỹ thuật là gì?",
           "vi_explanation": "A. Giúp người ra quyết định hiểu rõ hơn về tác động và mức độ ưu tiên. — It helps decision-makers better understand impact and priorities.\nNgôn ngữ kinh doanh giúp lãnh đạo đánh giá rủi ro và đưa ra quyết định phù hợp mà không cần kiến thức kỹ thuật chuyên sâu.",
           "has_visual": false
         },
@@ -2717,8 +2717,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Đạo luật tuân thủ nào áp dụng cho mọi tô chức xử lý thông tin liên quan đến sức khỏe?",
-          "vi_explanation": "C. Đạo luật về khả năng chuyễn đồi và trách nhiệm giải trình bảo hiểm y tế (HIPAA). — Health Insurance Portability and Accountability Act (HIPAA).\nHIPAA quy định việc bảo vệ thông tin sức khỏe cá nhân tại Hoa",
+          "vi_question": "Đạo luật tuân thủ nào áp dụng cho mọi tổ chức xử lý thông tin liên quan đến sức khỏe?",
+          "vi_explanation": "C. Đạo luật về khả năng chuyển đổi và trách nhiệm giải trình bảo hiểm y tế (HIPAA). — Health Insurance Portability and Accountability Act (HIPAA).\nHIPAA quy định việc bảo vệ thông tin sức khỏe cá nhân tại Hoa Kỳ.",
           "has_visual": false
         },
         {
@@ -2737,7 +2737,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Lợi ích của đánh giá rủi ro định lượng là gì?",
-          "vi_explanation": "B. Cung cấp cơ sở cho phân tích chi phí — lợi ích. — Provides a cost-benefit analysis.\nĐánh giá định lượng sử dụng các giá trị số dé ước tính tôn thất và hỗ trợ phân tích chi phí - lợi ích khi lựa chọn biện pháp kiểm soát.",
+          "vi_explanation": "B. Cung cấp cơ sở cho phân tích chi phí — lợi ích. — Provides a cost-benefit analysis.\nĐánh giá định lượng sử dụng các giá trị số để ước tính tổn thất và hỗ trợ phân tích chi phí - lợi ích khi lựa chọn biện pháp kiểm soát.",
           "has_visual": false
         },
         {
@@ -2755,8 +2755,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "",
-          "vi_explanation": "Một người dùng đã cai đặt phan mềm P2P trên hệ thống, trong khi chính sách của tỗ chức quy định rõ rằng việc này không được phép. Quản trị viên phát hiện phần mềm đó trên hệ thống của người dùng. Đây có phải là một sự cố an ninh máy tính\nkhông? Nêu có, thuộc loại nào?\nB. This is a form of inappropriate usage.\n— Đây là một hình thức sử dung không phù hợp/không đúng quy định.\nViệc cài đặt phan mềm P2P trái với chính sách của tô chức được xem là vi phạm chính sách sử dụng hệ thống, nên thuộc nhóm inappropriate usage.",
+          "vi_question": "Một người dùng đã cài đặt phần mềm P2P trên hệ thống, trong khi chính sách của tổ chức quy định rõ rằng việc này không được phép. Quản trị viên phát hiện phần mềm đó trên hệ thống của người dùng. Đây có phải là một sự cố an ninh máy tính không? Nếu có, thuộc loại nào?",
+          "vi_explanation": "B. This is a form of inappropriate usage.\n— Đây là một hình thức sử dụng không phù hợp/không đúng quy định.\nViệc cài đặt phần mềm P2P trái với chính sách của tổ chức được xem là vi phạm chính sách sử dụng hệ thống, nên thuộc nhóm inappropriate usage.",
           "has_visual": false
         },
         {
@@ -2774,8 +2774,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Ai nên thực hiện đánh giá lỗ hông (vulnerability assessments)?",
-          "vi_explanation": "C. Either internal or external security professionals or both\n— Các chuyên gia bảo mật nội bộ, bên ngoài hoặc kết hợp cả hai đều có thê thực hiện.\nTổ chức có thé sử dụng đội ngũ bảo mật nội bộ, thuê chuyên gia bên ngoài hoặc kết hợp cả hai tùy theo yêu cầu về chuyên môn, tính độc lập và phạm vi đánh giá.",
+          "vi_question": "Ai nên thực hiện đánh giá lỗ hổng (vulnerability assessments)?",
+          "vi_explanation": "C. Either internal or external security professionals or both\n— Các chuyên gia bảo mật nội bộ, bên ngoài hoặc kết hợp cả hai đều có thể thực hiện.\nTổ chức có thể sử dụng đội ngũ bảo mật nội bộ, thuê chuyên gia bên ngoài hoặc kết hợp cả hai tùy theo yêu cầu về chuyên môn, tính độc lập và phạm vi đánh giá.",
           "has_visual": false
         },
         {
@@ -2794,7 +2794,7 @@ window.QUIZ_COURSES.IAA202 = {
             "A"
           ],
           "vi_question": "Hai mục tiêu phục hồi chính được tập trung trong BIA (Business Impact Analysis) là gì?",
-          "vi_explanation": "A. Recovery Time Objectives and Recovery Point Objectives _\n— Mục tiêu thời gian phục hôi (RTO) và mục tiêu diém phục hôi (RPO).\nRTO xác định thời gian tối đa có thé chấp nhận dé khôi phục hoạt động, còn RPO xác định mức mát dữ liệu tối đa có thé chấp nhận tinh theo thời gian.",
+          "vi_explanation": "A. Recovery Time Objectives and Recovery Point Objectives\n— Mục tiêu thời gian phục hồi (RTO) và mục tiêu điểm phục hồi (RPO).\nRTO xác định thời gian tối đa có thể chấp nhận để khôi phục hoạt động, còn RPO xác định mức mất dữ liệu tối đa có thể chấp nhận tính theo thời gian.",
           "has_visual": false
         },
         {
@@ -2812,8 +2812,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Phát biéu nào sau đây về risk assessment (đánh gia rủi ro) là đúng?",
-          "vi_explanation": "C. They help identify which safeguards to implement.\n— Chúng giúp xác định những biện pháp bảo vệ nào can được triên khai.\nRisk assessment giúp xác định và đánh giá các rủi ro, từ đó lựa chọn các biện pháp kiểm soát phù hợp dé giảm rủi ro xuống mức chấp nhận được.",
+          "vi_question": "Phát biểu nào sau đây về risk assessment (đánh giá rủi ro) là đúng?",
+          "vi_explanation": "C. They help identify which safeguards to implement.\n— Chúng giúp xác định những biện pháp bảo vệ nào cần được triển khai.\nRisk assessment giúp xác định và đánh giá các rủi ro, từ đó lựa chọn các biện pháp kiểm soát phù hợp để giảm rủi ro xuống mức chấp nhận được.",
           "has_visual": false
         },
         {
@@ -2831,8 +2831,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Khi xác định phạm vi (scope) của Risk Management Plan — RMP, yếu tố nào can được xem xét liên quan đến ranh giới và giới hạn của kế hoạch?",
-          "vi_explanation": "C. Clear identification of areas, processes, or projects covered :\n— Xác định rõ các khu vực, quy trình hoặc dự án năm trong phạm vi của kê hoạch.\nScope của RMP cần xác định rõ những gì được bao gồm và không được bao gồm dé thiết lập ranh giới và trách nhiệm quản lý rủi ro.",
+          "vi_question": "Khi xác định phạm vi (scope) của Risk Management Plan — RMP, yếu tố nào cần được xem xét liên quan đến ranh giới và giới hạn của kế hoạch?",
+          "vi_explanation": "C. Clear identification of areas, processes, or projects covered\n— Xác định rõ các khu vực, quy trình hoặc dự án nằm trong phạm vi của kế hoạch.\nScope của RMP cần xác định rõ những gì được bao gồm và không được bao gồm để thiết lập ranh giới và trách nhiệm quản lý rủi ro.",
           "has_visual": false
         }
       ]
@@ -2859,7 +2859,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Lợi ích chính của việc thường xuyên xem xét và cập nhật kế hoạch quản lý rủi ro là gì?",
-          "vi_explanation": "B. Đảm bảo kế hoạch luôn phù hợp và hiệu quả trong việc ứng phó với các mối đe dọa, lỗ hông và nhu cầu của tỗ chức đang thay đồi.\nViệc cập nhật định kỳ giúp kế hoạch quản lý rủi ro luôn phản ánh đúng tình hình thực tế và các rủi ro mới.",
+          "vi_explanation": "B. Đảm bảo kế hoạch luôn phù hợp và hiệu quả trong việc ứng phó với các mối đe dọa, lỗ hổng và nhu cầu của tổ chức đang thay đổi.\nViệc cập nhật định kỳ giúp kế hoạch quản lý rủi ro luôn phản ánh đúng tình hình thực tế và các rủi ro mới.",
           "has_visual": false
         },
         {
@@ -2878,7 +2878,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Single Point of Failure (SPOF) là gì?",
-          "vi_explanation": "B. Bất ky thành phan đơn lẻ nào của hệ thống mà nếu bị hỏng sẽ khiến toàn bộ hệ thống ngừng hoạt động.\nSPOF là điểm yếu duy nhất có thé làm gián đoạn toàn bộ hệ thống nếu không có cơ chế dự phòng.",
+          "vi_explanation": "B. Bất kỳ thành phần đơn lẻ nào của hệ thống mà nếu bị hỏng sẽ khiến toàn bộ hệ thống ngừng hoạt động.\nSPOF là điểm yếu duy nhất có thể làm gián đoạn toàn bộ hệ thống nếu không có cơ chế dự phòng.",
           "has_visual": false
         },
         {
@@ -2915,7 +2915,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều gì xảy ra khi dia chi IP dich không khớp với bat ky tuyến đường nào và không có default route?",
+          "vi_question": "Điều gì xảy ra khi địa chỉ IP đích không khớp với bất kỳ tuyến đường nào và không có default route?",
           "vi_explanation": "C. Router sẽ loại bỏ gói tin và gửi thông báo ICMP Destination Unreachable.\nNếu không tìm được tuyến đường phù hợp, router sẽ hủy gói tin và thông báo lỗi cho nguồn gửi",
           "has_visual": false
         },
@@ -2934,7 +2934,7 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Điều gì quyết định một td chức phải tuân thủ CIPA (Children's Internet Protection Act)?",
+          "vi_question": "Điều gì quyết định một tổ chức phải tuân thủ CIPA (Children's Internet Protection Act)?",
           "vi_explanation": "C. Tổ chức nhận tài trợ E-Rate.\nCác trường học và thư viện nhận tài trợ E-Rate phải tuân thủ các yêu cầu của CIPA.",
           "has_visual": false
         },
@@ -2972,8 +2972,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Một công ty đã chuyén hoạt động sang địa điểm dự phòng do sự có. Sau khi sự cố kết thúc và các máy chủ tai dia điểm chính đã được xây dựng lại, nên làm gì?",
-          "vi_explanation": "C. Vận hành đồng thời các máy chủ tại địa điểm chính và địa điểm dự phòng trong khoảng 3 đến 5 ngày.\nChạy song song giúp xác nhận hệ thống chính hoạt động én định trước khi ngừng địa điểm dự phòng",
+          "vi_question": "Một công ty đã chuyển hoạt động sang địa điểm dự phòng do sự cố. Sau khi sự cố kết thúc và các máy chủ tại địa điểm chính đã được xây dựng lại, nên làm gì?",
+          "vi_explanation": "C. Vận hành đồng thời các máy chủ tại địa điểm chính và địa điểm dự phòng trong khoảng 3 đến 5 ngày.\nChạy song song giúp xác nhận hệ thống chính hoạt động ổn định trước khi ngừng địa điểm dự phòng",
           "has_visual": false
         },
         {
@@ -2991,8 +2991,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Nhiều bước được thực hiện trước, trong và sau một sự có. Lựa chọn nào dưới đây mô tả chính xác vòng đời ứng phó sự cố (incident response life cycle)?",
-          "vi_explanation": "C. Chuan bị — Phát hiện và phân tích — Ngăn chặn — Loại bỏ và khôi phục — Hoạt động sau sự cổ (Preparation, detection and analysis, containment, eradication and recovery, and postincident recovery).\nĐây là quy trình chun của vòng đời ứng phó sự cố theo hướng dẫn của NIST, bao gồm chuẩn bị, phát hiện/phân tích, ngăn chặn, loại bỏ & khôi phục, và các hoạt động sau sự cố.",
+          "vi_question": "Nhiều bước được thực hiện trước, trong và sau một sự cố. Lựa chọn nào dưới đây mô tả chính xác vòng đời ứng phó sự cố (incident response life cycle)?",
+          "vi_explanation": "C. Chuẩn bị — Phát hiện và phân tích — Ngăn chặn — Loại bỏ và khôi phục — Hoạt động sau sự cố (Preparation, detection and analysis, containment, eradication and recovery, and postincident recovery).\nĐây là quy trình chuẩn của vòng đời ứng phó sự cố theo hướng dẫn của NIST, bao gồm chuẩn bị, phát hiện/phân tích, ngăn chặn, loại bỏ & khôi phục, và các hoạt động sau sự cố.",
           "has_visual": false
         },
         {
@@ -3010,8 +3010,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Sau một sự có an ninh, mục tiêu chính của cuộc điều tra do CIRT thực hiện là gì?",
-          "vi_explanation": "B. Xác định nguyên nhân gốc rễ của sự cố, đồng thời hiểu phạm vi và mức độ tác động của nó. — To identify the root cause of the incident, understand its scope and impact.\nMục tiêu của CIRT là tìm nguyên nhân, đánh gia ảnh hưởng và rút kinh nghiệm dé ngăn sự cố tái diễn, không phải chỉ quy trách nhiệm",
+          "vi_question": "Sau một sự cố an ninh, mục tiêu chính của cuộc điều tra do CIRT thực hiện là gì?",
+          "vi_explanation": "B. Xác định nguyên nhân gốc rễ của sự cố, đồng thời hiểu phạm vi và mức độ tác động của nó. — To identify the root cause of the incident, understand its scope and impact.\nMục tiêu của CIRT là tìm nguyên nhân, đánh giá ảnh hưởng và rút kinh nghiệm để ngăn sự cố tái diễn, không phải chỉ quy trách nhiệm",
           "has_visual": false
         },
         {
@@ -3030,7 +3030,7 @@ window.QUIZ_COURSES.IAA202 = {
             "A"
           ],
           "vi_question": "Điểm khác biệt chính giữa Hot Site và Cold Site trong kế hoạch khôi phục sau thảm họa là gì?",
-          "vi_explanation": "A. Hot Site sẵn sàng sử dụng ngay; Cold Site can nhiều thời gian và công sức đề thiết lập. — Hot sites are ready for immediate use; cold sites require significant setup.\nHot Site có sẵn hạ tang và có thé hoạt động gần như ngay lập tức, trong khi Cold Site chỉ có địa điểm cơ bản và cần triển khai thêm thiết bị.",
+          "vi_explanation": "A. Hot Site sẵn sàng sử dụng ngay; Cold Site cần nhiều thời gian và công sức để thiết lập. — Hot sites are ready for immediate use; cold sites require significant setup.\nHot Site có sẵn hạ tầng và có thể hoạt động gần như ngay lập tức, trong khi Cold Site chỉ có địa điểm cơ bản và cần triển khai thêm thiết bị.",
           "has_visual": false
         },
         {
@@ -3048,8 +3048,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Các bước quan trong trong việc xây dựng chiến lược khôi phục dựa trên kết quả của Business Impact Analysis (BIA) là gì?",
-          "vi_explanation": "A. Xác định các tài sản quan trọng, ưu tiên thứ tự khôi phục và thiết lập các mục tiêu thời gian khôi phục (RTO). — Identify critical assets, prioritize recovery order, and establish recovery time objectives (RTOs).\nKết quả BIA được sử dụng đễ xác định những gì cần khôi phục trước và thời gian khôi phục mục tiêu cho từng hệ thống.",
+          "vi_question": "Các bước quan trọng trong việc xây dựng chiến lược khôi phục dựa trên kết quả của Business Impact Analysis (BIA) là gì?",
+          "vi_explanation": "A. Xác định các tài sản quan trọng, ưu tiên thứ tự khôi phục và thiết lập các mục tiêu thời gian khôi phục (RTO). — Identify critical assets, prioritize recovery order, and establish recovery time objectives (RTOs).\nKết quả BIA được sử dụng để xác định những gì cần khôi phục trước và thời gian khôi phục mục tiêu cho từng hệ thống.",
           "has_visual": false
         },
         {
@@ -3068,7 +3068,7 @@ window.QUIZ_COURSES.IAA202 = {
             "B"
           ],
           "vi_question": "Lợi ích của việc sử dụng các phương pháp đánh giá rủi ro trong quản lý rủi ro là gì?",
-          "vi_explanation": "B. Ưu tiên các hoạt động giảm thiểu rủi ro dựa trên mức độ tác động và khả năng bị khai thác. — Prioritizing risk mitigation activities based on potential impact and exploit likelihood.\nĐánh giá rủi ro giúp tô chức tập trung nguồn lực vào những rủi ro có mức độ ảnh hưởng và khả năng xảy ra cao nhất.",
+          "vi_explanation": "B. Ưu tiên các hoạt động giảm thiểu rủi ro dựa trên mức độ tác động và khả năng bị khai thác. — Prioritizing risk mitigation activities based on potential impact and exploit likelihood.\nĐánh giá rủi ro giúp tổ chức tập trung nguồn lực vào những rủi ro có mức độ ảnh hưởng và khả năng xảy ra cao nhất.",
           "has_visual": false
         },
         {
@@ -3086,8 +3086,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Đâu là mô ta chính xác về vòng đời ứng phó sự cố (Incident Response Life Cycle)?",
-          "vi_explanation": "C. Chuan bị, phát hiện và phân tích, ngăn chặn, loại bỏ và khôi phục, sau đó là các hoạt động sau sự có. — Preparation, detection and analysis, containment, eradication and recovery, and postincident recovery.\nĐây là vòng đời ứng phó sự cố theo hướng dẫn của NIST SP 800-61.",
+          "vi_question": "Đâu là mô tả chính xác về vòng đời ứng phó sự cố (Incident Response Life Cycle)?",
+          "vi_explanation": "C. Chuẩn bị, phát hiện và phân tích, ngăn chặn, loại bỏ và khôi phục, sau đó là các hoạt động sau sự cố. — Preparation, detection and analysis, containment, eradication and recovery, and postincident recovery.\nĐây là vòng đời ứng phó sự cố theo hướng dẫn của NIST SP 800-61.",
           "has_visual": false
         },
         {
@@ -3105,8 +3105,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Các tb chức có thé tận dung công nghệ như thé nào dé nâng cao việc tuân thủ các quy định về quản lý rủi ro?",
-          "vi_explanation": "C. Trién khai các giải pháp tự động nhằm bd trợ và nâng cao các quy trình quản lý rủi ro hiện có. — By implementing automated solutions that complement and enhance existing risk management processes.\nCông nghệ giúp tự động hóa nhiều công việc nhưng vấn cần kết hợp với quy trình và chuyên môn của con người đề đảm bảo hiệu quả quản lý rủi ro.Z",
+          "vi_question": "Các tổ chức có thể tận dụng công nghệ như thế nào để nâng cao việc tuân thủ các quy định về quản lý rủi ro?",
+          "vi_explanation": "C. Triển khai các giải pháp tự động nhằm bổ trợ và nâng cao các quy trình quản lý rủi ro hiện có. — By implementing automated solutions that complement and enhance existing risk management processes.\nCông nghệ giúp tự động hóa nhiều công việc nhưng vẫn cần kết hợp với quy trình và chuyên môn của con người để đảm bảo hiệu quả quản lý rủi ro.",
           "has_visual": false
         },
         {
@@ -3124,8 +3124,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "Mục đích chính của việc thực hiện đánh giá rủi ro định ky (periodic risk assessments) sau khi triển khai kế hoạch giảm thiéu rủi ro là gì?",
-          "vi_explanation": "B. Evaluating the effectiveness of implemented controls and identifying necessary adjustments. _\n— Đánh gia hiệu quả của các biện pháp kiêm soát da triên khai va xác định những điêu chỉnh cân thiết.\nĐánh giá định kỳ giúp xác định các biện pháp kiểm soát có thực sự giảm rủi ro hay không, đồng thời phát hiện rủi ro mới hoặc những điểm cần điều chỉnh.",
+          "vi_question": "Mục đích chính của việc thực hiện đánh giá rủi ro định kỳ (periodic risk assessments) sau khi triển khai kế hoạch giảm thiểu rủi ro là gì?",
+          "vi_explanation": "B. Evaluating the effectiveness of implemented controls and identifying necessary adjustments.\n— Đánh giá hiệu quả của các biện pháp kiểm soát đã triển khai và xác định những điều chỉnh cần thiết.\nĐánh giá định kỳ giúp xác định các biện pháp kiểm soát có thực sự giảm rủi ro hay không, đồng thời phát hiện rủi ro mới hoặc những điểm cần điều chỉnh.",
           "has_visual": false
         },
         {
@@ -3143,8 +3143,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "C"
           ],
-          "vi_question": "Mục tiêu cuối cùng của việc xây dựng và trién khai một kế hoạch quản lý rủi ro (risk management plan) hiệu quả là gi?",
-          "vi_explanation": "C. Creating and maintaining a secure environment that minimizes the likelihood and impact of security incidents.\n— Tao ra va duy trì một môi trường an toàn nham giảm thiêu khả năng xảy ra và mức độ tác động của các sự cô bảo mat.\nRisk management không nhằm loại bỏ hoàn toàn mọi rủi ro mà tập trung vào việc nhận diện, đánh giá và kiếm soát rủi ro dé giảm xác suất xảy ra cũng như hậu quả của các sự cố.",
+          "vi_question": "Mục tiêu cuối cùng của việc xây dựng và triển khai một kế hoạch quản lý rủi ro (risk management plan) hiệu quả là gì?",
+          "vi_explanation": "C. Creating and maintaining a secure environment that minimizes the likelihood and impact of security incidents.\n— Tạo ra và duy trì một môi trường an toàn nhằm giảm thiểu khả năng xảy ra và mức độ tác động của các sự cố bảo mật.\nRisk management không nhằm loại bỏ hoàn toàn mọi rủi ro mà tập trung vào việc nhận diện, đánh giá và kiểm soát rủi ro để giảm xác suất xảy ra cũng như hậu quả của các sự cố.",
           "has_visual": false
         }
       ]
