@@ -3138,7 +3138,7 @@ window.QUIZ_COURSES.IAM302 = {
           "options": {
             "A": "Handle",
             "B": "\\\\",
-            "C": "\\2\\",
+            "C": "\\\\?\\",
             "D": "\\\\.\\",
             "E": "ADS"
           },
