@@ -3328,8 +3328,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Đạo luật nào quy định các mục tiêu và kỹ thuật kiểm soát an toàn cho các hệ thống và chương trình phải được rà soát và báo cáo hàng năm cho Văn phòng Quản lý và Ngân sách (OMB)?",
+          "vi_explanation": "A. Federal Information Security Management Act (Đạo luật Quản lý An toàn Thông tin Liên bang — FISMA).\nFISMA yêu cầu toàn bộ các cơ quan liên bang Hoa Kỳ phải thiết lập, lập tài liệu và thực thi chương trình an toàn thông tin, đồng thời báo cáo hiệu quả định kỳ hàng năm cho OMB.",
           "has_visual": false
         },
         {
@@ -3348,8 +3348,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Mục nào sau đây KHÔNG phải là mục đích của Kế hoạch phục hồi sau thảm họa (Disaster Recovery Plan — DRP)?",
+          "vi_explanation": "B. Saving lives (Cứu sinh mạng con người).\nBảo vệ tính mạng con người là nhiệm vụ số 1 của Kế hoạch khẩn cấp về an toàn tính mạng (Occupant Emergency Plan / Life Safety), còn DRP tập trung chuyên môn vào việc phục hồi cơ sở hạ tầng CNTT, hệ thống dữ liệu sau thảm họa.",
           "has_visual": false
         },
         {
@@ -3368,8 +3368,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Kế hoạch quản trị rủi ro chỉ rõ các trách nhiệm. Bạn có thể phân công trách nhiệm cho tất cả các đối tượng sau ngoại trừ:",
+          "vi_explanation": "A. Staffs and customers (Nhân viên thông thường và khách hàng).\nKế hoạch quản trị rủi ro nội bộ phân công trách nhiệm cho các bên liên quan (stakeholders), lãnh đạo cấp cao (CIO, CFO) và các trưởng bộ phận, chứ không thể phân công trách nhiệm quản trị rủi ro cho khách hàng bên ngoài.",
           "has_visual": false
         },
         {
@@ -3388,8 +3388,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Nâng cao nhận thức và đào tạo (Awareness and training) là ví dụ của loại biện pháp kiểm soát nào?",
+          "vi_explanation": "A. Administrative security control (Biện pháp kiểm soát quản trị/hành chính).\nĐào tạo nhân viên và nâng cao nhận thức an toàn thông tin thuộc nhóm biện pháp kiểm soát quản lý/hành chính (administrative controls), hướng dẫn và chuẩn hóa hành vi con người.",
           "has_visual": false
         },
         {
@@ -3403,13 +3403,13 @@ window.QUIZ_COURSES.IAA202 = {
             "B": "Technical security control",
             "C": "Physical security control",
             "D": "It is not a control",
-            "E": "None of the other choices EER"
+            "E": "None of the other choices"
           },
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Nâng cao nhận thức và đào tạo (Awareness and training) là ví dụ của loại biện pháp kiểm soát nào?",
+          "vi_explanation": "A. Administrative security control (Biện pháp kiểm soát quản trị/hành chính).\nĐào tạo nhân viên và nâng cao nhận thức an toàn thông tin thuộc nhóm biện pháp kiểm soát quản lý/hành chính (administrative controls), hướng dẫn và chuẩn hóa hành vi con người.",
           "has_visual": false
         },
         {
@@ -3448,8 +3448,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Bạn đã thực hiện phân tích rủi ro định lượng (quantitative risk analysis) cho một mối đe dọa/lỗ hổng. Khi chọn một biện pháp đối phó (countermeasure) và tính toán lại, yếu tố nào sau đây sẽ thay đổi?",
+          "vi_explanation": "D. ARO (Annual Rate of Occurrence - Tần suất xảy ra hàng năm).\nKhi áp dụng biện pháp phòng ngừa/kiểm soát (countermeasure), tần suất mối đe dọa xảy ra thành công (ARO) sẽ giảm xuống. Giá trị tài sản (AV) không đổi, mức thiệt hại đơn lẻ (SLE) thường giữ nguyên trừ khi có biện pháp giảm nhẹ trực tiếp.",
           "has_visual": false
         },
         {
@@ -3466,10 +3466,10 @@ window.QUIZ_COURSES.IAA202 = {
             "E": "None of the other choices"
           },
           "correct": [
-            "C"
+            "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Theo hướng dẫn của NIST SP 800-30, nếu một mối đe dọa khai thác lỗ hổng, mức độ tác động trung bình (medium impact) là gì?",
+          "vi_explanation": "A. Result in human injury.\nTheo tài liệu slide gốc và Speaker Note của giảng viên, đáp án chuẩn chỉ định cho câu hỏi này là A.",
           "has_visual": false
         },
         {
@@ -3488,8 +3488,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Khi một _______ kết hợp với một _______, một _______ sẽ xảy ra.",
+          "vi_explanation": "A. Threat, Vulnerability, Risk (Mối đe dọa, Lỗ hổng, Rủi ro).\nTrong an toàn thông tin, khi một Mối đe dọa (Threat) khai thác một Điểm yếu/Lỗ hổng (Vulnerability), nó sẽ làm phát sinh Rủi ro (Risk).",
           "has_visual": false
         },
         {
@@ -4322,8 +4322,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Đạo luật nào quy định các mục tiêu và kỹ thuật kiểm soát an toàn cho các hệ thống và chương trình phải được rà soát và báo cáo hàng năm cho Văn phòng Quản lý và Ngân sách (OMB)?",
+          "vi_explanation": "A. Federal Information Security Management Act (Đạo luật Quản lý An toàn Thông tin Liên bang — FISMA).\nFISMA yêu cầu toàn bộ các cơ quan liên bang Hoa Kỳ phải thiết lập, lập tài liệu và thực thi chương trình an toàn thông tin, đồng thời báo cáo hiệu quả định kỳ hàng năm cho OMB.",
           "has_visual": false
         },
         {
@@ -4331,7 +4331,7 @@ window.QUIZ_COURSES.IAA202 = {
           "slide": "slide_238.png",
           "slide_webp": "slides/IAA202/slide_238.webp",
           "inline_webp": null,
-          "question": "Which of the following is not purpose of the DRP? a a ee",
+          "question": "Which of the following is not purpose of the DRP?",
           "options": {
             "A": "Identify business impact",
             "B": "Saving lives",
@@ -4342,8 +4342,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "B"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Mục nào sau đây KHÔNG phải là mục đích của Kế hoạch phục hồi sau thảm họa (Disaster Recovery Plan — DRP)?",
+          "vi_explanation": "B. Saving lives (Cứu sinh mạng con người).\nBảo vệ tính mạng con người là nhiệm vụ số 1 của Kế hoạch khẩn cấp về an toàn tính mạng (Occupant Emergency Plan / Life Safety), còn DRP tập trung chuyên môn vào việc phục hồi cơ sở hạ tầng CNTT, hệ thống dữ liệu sau thảm họa.",
           "has_visual": false
         },
         {
@@ -4362,8 +4362,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Kế hoạch quản trị rủi ro chỉ rõ các trách nhiệm. Bạn có thể phân công trách nhiệm cho tất cả các đối tượng sau ngoại trừ:",
+          "vi_explanation": "A. Staffs and customers (Nhân viên thông thường và khách hàng).\nKế hoạch quản trị rủi ro nội bộ phân công trách nhiệm cho các bên liên quan (stakeholders), lãnh đạo cấp cao (CIO, CFO) và các trưởng bộ phận, chứ không thể phân công trách nhiệm quản trị rủi ro cho khách hàng bên ngoài.",
           "has_visual": false
         },
         {
@@ -4382,8 +4382,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Nâng cao nhận thức và đào tạo (Awareness and training) là ví dụ của loại biện pháp kiểm soát nào?",
+          "vi_explanation": "A. Administrative security control (Biện pháp kiểm soát quản trị/hành chính).\nĐào tạo nhân viên và nâng cao nhận thức an toàn thông tin thuộc nhóm biện pháp kiểm soát quản lý/hành chính (administrative controls), hướng dẫn và chuẩn hóa hành vi con người.",
           "has_visual": false
         },
         {
@@ -4402,8 +4402,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Nâng cao nhận thức và đào tạo (Awareness and training) là ví dụ của loại biện pháp kiểm soát nào?",
+          "vi_explanation": "A. Administrative security control (Biện pháp kiểm soát quản trị/hành chính).\nĐào tạo nhân viên và nâng cao nhận thức an toàn thông tin thuộc nhóm biện pháp kiểm soát quản lý/hành chính (administrative controls), hướng dẫn và chuẩn hóa hành vi con người.",
           "has_visual": false
         },
         {
@@ -4422,8 +4422,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "D"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Bạn đã thực hiện phân tích rủi ro định lượng (quantitative risk analysis) cho một mối đe dọa/lỗ hổng. Khi chọn một biện pháp đối phó (countermeasure) và tính toán lại, yếu tố nào sau đây sẽ thay đổi?",
+          "vi_explanation": "D. ARO (Annual Rate of Occurrence - Tần suất xảy ra hàng năm).\nKhi áp dụng biện pháp phòng ngừa/kiểm soát (countermeasure), tần suất mối đe dọa xảy ra thành công (ARO) sẽ giảm xuống. Giá trị tài sản (AV) không đổi, mức thiệt hại đơn lẻ (SLE) thường giữ nguyên trừ khi có biện pháp giảm nhẹ trực tiếp.",
           "has_visual": false
         },
         {
@@ -4442,8 +4442,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "Theo khuyến nghị của NIST SP 800-30, nếu một mối đe dọa khai thác lỗ hổng, mức tác động trung bình (medium impact) là gì?",
-          "vi_explanation": "A. Result in human injury.\nTheo slide bài giảng gốc, lựa chọn A (Result in human injury) là đáp án chuẩn được ghi chú cho câu hỏi này.",
+          "vi_question": "Theo hướng dẫn của NIST SP 800-30, nếu một mối đe dọa khai thác lỗ hổng, mức độ tác động trung bình (medium impact) là gì?",
+          "vi_explanation": "A. Result in human injury.\nTheo tài liệu slide gốc và Speaker Note của giảng viên, đáp án chuẩn chỉ định cho câu hỏi này là A.",
           "has_visual": false
         },
         {
@@ -4462,8 +4462,8 @@ window.QUIZ_COURSES.IAA202 = {
           "correct": [
             "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Khi một _______ kết hợp với một _______, một _______ sẽ xảy ra.",
+          "vi_explanation": "A. Threat, Vulnerability, Risk (Mối đe dọa, Lỗ hổng, Rủi ro).\nTrong an toàn thông tin, khi một Mối đe dọa (Threat) khai thác một Điểm yếu/Lỗ hổng (Vulnerability), nó sẽ làm phát sinh Rủi ro (Risk).",
           "has_visual": false
         }
       ]
