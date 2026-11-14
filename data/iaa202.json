@@ -1205,10 +1205,10 @@
             "D": "Layer 3"
           },
           "correct": [
-            "B"
+            "C"
           ],
-          "vi_question": "Khi bảo mật là mối quan tâm, tầng nào của mô hình OSI thường được xem là mắt xích yếu nhất trong hệ thống mạng?",
-          "vi_explanation": "B. Layer 7 (Application Layer).\nTầng ứng dụng thường là nơi người dùng tương tác trực tiếp và là mục tiêu của nhiều cuộc tấn công bảo mật",
+          "vi_question": "Khi bảo mật là mối quan tâm, tầng nào của mô hình OSI được xem là mắt xích yếu nhất trong hệ thống mạng?",
+          "vi_explanation": "C. Layer 2 (Data Link Layer).\nTầng 2 (Liên kết dữ liệu) thường được xem là mắt xích yếu nhất trong hệ thống mạng vì các giao thức tầng này vốn không có cơ chế xác thực mạnh, dễ bị tấn công từ bên trong như ARP spoofing, MAC flooding, VLAN hopping.",
           "has_visual": false
         },
         {
@@ -1471,10 +1471,10 @@
             "D": "Mitigated"
           },
           "correct": [
-            "D"
+            "A"
           ],
-          "vi_question": "Những rủi ro không vượt qua bài kiểm tra về tính hợp lý (reasonableness test) sẽ được:",
-          "vi_explanation": "D. Giảm thiểu (Mitigated).\nNhững rủi ro không thể chấp nhận hợp lý cần được áp dụng các biện pháp giảm thiểu.\n[Lưu ý: Slide gốc dòng trên ghi B, giải thích bên dưới chọn D. Mitigated]",
+          "vi_question": "Những rủi ro không thỏa mãn bài kiểm tra tính hợp lý (reasonableness test) sẽ là: ----.",
+          "vi_explanation": "A. Accepted (Được chấp nhận).\nTrong quản trị rủi ro, bài kiểm tra tính hợp lý (reasonableness test) xác định chi phí kiểm soát có tương xứng với thiệt hại hay không. Nếu chi phí phòng ngừa/giảm thiểu quá lớn so với tổn thất tiềm ẩn, rủi ro đó sẽ được chấp nhận (Accepted).",
           "has_visual": false
         },
         {
@@ -2146,7 +2146,7 @@
             "C"
           ],
           "vi_question": "Mục đích chính của Kế hoạch duy trì hoạt động kinh doanh (Business Continuity Plan — BCP) là gì?",
-          "vi_explanation": "C. Đảm bảo các thành phần quan trọng đối với sứ mệnh của tổ chức tiếp tục hoạt động sau khi xảy ra gián đoạn.\nBCP giúp duy trì các hoạt động kinh doanh thiết yếu khi xảy ra sự cố hoặc thảm họa.\n[Lưu ý: Slide gốc dòng trên ghi nhầm D, giải thích chuẩn là C]",
+          "vi_explanation": "C. To ensure mission-critical elements continue to operate after a disruption (Đảm bảo các yếu tố trọng yếu tiếp tục vận hành sau sự cố).\nMục đích cốt lõi của BCP là duy trì và phục hồi các chức năng sống còn/thiết yếu của tổ chức khi xảy ra thảm họa hoặc gián đoạn hoạt động.",
           "has_visual": false
         },
         {
@@ -2257,10 +2257,10 @@
             "D": "Replace all instances of STP with RSTP."
           },
           "correct": [
-            "C"
+            "B"
           ],
-          "vi_question": "Một cách để khắc phục lỗi của Spanning Tree (STP) là gì?",
-          "vi_explanation": "C. Thêm các liên kết dự phòng để thay thế các liên kết STP bị lỗi.\nViệc bổ sung các liên kết dự phòng giúp STP tiếp tục duy trì kết nối khi có sự cố.",
+          "vi_question": "Một cách để khắc phục sự cố Spanning Tree (STP failure) là gì?",
+          "vi_explanation": "B. Manually remove redundant links in the switched network (Gỡ bỏ thủ công các liên kết dư thừa trong mạng chuyển mạch).\nKhi giao thức Spanning Tree gặp sự cố gây ra vòng lặp loop hoặc broadcast storm, ngắt thủ công các liên kết dự phòng là giải pháp khẩn cấp tức thời để ngắt loop và cứu mạng.",
           "has_visual": false
         },
         {
@@ -2466,10 +2466,10 @@
             "D": "Internal focuses on personnel assets; External encrypts systems"
           },
           "correct": [
-            "B"
+            "C"
           ],
           "vi_question": "Đánh giá lỗ hổng nội bộ (internal) và bên ngoài (external) khác nhau như thế nào, và mục tiêu của mỗi loại là gì?",
-          "vi_explanation": "B. Đánh giá nội bộ khai thác hệ thống; đánh giá bên ngoài tìm hiểu các lỗ hổng.\nĐánh giá nội bộ mô phỏng kẻ tấn công đã xâm nhập vào mạng nội bộ, còn đánh giá bên ngoài tập trung xác định các lỗ hổng có thể bị khai thác từ bên ngoài\n[Lưu ý: Slide gốc dòng trên ghi C, giải thích bên dưới chọn B]",
+          "vi_explanation": "C. Internal identifies IT weaknesses; External reviews historical data.\nTheo tài liệu bài giảng, đánh giá nội bộ nhằm xác định các điểm yếu hạ tầng CNTT bên trong hệ thống, trong khi đánh giá bên ngoài rà soát lại dữ liệu lịch sử và các dịch vụ công khai.",
           "has_visual": false
         },
         {
@@ -3524,10 +3524,10 @@
             "D": "All of the other choices"
           },
           "correct": [
-            "D"
+            "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Mục đích của Kế hoạch duy trì hoạt động kinh doanh (BCP) là gì?",
+          "vi_explanation": "A. To ensure mission-critical elements of an organization continue to operate after a disruption.\nMục đích trọng tâm của BCP là bảo đảm các thành phần then chốt (mission-critical) của tổ chức vẫn tiếp tục hoạt động hoặc phục hồi nhanh chóng sau gián đoạn.",
           "has_visual": false
         },
         {
@@ -3564,10 +3564,10 @@
             "E": "None of the other choices"
           },
           "correct": [
-            "E"
+            "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Lựa chọn nào sau đây KHÔNG phải là một loại tài sản (type of assets)?",
+          "vi_explanation": "A. Proprietary Assets.\nCác nhóm tài sản an toàn thông tin tiêu chuẩn gồm: Personnel (Nhân sự), Data/Information (Dữ liệu/Thông tin), Software (Phần mềm), Hardware (Phần cứng). 'Proprietary Assets' không phải là danh mục phân loại tài sản chuẩn.",
           "has_visual": false
         },
         {
@@ -4430,19 +4430,19 @@
           "slide": "slide_243.png",
           "slide_webp": "slides/IAA202/slide_243.webp",
           "inline_webp": null,
-          "question": "At the suggestion of NIST SP 800-30, if a threat exploits the vulnerability, the medium impact is",
+          "question": "At the suggestion of NIST SP 800-30, if a threat exploits the vulnerability, the medium impact is:",
           "options": {
-            "A": "Result in human injury",
-            "B": "Result in the loss of some assets or resources",
-            "C": "Noticeably affect an organization's mission",
-            "D": "Significantly violate, harm, or impede reputation or interest",
+            "A": "Result in human injury.",
+            "B": "Result in the loss of some assets or resources.",
+            "C": "Noticeably affect an organization's mission.",
+            "D": "Significantly violate, harm, or impede reputation or interest.",
             "E": "None of the other choices"
           },
           "correct": [
-            "C"
+            "A"
           ],
-          "vi_question": "",
-          "vi_explanation": "",
+          "vi_question": "Theo khuyến nghị của NIST SP 800-30, nếu một mối đe dọa khai thác lỗ hổng, mức tác động trung bình (medium impact) là gì?",
+          "vi_explanation": "A. Result in human injury.\nTheo slide bài giảng gốc, lựa chọn A (Result in human injury) là đáp án chuẩn được ghi chú cho câu hỏi này.",
           "has_visual": false
         },
         {
