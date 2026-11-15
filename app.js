@@ -20,12 +20,17 @@ const COURSE_META = {
     name: 'IAA202',
     subtitle: 'IA Fundamentals • Cơ bản An toàn thông tin',
   },
+  PWD301: {
+    icon: '🐍',
+    name: 'PWD301',
+    subtitle: 'Python Web Defense • Lập trình Web An Toàn',
+  },
 };
 
 const app = {
   state: {
     answers: {}, // { qId: { selected: ['A'], isCorrect: true } }
-    mistakes: { IAM302: [], FRS301: [], IAA202: [] },
+    mistakes: { IAM302: [], FRS301: [], IAA202: [], PWD301: [] },
     bookmarks: {}, // { qId: true }
     theme: 'blue-light', // 'blue-light' | 'blue-navy'
   },
@@ -50,7 +55,12 @@ const app = {
         const parsed = JSON.parse(saved);
         this.state = {
           answers: parsed.answers || {},
-          mistakes: parsed.mistakes || { IAM302: [], FRS301: [], IAA202: [] },
+          mistakes: {
+            IAM302: parsed.mistakes?.IAM302 || [],
+            FRS301: parsed.mistakes?.FRS301 || [],
+            IAA202: parsed.mistakes?.IAA202 || [],
+            PWD301: parsed.mistakes?.PWD301 || [],
+          },
           bookmarks: parsed.bookmarks || {},
           theme: parsed.theme === 'blue-navy' ? 'blue-navy' : 'blue-light',
         };
@@ -618,11 +628,11 @@ const app = {
   },
 
   resetAllProgress() {
-    if (!confirm('Bạn có chắc muốn xóa toàn bộ tiến độ & câu làm sai của cả 3 môn?')) return;
+    if (!confirm('Bạn có chắc muốn xóa toàn bộ tiến độ & câu làm sai của các môn?')) return;
     localStorage.removeItem(STORAGE_KEY);
     this.state = {
       answers: {},
-      mistakes: { IAM302: [], FRS301: [], IAA202: [] },
+      mistakes: { IAM302: [], FRS301: [], IAA202: [], PWD301: [] },
       bookmarks: {},
       theme: this.state.theme,
     };
