@@ -20,12 +20,22 @@ const COURSE_META = {
     name: 'IAA202',
     subtitle: 'IA Fundamentals • Cơ bản An toàn thông tin',
   },
+  PWD301_FE: {
+    icon: '🐍',
+    name: 'PWD301_FE',
+    subtitle: 'Python Web Development • Đề Thi FE (50 Câu)',
+  },
+  IAA202_FE: {
+    icon: '🎯',
+    name: 'IAA202_FE',
+    subtitle: 'Managing Risk • Đề Thi FE (41 Câu)',
+  },
 };
 
 const app = {
   state: {
     answers: {}, // { qId: { selected: ['A'], isCorrect: true } }
-    mistakes: { IAM302: [], FRS301: [], IAA202: [] },
+    mistakes: { IAM302: [], FRS301: [], IAA202: [], PWD301_FE: [], IAA202_FE: [] },
     bookmarks: {}, // { qId: true }
     theme: 'blue-light', // 'blue-light' | 'blue-navy'
   },
@@ -50,7 +60,7 @@ const app = {
         const parsed = JSON.parse(saved);
         this.state = {
           answers: parsed.answers || {},
-          mistakes: parsed.mistakes || { IAM302: [], FRS301: [], IAA202: [] },
+          mistakes: parsed.mistakes || { IAM302: [], FRS301: [], IAA202: [], PWD301_FE: [], IAA202_FE: [] },
           bookmarks: parsed.bookmarks || {},
           theme: parsed.theme === 'blue-navy' ? 'blue-navy' : 'blue-light',
         };
@@ -622,7 +632,7 @@ const app = {
     localStorage.removeItem(STORAGE_KEY);
     this.state = {
       answers: {},
-      mistakes: { IAM302: [], FRS301: [], IAA202: [] },
+      mistakes: { IAM302: [], FRS301: [], IAA202: [], PWD301_FE: [], IAA202_FE: [] },
       bookmarks: {},
       theme: this.state.theme,
     };

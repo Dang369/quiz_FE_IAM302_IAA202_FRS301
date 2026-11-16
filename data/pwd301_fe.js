@@ -1,0 +1,980 @@
+window.QUIZ_COURSES = window.QUIZ_COURSES || {};
+window.QUIZ_COURSES.PWD301_FE = {
+  "code": "PWD301_FE",
+  "title": "PWD301_FE - Python Web Development (Final Exam)",
+  "sections": [
+    {
+      "id": "pwd301_fe_all",
+      "title": "Đề Ôn Final Exam (50 câu)",
+      "questions": [
+        {
+          "id": "PWD301_FE_Q01",
+          "slide": "pwd301_fe_q01.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does logging capture in a web application?",
+          "options": {
+            "A": "Template blocks",
+            "B": "Route definitions",
+            "C": "Database schemas",
+            "D": "Application events",
+            "E": "Form fields",
+            "F": "Container images"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong lập trình ứng dụng web, hệ thống ghi log (logging) được thiết kế chuyên biệt để theo dõi và lưu trữ các sự kiện diễn ra trong quá trình ứng dụng vận hành (Application events), bao gồm: thời điểm khởi chạy, request của người dùng, cảnh báo (warning), ngoại lệ/lỗi runtime (exceptions/errors) và các giao dịch kinh doanh quan trọng.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q02",
+          "slide": "pwd301_fe_q02.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which field in WTForms accepts an uploaded file?",
+          "options": {
+            "A": "TextAreaField",
+            "B": "SelectField",
+            "C": "FileField",
+            "D": "PasswordField"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong thư viện WTForms / Flask-WTF, FileField đại diện cho phần tử HTML &lt;input type=\"file\"&gt;, được sử dụng để tiếp nhận dữ liệu nhị phân của tệp tin tải lên từ trình duyệt người dùng.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q03",
+          "slide": "pwd301_fe_q03.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which token can obtain a new access token without requiring the user to re-authenticate?",
+          "options": {
+            "A": "Access token",
+            "B": "Reset token",
+            "C": "ID token",
+            "D": "Refresh token"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong kiến trúc OAuth 2.0 / JWT Authentication, Refresh token là token có thời hạn dài, được lưu trữ an toàn ở client để gửi lên máy chủ xác thực nhằm xin cấp một Access token mới khi Access token hiện tại đã hết hạn.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q04",
+          "slide": "pwd301_fe_q04.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "A web-based analytics dashboard must provide application-like navigation between views. After the initial page load, switching between dashboard modules should update only the necessary UI components without requesting and rendering a completely new HTML document from the server. Client-side routing is expected to manage navigation state, while data is retrieved asynchronously through APIs. Which application architecture most directly satisfies these requirements?",
+          "options": {
+            "A": "Native application",
+            "B": "Single-Page Application (SPA)",
+            "C": "Multi-Page Application (MPA)",
+            "D": "Progressive Web Application (PWA)"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Kiến trúc Single-Page Application (SPA) chỉ tải trang HTML khung một lần duy nhất lúc ban đầu; mọi thao tác chuyển trang và cập nhật giao diện sau đó được điều hướng ở phía client (Client-side routing) và lấy dữ liệu bất đồng bộ qua API (Fetch/AJAX) mà không cần tải lại toàn bộ trang web từ server.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q05",
+          "slide": "pwd301_fe_q05.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Consider this Flask code:\n\ndef buy(id):\n    product = db.session.get(Product, id)\n    if product.stock &lt;= 0:\n        return {&#x27;error&#x27;: &#x27;Out of stock&#x27;}, 409\n    product.stock -= 1\n    db.session.commit()\n    return {&#x27;message&#x27;: &#x27;Success&#x27;}, 200\n\nIf stock = 1 and two requests arrive at nearly the same time, what is the main risk?",
+          "options": {
+            "A": "Both requests may succeed because they read the same stock value before either commits",
+            "B": "Flask automatically serializes both requests",
+            "C": "Database prevents concurrent reads automatically",
+            "D": "The second request always receives a 404 response"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đây là lỗ hổng Race Condition (Lost Update) kinh điển trong xử lý đồng thời (Concurrency). Nếu không sử dụng khóa bi quan (with_for_update()) hoặc transaction cô lập cấp độ cao, cả 2 request cùng đọc stock = 1 trước khi có request nào kịp commit, dẫn đến việc cả 2 giao dịch đều thành công và số lượng tồn kho bị trừ âm (overselling).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q06",
+          "slide": "pwd301_fe_q06.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does Content-Type describe in an HTTP message?",
+          "options": {
+            "A": "Accepted response media types",
+            "B": "The body media type",
+            "C": "The request origin",
+            "D": "The credential scheme"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Header Content-Type mô tả định dạng MIME (media type) của phần thân (body) của thông điệp HTTP gửi đi (ví dụ: application/json, text/html). Header Accept mới là header mô tả định dạng client mong muốn nhận lại.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q07",
+          "slide": "pwd301_fe_q07.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does rate monitoring reveal to system operators?",
+          "options": {
+            "A": "Traffic pressure",
+            "B": "Route naming",
+            "C": "Template duplication",
+            "D": "Schema drift"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Giám sát tần suất request (Rate monitoring) giúp kỹ sư hệ thống nhận biết áp lực lưu lượng (Traffic pressure), lượng tải đột biến hoặc các đợt tấn công từ chối dịch vụ (DDoS / Brute-force) đang dồn vào máy chủ.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q08",
+          "slide": "pwd301_fe_q08.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which method sends an HTTP GET request in the Flask test client?",
+          "options": {
+            "A": "client.post()",
+            "B": "client.patch()",
+            "C": "client.get()",
+            "D": "client.put()"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong môi trường viết test của Flask (app.test_client()), phương thức client.get('/url') được sử dụng để gửi một HTTP GET request giả lập tới view function.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q09",
+          "slide": "pwd301_fe_q09.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "How is a JSON Web Token (JWT) normally carried by the client between requests in modern REST APIs?",
+          "options": {
+            "A": "Cookie",
+            "B": "Authorization header",
+            "C": "Request body",
+            "D": "Query string",
+            "E": "Response header",
+            "F": "URL fragment"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Chuẩn RFC 6750 quy định token xác thực mang dạng Bearer Token được đặt trong request header HTTP: Authorization: Bearer &lt;token&gt;. Điều này giúp tránh bị chặn bởi CSRF và chuẩn hóa giao tiếp không trạng thái (stateless).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q10",
+          "slide": "pwd301_fe_q10.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What should a user profile route verify before saving changes to the database?",
+          "options": {
+            "A": "Template and stylesheet",
+            "B": "Cache and CDN",
+            "C": "Image and filename",
+            "D": "Method and status",
+            "E": "Worker and process",
+            "F": "Identity and valid input"
+          },
+          "correct": [
+            "F"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Nguyên tắc bảo mật khi cập nhật hồ sơ cá nhân: Server phải xác minh Identity (danh tính người thực hiện — người dùng có quyền chỉnh sửa hồ sơ này không, ngăn chặn BOLA/IDOR) và Valid input (dữ liệu nhập vào hợp lệ, đã qua validate và làm sạch dữ liệu).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q11",
+          "slide": "pwd301_fe_q11.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does WSGI middleware wrap?",
+          "options": {
+            "A": "The WSGI application",
+            "B": "A Jinja template",
+            "C": "A database engine",
+            "D": "One view function"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "WSGI Middleware bao bọc (wraps) trực tiếp đối tượng WSGI application. Nó hoạt động như một lớp trung gian (proxy), nhận request từ web server, xử lý tiền kỳ (pre-processing), chuyển cho ứng dụng và xử lý hậu kỳ (post-processing) response trước khi trả về.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q12",
+          "slide": "pwd301_fe_q12.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does the OpenAPI specification provide?",
+          "options": {
+            "A": "Interactive request history",
+            "B": "Machine-readable API documentation",
+            "C": "Database schema migrations",
+            "D": "Runtime access logs"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "OpenAPI (trước đây là Swagger) là đặc tả chuẩn hóa, độc lập ngôn ngữ, cung cấp tài liệu API định dạng máy có thể đọc được (Machine-readable) bằng JSON hoặc YAML để tự động sinh tài liệu Swagger UI, SDK client và mock server.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q13",
+          "slide": "pwd301_fe_q13.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does Mandatory Access Control (MAC) base access permissions on?",
+          "options": {
+            "A": "Subject, object, and context attributes",
+            "B": "Resource ownership",
+            "C": "Security labels",
+            "D": "Assigned roles"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Mô hình MAC (Mandatory Access Control) phân quyền dựa trên nhãn bảo mật (Security labels): mỗi đối tượng dữ liệu được gắn nhãn phân loại (Top Secret, Secret, Confidential...) và mỗi chủ thể (user) được cấp một mức độ tin cậy (clearance level). Chỉ khi clearance thỏa mãn nhãn bảo mật thì mới được truy cập.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q14",
+          "slide": "pwd301_fe_q14.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does a Python closure retain after the outer function has finished executing?",
+          "options": {
+            "A": "Response bodies",
+            "B": "Database rows",
+            "C": "Request headers",
+            "D": "Enclosing variables"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong Python, Closure là một hàm ghi nhớ và lưu giữ các biến thuộc phạm vi bao ngoài (Enclosing variables / Non-local scope) ngay cả khi hàm bao ngoài đó đã thực thi xong và trả về kết quả.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q15",
+          "slide": "pwd301_fe_q15.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which stages belong to browser rendering? (Select all 4 that apply)",
+          "options": {
+            "A": "Perform a DNS lookup",
+            "B": "Negotiate TLS",
+            "C": "Build the DOM",
+            "D": "Build the CSSOM",
+            "E": "Calculate layout",
+            "F": "Paint elements"
+          },
+          "correct": [
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đường ống hiển thị của trình duyệt (Critical Rendering Path) bao gồm 4 giai đoạn chính: (1) Xây dựng cây DOM từ HTML, (2) Xây dựng cây CSSOM từ CSS, (3) Tính toán vị trí/kích thước hình học (Layout/Reflow), và (4) Vẽ điểm ảnh lên màn hình (Paint). DNS lookup và TLS handshake thuộc tầng kết nối mạng (Networking).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q16",
+          "slide": "pwd301_fe_q16.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which option in a SQLAlchemy Column definition disallows NULL values?",
+          "options": {
+            "A": "nullable=False",
+            "B": "unique=True",
+            "C": "index=True",
+            "D": "primary_key=True"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong SQLAlchemy, tham số nullable=False được sử dụng để định nghĩa ràng buộc NOT NULL trong SQL, bắt buộc cột dữ liệu đó phải luôn có giá trị.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q17",
+          "slide": "pwd301_fe_q17.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What should automated tests specifically cover for access control / authorization?",
+          "options": {
+            "A": "Template rendering cases",
+            "B": "Database migration cases",
+            "C": "Allowed and denied cases",
+            "D": "Successful navigation paths"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khi viết unit/integration test cho kiểm soát truy cập (Access Control), kiểm thử viên bắt buộc phải kiểm tra cả 2 trường hợp: Allowed cases (người dùng đúng quyền truy cập thành công 200) và Denied cases (người dùng không đủ quyền bị chặn lại với mã 403 Forbidden hoặc 401 Unauthorized).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q18",
+          "slide": "pwd301_fe_q18.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does a Flask view function primarily produce and return?",
+          "options": {
+            "A": "A URL rule",
+            "B": "A Blueprint object",
+            "C": "A request context",
+            "D": "A template loader",
+            "E": "A database session",
+            "F": "An HTTP response"
+          },
+          "correct": [
+            "F"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong kiến trúc Flask, mỗi View Function khi được gọi bởi router bắt buộc phải xử lý logic và trả về một HTTP Response (chuỗi HTML, tuple (body, status), dictionary JSON, hoặc đối tượng Response).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q19",
+          "slide": "pwd301_fe_q19.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does an HTTP request logger record?",
+          "options": {
+            "A": "Code, message, and trace",
+            "B": "Timestamp, level, and component",
+            "C": "Method, path, and status",
+            "D": "User, role, and permission"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Một access logger cho HTTP request chuẩn tối thiểu luôn lưu lại: phương thức HTTP (Method: GET/POST), đường dẫn tài nguyên (Path: /api/items), và mã trạng thái phản hồi (Status: 200, 404, 500).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q20",
+          "slide": "pwd301_fe_q20.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does a unique-email validator check when a user registers?",
+          "options": {
+            "A": "Route names",
+            "B": "Existing records",
+            "C": "Password hashes",
+            "D": "Session cookies"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trình xác thực email duy nhất (unique-email validator) sẽ thực hiện truy vấn vào database (User.query.filter_by(email=email).first()) để kiểm tra xem địa chỉ email đó đã tồn tại trong các bản ghi hiện có (Existing records) hay chưa.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q21",
+          "slide": "pwd301_fe_q21.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Consider:\ntry:\n    db.session.add(User(email=email))\n    db.session.commit()\nexcept IntegrityError:\n    return {&#x27;error&#x27;: &#x27;Duplicate&#x27;}, 409\n\nA UNIQUE constraint causes commit() to fail. What is missing in the exception handler?",
+          "options": {
+            "A": "Call db.session.merge() to synchronize the failed object state",
+            "B": "Call db.session.rollback() to reset the failed transaction state",
+            "C": "Call to remove the conflicting database record",
+            "D": "Call db.session.refresh() to reload the object after the failure"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong SQLAlchemy, khi gặp ngoại lệ IntegrityError do trùng khóa duy nhất, session sẽ bị chuyển sang trạng thái lỗi (invalidated). Bắt buộc phải gọi db.session.rollback() để hoàn tác giao dịch đang lỗi, giải phóng kết nối và đưa session trở lại trạng thái sạch cho các request tiếp theo.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q22",
+          "slide": "pwd301_fe_q22.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which class of HTTP methods requires an ownership check before changing a resource?",
+          "options": {
+            "A": "Safe read methods",
+            "B": "Cache-validation methods",
+            "C": "Preflight methods",
+            "D": "Mutating methods"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Các phương thức thay đổi trạng thái dữ liệu (Mutating methods: POST, PUT, PATCH, DELETE) bắt buộc phải kiểm tra quyền sở hữu đối tượng (Ownership check) để đảm bảo người dùng chỉ được sửa/xóa tài nguyên của chính họ, ngăn chặn triệt để lỗ hổng BOLA/IDOR.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q23",
+          "slide": "pwd301_fe_q23.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does a development server (like Werkzeug in Flask) provide?",
+          "options": {
+            "A": "Local development",
+            "B": "Production request serving",
+            "C": "Reverse proxying",
+            "D": "Database storage"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Máy chủ tích hợp sẵn của Flask (Werkzeug development server khi chạy flask run) được thiết kế phục vụ riêng cho môi trường phát triển cục bộ (Local development) với tính năng auto-reload và interactive debugger; tuyệt đối không dùng trong môi trường Production.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q24",
+          "slide": "pwd301_fe_q24.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which method in Flask reads a form field with a fallback default value?",
+          "options": {
+            "A": "request.args.get()",
+            "B": "request.headers.get()",
+            "C": "request.data",
+            "D": "request.form.get()"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Dữ liệu gửi từ form HTML (POST) được lưu trong request.form. Sử dụng request.form.get('field_name', default_value) cho phép đọc giá trị an toàn mà không bị lỗi KeyError nếu trường đó không tồn tại.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q25",
+          "slide": "pwd301_fe_q25.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does rate limiting specifically protect an authentication/login endpoint from?",
+          "options": {
+            "A": "Cross-site request forgery",
+            "B": "IDOR",
+            "C": "Repeated guesses",
+            "D": "Session fixation"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Cơ chế Rate Limiting (giới hạn số request/phút) bảo vệ endpoint đăng nhập khỏi các cuộc tấn công thử mật khẩu lặp đi lặp lại (Repeated guesses) như tấn công vét cạn (Brute-force) và nhồi thông tin đăng nhập (Credential Stuffing).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q26",
+          "slide": "pwd301_fe_q26.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What should user-submitted comments on a website strictly restrict?",
+          "options": {
+            "A": "Pagination values",
+            "B": "Unsafe or excessive markup",
+            "C": "Author display names",
+            "D": "Publication dates",
+            "E": "Thread identifiers",
+            "F": "Category labels"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Bình luận do người dùng nhập lên web cần được lọc và hạn chế các thẻ định dạng không an toàn hoặc quá mức (Unsafe or excessive markup) như thẻ &lt;script&gt;, &lt;iframe&gt; để ngăn chặn lỗ hổng Cross-Site Scripting (Stored XSS).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q27",
+          "slide": "pwd301_fe_q27.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which WTForms validator checks that a string conforms to valid email address syntax?",
+          "options": {
+            "A": "Email",
+            "B": "Length",
+            "C": "EqualTo",
+            "D": "DataRequired"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong WTForms, trình xác thực Email() kiểm tra chuỗi nhập vào có định dạng cú pháp đúng chuẩn địa chỉ email (chứa ký tự @ và tên miền hợp lệ).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q28",
+          "slide": "pwd301_fe_q28.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which HTTP cookie flag requires the cookie to be transmitted only over encrypted HTTPS connections?",
+          "options": {
+            "A": "Secure",
+            "B": "SameSite",
+            "C": "HttpOnly",
+            "D": "Domain"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Cờ Secure chỉ thị cho trình duyệt rằng cookie này chỉ được phép gửi qua các kết nối được mã hóa bằng HTTPS/TLS, ngăn chặn kẻ tấn công trên mạng nội bộ bắt lén cookie qua kết nối HTTP thường.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q29",
+          "slide": "pwd301_fe_q29.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which Python standard library module serializes and deserializes JSON text?",
+          "options": {
+            "A": "json",
+            "B": "pickle",
+            "C": "csv",
+            "D": "xml"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Module chuẩn của Python để tuần tự hóa dữ liệu (serialize) thành chuỗi JSON và giải tuần tự hóa (deserialize) là module json (sử dụng json.dumps() và json.loads()).",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q30",
+          "slide": "pwd301_fe_q30.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does a Flask Blueprint primarily organize?",
+          "options": {
+            "A": "Feature-specific routes",
+            "B": "CSS selectors",
+            "C": "SQL transactions",
+            "D": "Model columns"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong kiến trúc Flask, Blueprint được dùng để gom nhóm các route, template và static file theo từng tính năng cụ thể (Feature-specific routes), giúp dự án có cấu trúc module hóa rõ ràng, dễ bảo trì.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q31",
+          "slide": "pwd301_fe_q31.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What should the system do when a user attempts an action and a required role is missing?",
+          "options": {
+            "A": "Grant temporary access",
+            "B": "Deny the action",
+            "C": "Render a hidden control",
+            "D": "Change the requested permission",
+            "E": "Retry without the role check",
+            "F": "Trust the submitted role"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Theo nguyên tắc bảo mật 'Default Deny' (Từ chối theo mặc định), khi người dùng không sở hữu vai trò (role) yêu cầu, hệ thống bắt buộc phải từ chối hành động (Deny the action) và phản hồi mã trạng thái 403 Forbidden.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q32",
+          "slide": "pwd301_fe_q32.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What option adds a common URL prefix to all routes registered under a Flask Blueprint?",
+          "options": {
+            "A": "url_prefix",
+            "B": "endpoint",
+            "C": "subdomain",
+            "D": "defaults"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khi đăng ký Blueprint vào ứng dụng (app.register_blueprint(admin_bp, url_prefix='/admin')), tham số url_prefix sẽ tự động thêm tiền tố đường dẫn vào trước tất cả các route của Blueprint đó.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q33",
+          "slide": "pwd301_fe_q33.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which argument in url_for(&#x27;static&#x27;, ...) identifies the path to a static asset?",
+          "options": {
+            "A": "filename",
+            "B": "endpoint",
+            "C": "path",
+            "D": "template_name"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Hàm url_for('static', filename='css/style.css') trong Flask sử dụng tham số filename để chỉ định đường dẫn tệp tài nguyên tĩnh tương đối so với thư mục static.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q34",
+          "slide": "pwd301_fe_q34.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does the browser paint stage produce?",
+          "options": {
+            "A": "Element geometry",
+            "B": "Parsed HTML nodes",
+            "C": "Computed styles",
+            "D": "Drawing commands"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Giai đoạn Layout tính toán vị trí và hình học; giai đoạn Paint chuyển đổi các thành phần hiển thị thành các lệnh vẽ (Drawing commands / display lists) để bộ hiển thị rasterize thành các pixel trên màn hình.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q35",
+          "slide": "pwd301_fe_q35.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does the &#x27;remember-me&#x27; functionality extend for an authenticated user?",
+          "options": {
+            "A": "Password length",
+            "B": "Role hierarchy",
+            "C": "Login persistence",
+            "D": "Token scope"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Tính năng 'Remember me' trong Flask-Login kéo dài tính liên tục của phiên đăng nhập (Login persistence) bằng cách thiết lập cookie phiên dài hạn (Persistent Cookie) thay vì Session Cookie bị xóa khi đóng trình duyệt.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q36",
+          "slide": "pwd301_fe_q36.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "A Flask application includes the following production-readiness test:\ndef test_database_readiness(app):\n    assert app.config[&#x27;DB_BACKUP_ENABLED&#x27;] is True\n    assert app.config[&#x27;DB_MONITORING_ENABLED&#x27;] is True\n\nThe test fails because DB_MONITORING_ENABLED is False. What does this failure most directly indicate?",
+          "options": {
+            "A": "The production database lacks an important operational safeguard",
+            "B": "The application stores database credentials inside source code",
+            "C": "The database is directly exposed to unrestricted public access",
+            "D": "The application has enabled interactive debugging in production"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Giám sát cơ sở dữ liệu (Monitoring) cùng với sao lưu (Backup) là các biện pháp bảo vệ vận hành tối thiểu (operational safeguards). Khi cờ DB_MONITORING_ENABLED là False, điều đó chỉ ra hệ thống đang thiếu hụt một cơ chế giám sát vận hành cần thiết trước khi đưa lên môi trường sản xuất.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q37",
+          "slide": "pwd301_fe_q37.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What exception does a custom WTForms validator raise on validation failure?",
+          "options": {
+            "A": "ValueError",
+            "B": "KeyError",
+            "C": "ValidationError",
+            "D": "TypeError"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khi viết hàm kiểm tra dữ liệu tùy chỉnh trong WTForms (validate_fieldname(form, field)), nếu dữ liệu không hợp lệ, lập trình viên bắt buộc phải ném ngoại lệ raise ValidationError('Thông báo lỗi') để form nhận biết và gán lỗi vào field.errors.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q38",
+          "slide": "pwd301_fe_q38.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Why should developers avoid string concatenation to generate dynamic HTML?",
+          "options": {
+            "A": "Maintenance and XSS risk",
+            "B": "Reduced test coverage",
+            "C": "Slower route matching",
+            "D": "Invalid SQL syntax"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Nối chuỗi thủ công để tạo HTML tạo ra nguy cơ bảo mật nghiêm trọng về XSS (Cross-Site Scripting) do bỏ qua cơ chế tự động thoát ký tự đặc biệt (auto-escaping) của Jinja2, đồng thời khiến mã nguồn rất khó đọc và khó bảo trì.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q39",
+          "slide": "pwd301_fe_q39.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does a database Foreign Key constraint strictly enforce?",
+          "options": {
+            "A": "Transaction atomicity",
+            "B": "Entity uniqueness",
+            "C": "Domain validity",
+            "D": "Referential integrity"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khóa ngoại (Foreign Key) trong CSDL quan hệ có nhiệm vụ bảo đảm tính toàn vẹn tham chiếu (Referential integrity): đảm bảo giá trị của cột khóa ngoại luôn trỏ tới một bản ghi khóa chính hợp lệ tồn tại ở bảng cha.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q40",
+          "slide": "pwd301_fe_q40.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does a {% block %} define in a Jinja2 base template?",
+          "options": {
+            "A": "A local variable",
+            "B": "A replaceable region",
+            "C": "A reusable function",
+            "D": "An imported template"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong Jinja2 template inheritance, thẻ {% block blockname %}...{% endblock %} ở template cha định nghĩa một vùng nội dung có thể thay thế (A replaceable region) mà các template con kế thừa có thể điền nội dung vào.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q41",
+          "slide": "pwd301_fe_q41.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What should happen in the view function when form validation fails?",
+          "options": {
+            "A": "Render the form with errors",
+            "B": "Commit the model changes",
+            "C": "Clear the submitted values",
+            "D": "Redirect to the success page"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khi phương thức form.validate_on_submit() trả về False, luồng xử lý chuẩn là render lại template chứa form (kèm danh sách lỗi trong form.errors) để người dùng sửa lại mà không bị mất dữ liệu đã nhập.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q42",
+          "slide": "pwd301_fe_q42.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does Flask&#x27;s url_for() function use as its first argument to dynamically build a URL?",
+          "options": {
+            "A": "A URL path literal",
+            "B": "A template filename",
+            "C": "An endpoint name",
+            "D": "An HTTP status"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Hàm url_for('endpoint_name') nhận đối số đầu tiên là tên endpoint (tên của hàm view hoặc blueprint.view_func) để tự động ánh xạ ngược và xây dựng ra chuỗi URL tương ứng.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q43",
+          "slide": "pwd301_fe_q43.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which method cancels and discards staged ORM changes in a SQLAlchemy session?",
+          "options": {
+            "A": "session.rollback()",
+            "B": "session.flush()",
+            "C": "session.add()",
+            "D": "session.commit()"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Phương thức db.session.rollback() hủy bỏ toàn bộ các thay đổi chưa được ghi vào CSDL trong phiên làm việc hiện tại và khôi phục trạng thái session về mốc commit gần nhất.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q44",
+          "slide": "pwd301_fe_q44.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Where must the {% extends %} tag appear in a Jinja2 child template?",
+          "options": {
+            "A": "At the beginning",
+            "B": "After all imports",
+            "C": "Inside the body block",
+            "D": "After the first block"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Cú pháp Jinja2 quy định thẻ {% extends 'base.html' %} bắt buộc phải nằm ở ngay đầu tệp (At the beginning), trước mọi khối lệnh khác trong template con.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q45",
+          "slide": "pwd301_fe_q45.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "How is a JWT normally carried by the client between requests?",
+          "options": {
+            "A": "In a URL parameter",
+            "B": "On the server",
+            "C": "In the client token",
+            "D": "In the Authorization header"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Theo chuẩn thiết kế RESTful, client gửi JWT thông qua header HTTP Authorization với tiền tố Bearer để máy chủ xác thực danh tính.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q46",
+          "slide": "pwd301_fe_q46.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What security event does an automated account lockout respond to?",
+          "options": {
+            "A": "An expired access token",
+            "B": "Excessive failed logins",
+            "C": "A duplicate email address",
+            "D": "A missing role"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Cơ chế khóa tài khoản tự động (Account lockout) được kích hoạt nhằm ứng phó với nhiều lần đăng nhập thất bại liên tiếp (Excessive failed logins), giúp ngăn chặn kẻ xấu dò mật khẩu.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q47",
+          "slide": "pwd301_fe_q47.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does Python&#x27;s str.join() method combine?",
+          "options": {
+            "A": "Template blocks",
+            "B": "Request headers",
+            "C": "Sequence values",
+            "D": "URL segments"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Phương thức separator.join(iterable) trong Python nhận một chuỗi/tập hợp tuần tự các giá trị chuỗi (Sequence values) và nối chúng lại thành một chuỗi duy nhất ngăn cách bởi dấu phân cách.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q48",
+          "slide": "pwd301_fe_q48.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does activating a Python virtual environment specifically change in the current shell session?",
+          "options": {
+            "A": "Database schema",
+            "B": "Python source files",
+            "C": "Environment variables (PATH)",
+            "D": "HTTP route map"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Kịch bản kích hoạt virtual environment (activate script) sẽ thay đổi biến môi trường của hệ thống (Environment variables), cụ thể là chèn thư mục bin (hoặc Scripts) của môi trường ảo vào đầu biến PATH để lệnh python và pip trỏ tới đúng bản cài cục bộ.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q49",
+          "slide": "pwd301_fe_q49.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which option supplies a default value for a database column or form field?",
+          "options": {
+            "A": "default",
+            "B": "primary_key",
+            "C": "unique=True",
+            "D": "nullable=False"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Tham số default được sử dụng trong cả SQLAlchemy Column và WTForms Field để cung cấp một giá trị mặc định khi người dùng hoặc luồng ứng dụng không truyền dữ liệu vào.",
+          "has_visual": false
+        },
+        {
+          "id": "PWD301_FE_Q50",
+          "slide": "pwd301_fe_q50.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which Werkzeug URL converter limits a parameter value to a specific list of named choices?",
+          "options": {
+            "A": "string",
+            "B": "int",
+            "C": "float",
+            "D": "any"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong Flask routing, bộ chuyển đổi &lt;any(about, contact, help):page&gt; cho phép giới hạn biến đường dẫn chỉ được phép nhận một trong các giá trị đã được liệt kê cụ thể.",
+          "has_visual": false
+        }
+      ]
+    }
+  ]
+};

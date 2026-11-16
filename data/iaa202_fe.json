@@ -1,0 +1,796 @@
+{
+  "code": "IAA202_FE",
+  "title": "IAA202_FE - Managing Risk in Information Systems (Final Exam)",
+  "sections": [
+    {
+      "id": "iaa202_fe_all",
+      "title": "Đề Ôn Final Exam (41 câu)",
+      "questions": [
+        {
+          "id": "IAA202_FE_Q51",
+          "slide": "iaa202_fe_q51.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What is a key characteristic of a demilitarized zone (DMZ)?",
+          "options": {
+            "A": "It provides direct access to the internal network",
+            "B": "It is located between two firewalls",
+            "C": "It requires all traffic to be encrypted",
+            "D": "It blocks all incoming Internet traffic"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Vùng mạng DMZ (Demilitarized Zone) là vùng đệm nằm giữa mạng ngoài (Internet) và mạng nội bộ, thông thường được bảo vệ và cô lập bởi hai lớp tường lửa (External Firewall và Internal Firewall) để chứa các máy chủ công khai (Web, DNS, Mail).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q52",
+          "slide": "iaa202_fe_q52.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "How does a well-structured CIRT plan contribute to mitigating organizational risks?",
+          "options": {
+            "A": "By conducting incident response training for staff",
+            "B": "By ignoring low-level security alerts",
+            "C": "By providing a systematic approach to incident detection and response",
+            "D": "By avoiding communication with external stakeholders"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Kế hoạch của Đội ứng cứu sự cố máy tính (CIRT Plan) theo chuẩn NIST SP 800-61 cung cấp một phương pháp tiếp cận có hệ thống (Systematic approach) gồm 4 giai đoạn chuẩn hóa giúp phát hiện sớm, khoanh vùng và khống chế sự cố kịp thời.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q53",
+          "slide": "iaa202_fe_q53.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Who is responsible for activating the BCP when a disruption occurs?",
+          "options": {
+            "A": "Chief Information Officer (CIO)",
+            "B": "Emergency Management Team (EMT) lead",
+            "C": "Business Continuity Plan (BCP) coordinator",
+            "D": "Damage Assessment Team (DAT) lead"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trưởng ban quản lý tình trạng khẩn cấp (Emergency Management Team - EMT Lead) là người nắm giữ quyền hành cao nhất và chịu trách nhiệm chính thức ra lệnh kích hoạt kế hoạch BCP khi xảy ra thảm họa.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q54",
+          "slide": "iaa202_fe_q54.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "A [blank] is used to identify the impact on an organization if a risk occurs.",
+          "options": {
+            "A": "Business impact analysis (BIA)",
+            "B": "Business continuity plan (BCP)",
+            "C": "Risk assessment (RA)",
+            "D": "Disaster recovery plan (DRP)"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Phân tích tác động kinh doanh (BIA) là công cụ chuyên biệt để phân tích và lượng hóa các thiệt hại về tài chính và hoạt động khi các quy trình kinh doanh bị gián đoạn.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q55",
+          "slide": "iaa202_fe_q55.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What should be clearly stated in a Disaster Recovery Plan (DRP)?",
+          "options": {
+            "A": "The recipe for the company&#x27;s secret sauce",
+            "B": "The employees&#x27; birthdays",
+            "C": "The conditions causing its activation",
+            "D": "The CEO&#x27;s personal preferences"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Một bản kế hoạch DRP bắt buộc phải nêu rõ các điều kiện/ngưỡng kích hoạt (Disaster declaration criteria), quy định rõ khi nào thì sự cố kỹ thuật được nâng cấp thành thảm họa để chuyển vùng sang hạ tầng dự phòng.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q56",
+          "slide": "iaa202_fe_q56.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "An accidental overlap occurs when two or more countermeasures mitigate...",
+          "options": {
+            "A": "the same risk",
+            "B": "the main risk",
+            "C": "the single risk"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khái niệm trong giáo trình Darril Gibson: 'Accidental overlap' xảy ra khi hai hay nhiều biện pháp kiểm soát cùng giải quyết một rủi ro giống nhau (the same risk) mà không được tính toán trước, gây lãng phí ngân sách doanh nghiệp.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q57",
+          "slide": "iaa202_fe_q57.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "When restoring functionality from an alternate location back to the primary location, which of the following is considered the first best practice?",
+          "options": {
+            "A": "Restore least critical functions",
+            "B": "Restore most critical functions",
+            "C": "Use concurrent processing after a disruption",
+            "D": "Use sequential processing after a disruption"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khi chuyển hoạt động từ điểm dự phòng quay trở về trụ sở chính (Failback / Return to Normal), quy tắc là khôi phục các chức năng ít quan trọng nhất trước (Least critical functions first) để thử nghiệm tính ổn định của hạ tầng chính trước khi mạo hiểm chuyển các luồng kinh doanh cốt lõi về.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q58",
+          "slide": "iaa202_fe_q58.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What is the primary purpose of the HIPAA regulation?",
+          "options": {
+            "A": "Protect financial data",
+            "B": "Ensure the accuracy of financial statements",
+            "C": "Protect health information",
+            "D": "Protect educational records"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đạo luật HIPAA (Health Insurance Portability and Accountability Act) đặt ra các tiêu chuẩn bảo vệ nghiêm ngặt đối với thông tin sức khỏe cá nhân (Protected Health Information - PHI).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q59",
+          "slide": "iaa202_fe_q59.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What are the primary objectives of a security control?",
+          "options": {
+            "A": "Prevent, control, and attack",
+            "B": "Prevent, respond, and log",
+            "C": "Prevent, recover, and detect",
+            "D": "Detect, recover, and attack"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Ba mục tiêu cơ bản của các biện pháp kiểm soát an ninh (Security Controls) là: Ngăn chặn mối đe dọa (Prevent), Phát hiện xâm nhập (Detect) và Khôi phục hệ thống (Recover/Correct).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q60",
+          "slide": "iaa202_fe_q60.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What would a comprehensive account management policy include?",
+          "options": {
+            "A": "Details on how to create accounts",
+            "B": "Details on when accounts should be disabled",
+            "C": "Password policy",
+            "D": "A and B only",
+            "E": "A, B, and C"
+          },
+          "correct": [
+            "E"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Chính sách quản lý tài khoản bao trùm toàn bộ vòng đời của tài khoản: quy trình tạo mới (Creation), quy trình vô hiệu hóa/thu hồi khi thôi việc (Disablement), và các quy định quản lý mật khẩu (Password policy).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q61",
+          "slide": "iaa202_fe_q61.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which law was introduced to prevent corporate fraud by holding executives personally responsible for the accuracy of financial data?",
+          "options": {
+            "A": "SOX (Sarbanes-Oxley Act)",
+            "B": "GLBA",
+            "C": "FERPA",
+            "D": "CIPA"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đạo luật SOX (Sarbanes-Oxley Act 2002) buộc các lãnh đạo cấp cao của công ty đại chúng phải chịu trách nhiệm cá nhân về tính chính xác và minh bạch của dữ liệu tài chính kế toán.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q62",
+          "slide": "iaa202_fe_q62.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What is the greatest risk to an organization if peer-to-peer (P2P) software is installed on a user&#x27;s system?",
+          "options": {
+            "A": "Loss of copyrights",
+            "B": "Piracy of the organization&#x27;s copyrighted material",
+            "C": "Data leakage",
+            "D": "DoS attacks"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Phần mềm P2P tự động lập chỉ mục và chia sẻ các thư mục của máy tính ra mạng chia sẻ công cộng, gây ra nguy cơ rò rỉ dữ liệu bảo mật và tài liệu nội bộ nghiêm trọng nhất (Data leakage).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q63",
+          "slide": "iaa202_fe_q63.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What must be defined when performing a qualitative risk assessment?",
+          "options": {
+            "A": "Formulas used for ALE",
+            "B": "Scales used to define probability and impact",
+            "C": "Scales used to define SLE and ALE",
+            "D": "Acceptable levels of risk"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đánh giá rủi ro định tính không tính toán con số tài chính cụ thể mà sử dụng thang đo phân loại; do đó bắt buộc phải định nghĩa rõ ràng thang đo xác suất và mức độ tác động (Scales for probability and impact, ví dụ: 1-5 hoặc Thấp-Vừa-Cao).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q64",
+          "slide": "iaa202_fe_q64.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What is the primary goal of testing a Business Continuity Plan (BCP)?",
+          "options": {
+            "A": "To identify non-critical systems",
+            "B": "To assess employee readiness",
+            "C": "To verify that the BCP will work as planned",
+            "D": "To ensure compliance with regulations"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Mục đích cốt lõi của việc tổ chức diễn tập kiểm thử BCP là xác minh thực tế xem bản kế hoạch có vận hành đúng như thiết kế khi thảm họa xảy ra hay không.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q65",
+          "slide": "iaa202_fe_q65.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What does the term &#x27;Control Gap&#x27; signify in the context of risk assessment, and how is it calculated?",
+          "options": {
+            "A": "The gap in controls, calculated as ALE divided by AV",
+            "B": "The exposure of the asset, calculated as ALE divided by AV",
+            "C": "The realized savings, calculated as the difference between current ALE and ALE with control",
+            "D": "The importance of safeguards, calculated as ALE divided by AV"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Control Gap (hay giá trị tiết kiệm được từ biện pháp kiểm soát) đo lường mức độ giảm thiểu thiệt hại hàng năm: Control Gap = Current ALE - ALE with control.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q66",
+          "slide": "iaa202_fe_q66.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What are the following elements that are critical to the success of a DRP? (Choose three)",
+          "options": {
+            "A": "Management support",
+            "B": "Vendor support",
+            "C": "Knowledge and authority for DRP developers",
+            "D": "A disaster recovery budget",
+            "E": "A risk control budget"
+          },
+          "correct": [
+            "A",
+            "C",
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Ba yếu tố quyết định thành bại của kế hoạch DRP: (1) Sự ủng hộ của ban giám đốc (Management support), (2) Trình độ chuyên môn và quyền hạn của nhóm phát triển DRP, và (3) Ngân sách riêng được cấp cho kế hoạch khôi phục thảm họa.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q67",
+          "slide": "iaa202_fe_q67.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Is the installation of unauthorized P2P software on a system, in violation of company policy, considered a computer security incident? If so, what category does it fall under?",
+          "options": {
+            "A": "It&#x27;s not a computer security incident",
+            "B": "Inappropriate usage",
+            "C": "Unauthorized access",
+            "D": "Malware"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Theo chuẩn NIST SP 800-61, hành động vi phạm chính sách sử dụng máy tính của tổ chức (cài phần mềm cấm, xem nội dung không phù hợp) được phân loại vào nhóm sự cố 'Sử dụng sai quy định' (Inappropriate Usage).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q68",
+          "slide": "iaa202_fe_q68.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which method focuses on using expert opinions to determine risk probability and impact?",
+          "options": {
+            "A": "Quantitative assessment",
+            "B": "Qualitative assessment",
+            "C": "SWOT analysis",
+            "D": "Risk modeling"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đánh giá rủi ro định tính (Qualitative assessment) dựa vào trực giác, kinh nghiệm và nhận định chuyên gia (thông qua kỹ thuật Delphi, phỏng vấn, khảo sát) để đánh giá xác suất và tác động.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q69",
+          "slide": "iaa202_fe_q69.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "An organization wants to check compliance with internal rules and guidelines to ensure that existing policies are being followed. What should be performed?",
+          "options": {
+            "A": "Threat assessment",
+            "B": "Gap analysis",
+            "C": "Audit trail",
+            "D": "Audit"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Hoạt động kiểm toán (Audit) được thực hiện để đánh giá một cách độc lập và khách quan xem các chính sách, quy định an toàn thông tin nội bộ có được thực thi nghiêm túc trong thực tế hay không.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q70",
+          "slide": "iaa202_fe_q70.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "In developing a BIA, what should the critical business functions be mapped to?",
+          "options": {
+            "A": "Personnel",
+            "B": "Revenue",
+            "C": "Replacement costs",
+            "D": "IT systems"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Bước cốt lõi trong xây dựng BIA là ánh xạ các chức năng nghiệp vụ trọng yếu (CBF) với các hệ thống CNTT, ứng dụng và hạ tầng máy chủ hỗ trợ trực tiếp cho chức năng đó.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q71",
+          "slide": "iaa202_fe_q71.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "An organization seeks to assess the potential consequences of a specific IT server failure. What should it use?",
+          "options": {
+            "A": "BIA (Business Impact Analysis)",
+            "B": "BCP (Business Continuity Plan)",
+            "C": "DRP (Disaster Recovery Plan)",
+            "D": "BCC (Business Continuity Coordinator)"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Để đánh giá các hệ quả và mức độ thiệt hại (consequences/impact) khi một máy chủ hoặc hệ thống cụ thể bị sập, tổ chức phải tiến hành BIA.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q72",
+          "slide": "iaa202_fe_q72.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What are the common challenges organizations face when implementing risk mitigation plans?",
+          "options": {
+            "A": "Lack of resources, conflicting priorities, and resistance to change.",
+            "B": "Difficulty measuring the effectiveness of controls and demonstrating ROI.",
+            "C": "Siloed approach to risk management and lack of communication between departments.",
+            "D": "Rapidly evolving threat landscape and increasing complexity of IT environments."
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Ba rào cản lớn nhất của doanh nghiệp theo giáo trình: Thiếu hụt nguồn lực (nhân sự/tiền bạc), xung đột mục tiêu với tiến độ kinh doanh hàng ngày, và tâm lý kháng cự thay đổi từ nhân viên.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q73",
+          "slide": "iaa202_fe_q73.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which of the following questions is correct about testing the loss of integrity?",
+          "options": {
+            "A": "Can the database recover from power loss?",
+            "B": "Are access controls in place?",
+            "C": "Are failover clusters required?"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Tính toàn vẹn (Integrity) bảo đảm dữ liệu không bị sai lệch, ghi đè dở dang hay phân mảnh khi có sự cố mất điện đột ngột (thông qua cơ chế kiểm tra tính nhất quán và rollback transaction của CSDL).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q74",
+          "slide": "iaa202_fe_q74.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Data is backed up to a remote location off-site over high-quality communication links. What is the name of this backup method?",
+          "options": {
+            "A": "electronic vaulting",
+            "B": "remote journaling",
+            "C": "hot redundancy",
+            "D": "data replication"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Electronic vaulting là phương pháp truyền tải các file sao lưu định kỳ qua đường truyền mạng sang máy chủ dự phòng đặt tại một địa điểm vật lý khác (off-site facility).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q75",
+          "slide": "iaa202_fe_q75.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Within the COBIT framework, which of the four IT domains and 34 IT processes specifically addresses strategy and tactics?",
+          "options": {
+            "A": "Plan and Organize",
+            "B": "Acquire and Implement",
+            "C": "Deliver and Support",
+            "D": "Monitor and Evaluate"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Trong khung quản trị COBIT, miền 'Plan and Organize' (Lập kế hoạch và Tổ chức) bao gồm các quy trình xác lập chiến lược, chiến thuật và định hướng cho toàn bộ hoạt động CNTT.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q76",
+          "slide": "iaa202_fe_q76.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What is the primary goal of a Business Impact Analysis (BIA)?",
+          "options": {
+            "A": "Identify risks and threats",
+            "B": "Determine recovery objectives",
+            "C": "Detect intrusions",
+            "D": "Eliminate all vulnerabilities"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Mục tiêu trọng tâm của BIA là xác định các chỉ tiêu phục hồi cần thiết cho doanh nghiệp: RTO (Thời gian phục hồi), RPO (Mức mất dữ liệu tối đa chấp nhận được) và MTD (Thời gian gián đoạn tối đa).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q77",
+          "slide": "iaa202_fe_q77.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which of the following is a best practice to reduce internal threats?",
+          "options": {
+            "A": "Remove antivirus",
+            "B": "Increase external sharing",
+            "C": "Provide security awareness training",
+            "D": "Eliminate backups"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đào tạo nhận thức bảo mật định kỳ cho nhân viên (Security awareness training) là phương pháp hàng đầu để giảm thiểu các sai sót do con người và ngăn chặn tấn công phi kỹ thuật (Social Engineering).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q78",
+          "slide": "iaa202_fe_q78.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "It is possible to ensure a service is operational 99.999 percent of the time even if a server needs to be regularly rebooted.",
+          "options": {
+            "A": "True",
+            "B": "False"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đúng (True). Nhờ áp dụng kiến trúc phân cụm chịu lỗi (Clustering) và cân bằng tải (Load Balancing), các máy chủ có thể luân phiên khởi động lại mà dịch vụ chung vẫn hoạt động liên tục với người dùng cuối.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q79",
+          "slide": "iaa202_fe_q79.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which incident type involves overwhelming a system to prevent it from providing a service?",
+          "options": {
+            "A": "Spyware incident",
+            "B": "Software update",
+            "C": "Unauthorized software installation",
+            "D": "Denial of Service (DoS) attack"
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Tấn công từ chối dịch vụ (DoS/DDoS) làm cạn kiệt tài nguyên mạng hoặc CPU/bộ nhớ của máy chủ, khiến người dùng hợp lệ không thể truy cập dịch vụ.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q80",
+          "slide": "iaa202_fe_q80.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which type of assessment can be performed to identify weaknesses in a system without exploiting the weaknesses?",
+          "options": {
+            "A": "Vulnerability assessment",
+            "B": "Risk assessment",
+            "C": "Exploit assessment",
+            "D": "Penetration test"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đánh giá lỗ hổng (Vulnerability Assessment) chỉ quét và lập danh mục điểm yếu chứ không khai thác; trong khi Penetration Test sẽ chủ động tấn công khai thác điểm yếu đó.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q81",
+          "slide": "iaa202_fe_q81.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which of the following is a foundational step in the Business Impact Analysis process?",
+          "options": {
+            "A": "Developing a new software application",
+            "B": "Launching an advertising campaign",
+            "C": "Identifying critical business functions",
+            "D": "Performing employee performance reviews"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Bước đầu tiên trong quy trình BIA luôn là nhận diện và xác định danh sách các chức năng nghiệp vụ trọng yếu (Critical Business Functions - CBF).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q82",
+          "slide": "iaa202_fe_q82.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What are the key considerations for integrating risk mitigation activities into existing organizational processes?",
+          "options": {
+            "A": "Minimizing disruption to daily operations and aligning controls with existing workflows",
+            "B": "Communicating changes effectively to stakeholders and ensuring user adoption",
+            "C": "Obtaining buy-in from leadership and securing necessary resources for implementation",
+            "D": "Measuring the effectiveness of controls and adjusting strategies as needed"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Khi đưa các biện pháp kiểm soát rủi ro vào vận hành, yêu cầu quan trọng nhất là phải giảm thiểu sự gián đoạn đối với hoạt động hàng ngày và gắn kết phù hợp vào quy trình làm việc hiện có của nhân sự.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q83",
+          "slide": "iaa202_fe_q83.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "An organization is governed by HIPAA and wants to know whether it is in compliance. What would document the differences between what is required and what is currently implemented?",
+          "options": {
+            "A": "Gap analysis",
+            "B": "Vulnerability assessment",
+            "C": "Threat assessment",
+            "D": "Penetration test"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Phân tích khoảng cách (Gap Analysis) là phương pháp so sánh thực trạng triển khai hiện tại của hệ thống với các yêu cầu chuẩn hóa trong luật/chính sách nhằm chỉ ra các lỗ hổng cần hoàn thiện.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q84",
+          "slide": "iaa202_fe_q84.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What is the best definition of &#x27;risk&#x27; in the context of information systems?",
+          "options": {
+            "A": "A vulnerability that has been exploited",
+            "B": "A weakness in a system",
+            "C": "The likelihood that a loss will occur",
+            "D": "A financial loss due to poor management"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Định nghĩa chuẩn trong giáo trình Darril Gibson: 'Rủi ro là khả năng (xác suất) một tổn thất có thể xảy ra khi mối đe dọa khai thác thành công lỗ hổng của tài sản'.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q85",
+          "slide": "iaa202_fe_q85.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What is one of the main limitations of a qualitative risk assessment?",
+          "options": {
+            "A": "Requires extensive historical data",
+            "B": "Based on subjective opinions",
+            "C": "Provides precise dollar values",
+            "D": "Involves complex calculations"
+          },
+          "correct": [
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Hạn chế lớn nhất của đánh giá rủi ro định tính là dựa vào ý kiến chủ quan (Subjective opinions) của người đánh giá, dễ dẫn đến tranh cãi và thiếu tính nhất quán tuyệt đối.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q86",
+          "slide": "iaa202_fe_q86.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which of the following choices is NOT considered a best practice when identifying threats?",
+          "options": {
+            "A": "Verify systems operate and are controlled as expected.",
+            "B": "Limit the scope of the assessment.",
+            "C": "Consider threats to confidentiality, integrity, and availability.",
+            "D": "Assume the systems have not changed since the last threat assessment."
+          },
+          "correct": [
+            "D"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Giả định hệ thống không thay đổi kể từ lần đánh giá trước là một sai lầm nguy hiểm, bởi vì mã nguồn, cấu hình, hạ tầng và môi trường đe dọa bên ngoài luôn luôn biến động.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q87",
+          "slide": "iaa202_fe_q87.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "A company is beginning a risk assessment for a system. Both the [blank] characteristics and the mission of the system should be defined in the early stages.",
+          "options": {
+            "A": "Tactical",
+            "B": "Strategic",
+            "C": "Operational",
+            "D": "Visionary"
+          },
+          "correct": [
+            "C"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Theo NIST SP 800-30 Bước 1 (System Characterization), cần phải định hình cả đặc tính vận hành (Operational characteristics) và mục tiêu nhiệm vụ (Mission) của hệ thống.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q88",
+          "slide": "iaa202_fe_q88.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "Which of the following steps do you need to take to identify risks? (Choose three)",
+          "options": {
+            "A": "Identify threats",
+            "B": "Identify vulnerabilities",
+            "C": "Estimate likelihood of exploitation",
+            "D": "Identify attacks",
+            "E": "Identify assets"
+          },
+          "correct": [
+            "A",
+            "B",
+            "E"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Tam giác nhận diện rủi ro cốt lõi bao gồm: (1) Nhận diện tài sản (Assets), (2) Nhận diện mối đe dọa (Threats), và (3) Nhận diện lỗ hổng/điểm yếu (Vulnerabilities).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q89",
+          "slide": "iaa202_fe_q89.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "BCPs are an important element of risk management. What are the goals of a Business Continuity Plan (BCP)? (Choose 2)",
+          "options": {
+            "A": "Continuation of operations during a disruption",
+            "B": "Continuation of operations after a disruption",
+            "C": "Surviving during a disaster",
+            "D": "Recovery after a disaster"
+          },
+          "correct": [
+            "A",
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Mục tiêu kép của BCP là duy trì hoạt động kinh doanh liên tục cả trong lúc gián đoạn diễn ra (During a disruption) và ngay sau khi gián đoạn xảy ra (After a disruption) cho đến khi bình thường hóa.",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q90",
+          "slide": "iaa202_fe_q90.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What three elements should be included in the findings of the risk management report?",
+          "options": {
+            "A": "Causes, criteria, and effects",
+            "B": "Threats, causes, and effects",
+            "C": "Criteria, vulnerabilities, and effects",
+            "D": "Causes, criteria, and milestones"
+          },
+          "correct": [
+            "A"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Một mục phát hiện (Finding) chuẩn trong báo cáo quản trị rủi ro gồm 3 yếu tố: Tiêu chí/Chuẩn mực (Criteria), Nguyên nhân cốt lõi (Causes) và Hậu quả/Tác động (Effects).",
+          "has_visual": false
+        },
+        {
+          "id": "IAA202_FE_Q91",
+          "slide": "iaa202_fe_q91.png",
+          "slide_webp": null,
+          "inline_webp": null,
+          "question": "What are the advantages of a qualitative risk assessment method? (Choose 2)",
+          "options": {
+            "A": "Easy to finish",
+            "B": "Easy to understand by the management",
+            "C": "Based on standards",
+            "D": "Objective"
+          },
+          "correct": [
+            "A",
+            "B"
+          ],
+          "vi_question": "",
+          "vi_explanation": "Đánh giá định tính không đòi hỏi tính toán tài chính phức tạp nên dễ hoàn thành nhanh (Easy to finish) và dùng các thang màu/cấp bậc trực quan giúp ban giám đốc dễ hiểu và nắm bắt (Easy to understand by management).",
+          "has_visual": false
+        }
+      ]
+    }
+  ]
+}
